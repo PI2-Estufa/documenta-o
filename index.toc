@@ -21,3 +21,48 @@
 \contentsline {subsection}{\numberline {1.6.2}Plano de gerenciamento de riscos}{8}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}EAP}{8}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Cronograma}{8}{subsection.1.6.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Fen\IeC {\^o}menos de Transporte de Calor (Exemplo Template)}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Convec\IeC {\c c}\IeC {\~a}o (Exemplo Template)}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Radia\IeC {\c c}\IeC {\~a}o (Exemplo Template)}{9}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Calorimetria (Exemplo Template)}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Calor Sens\IeC {\'\i }vel e Latente (Exemplo Template)}{9}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Framework Django (Exemplo Template)}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Microframework Flask (Exemplo Template)}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Sistema interno (Exemplo Template)}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Ergonomia de carregamento de peso (Exemplo Template)}{10}{section.2.6}
+\contentsline {section}{\numberline {2.7}TERMOVIDA \IeC {\textendash } Caixa t\IeC {\'e}rmica para transporte de \IeC {\'o}rg\IeC {\~a}os para transplantes (Exemplo Template)}{10}{section.2.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Solu\IeC {\c c}\IeC {\~a}o Proposta}}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Arquitetura de Software}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Sistema Web}{11}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Sistema Mobile}{11}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Requisitos funcionais}{11}{subsubsection.3.1.2.1}
+\contentsline {section}{\numberline {3.2}Sistema de Refrigera\IeC {\c c}\IeC {\~a}o (Exemplo Template Solu\IeC {\c c}\IeC {\~a}o Energia)}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Dimensionamento do Sistema}{11}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}C\IeC {\'a}lculo de Carga T\IeC {\'e}rmica}{11}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}C\IeC {\'a}lculo da energia e pot\IeC {\^e}ncia t\IeC {\'e}rmica da embalagem com solu\IeC {\c c}\IeC {\~a}o Viaspan na qual o \IeC {\'o}rg\IeC {\~a}o est\IeC {\'a} contido}{11}{subsubsection.3.2.1.2}
+\contentsline {subsection}{\numberline {3.2.2}C\IeC {\'a}lculo da energia e pot\IeC {\^e}ncia t\IeC {\'e}rmica do alum\IeC {\'\i }nio da caixa interna}{11}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}C\IeC {\'a}lculo da resist\IeC {\^e}ncia t\IeC {\'e}rmica $(Rt)$ e o coeficiente global de transfer\IeC {\^e}ncia de calor (U)}{11}{subsubsection.3.2.2.1}
+\contentsline {section}{\numberline {3.3}Estrutura do Conjunto de Refrigera\IeC {\c c}\IeC {\~a}o}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Sistema de prote\IeC {\c c}\IeC {\~a}o de componentes el\IeC {\'e}tricos e eletr\IeC {\^o}nicos}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Baterias}{12}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Dimmer Microcontrolado}{12}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Inversor}{12}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Transformador}{12}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Filtro de 60Hz}{12}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Estrutura (Exemplo solu\IeC {\c c}\IeC {\~a}o estrutura Template)}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Componentes Estruturais}{12}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Compartimento de carga}{12}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\numberline {3.4.1.2}C\IeC {\^a}mara de Resfriamento}{13}{subsubsection.3.4.1.2}
+\contentsline {subsubsection}{\numberline {3.4.1.3}Estrutura}{13}{subsubsection.3.4.1.3}
+\contentsline {subsection}{\numberline {3.4.2}Simula\IeC {\c c}\IeC {\~a}o Computacional}{13}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}An\IeC {\'a}lise Estrutural}{13}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Simula\IeC {\c c}\IeC {\~a}o de Transfer\IeC {\^e}ncia de Calor }{13}{subsubsection.3.4.2.2}
+\contentsline {section}{\numberline {3.5}Sistemas Eletr\IeC {\^o}nicos (Exemplo Solu\IeC {\c c}\IeC {\~a}o Eletr\IeC {\^o}nica Template)}{13}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Servidor}{13}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}Subsistema de Controle}{14}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.1.2}Subsistema de Prote\IeC {\c c}\IeC {\~a}o}{14}{subsubsection.3.5.1.2}
+\contentsline {subsubsection}{\numberline {3.5.1.3}Subsistema de Comunica\IeC {\c c}\IeC {\~a}o e An\IeC {\'a}lise}{14}{subsubsection.3.5.1.3}
+\contentsline {section}{\numberline {3.6}Tabela de custos}{14}{section.3.6}
