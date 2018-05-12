@@ -9,105 +9,107 @@
 \contentsline {section}{\numberline {1.2}Justificativa}{9}{section.1.2}
 \contentsline {section}{\numberline {1.3}Escopo do projeto}{9}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Premissas}{9}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Restri\IeC {\c c}\IeC {\~o}es}{9}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Detalhamento do escopo}{9}{section.1.4}
-\contentsline {section}{\numberline {1.5}Objetivos}{9}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Objetivo Geral}{9}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Objetivos Espec\IeC {\'\i }ficos}{10}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Metodologia de gerenciamento}{10}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Plano de gerenciamento de comunica\IeC {\c c}\IeC {\~a}o}{10}{subsection.1.6.1}
-\contentsline {subsubsection}{\numberline {1.6.1.1}Organiza\IeC {\c c}\IeC {\~a}o das reuni\IeC {\~o}es}{10}{subsubsection.1.6.1.1}
-\contentsline {subsubsection}{\numberline {1.6.1.2}Monitoramento e Controle}{10}{subsubsection.1.6.1.2}
-\contentsline {subsection}{\numberline {1.6.2}Plano de gerenciamento de riscos}{10}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}EAP}{10}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Cronograma}{10}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.3.2}Restri\IeC {\c c}\IeC {\~o}es}{10}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Detalhamento do escopo}{10}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Projeto}{10}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Produto}{10}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Objetivos}{11}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Objetivo Geral}{11}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Objetivos Espec\IeC {\'\i }ficos}{11}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Metodologia de gerenciamento}{11}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Plano de gerenciamento de comunica\IeC {\c c}\IeC {\~a}o}{11}{subsection.1.6.1}
+\contentsline {subsubsection}{\numberline {1.6.1.1}Organiza\IeC {\c c}\IeC {\~a}o das reuni\IeC {\~o}es}{11}{subsubsection.1.6.1.1}
+\contentsline {subsubsection}{\numberline {1.6.1.2}Monitoramento e Controle}{11}{subsubsection.1.6.1.2}
+\contentsline {subsection}{\numberline {1.6.2}Plano de gerenciamento de riscos}{11}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}EAP}{11}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Cronograma}{11}{subsection.1.6.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Fen\IeC {\^o}menos de Transporte de Calor (Exemplo Template)}{11}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Convec\IeC {\c c}\IeC {\~a}o (Exemplo Template)}{11}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Radia\IeC {\c c}\IeC {\~a}o (Exemplo Template)}{11}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Calorimetria (Exemplo Template)}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Calor Sens\IeC {\'\i }vel e Latente (Exemplo Template)}{11}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Framework Django (Exemplo Template)}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}Microframework Flask (Exemplo Template)}{11}{section.2.4}
-\contentsline {section}{\numberline {2.5}Sistema interno (Exemplo Template)}{11}{section.2.5}
-\contentsline {section}{\numberline {2.6}Ergonomia de carregamento de peso (Exemplo Template)}{12}{section.2.6}
-\contentsline {section}{\numberline {2.7}TERMOVIDA \IeC {\textendash } Caixa t\IeC {\'e}rmica para transporte de \IeC {\'o}rg\IeC {\~a}os para transplantes (Exemplo Template)}{12}{section.2.7}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Fen\IeC {\^o}menos de Transporte de Calor (Exemplo Template)}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Convec\IeC {\c c}\IeC {\~a}o (Exemplo Template)}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Radia\IeC {\c c}\IeC {\~a}o (Exemplo Template)}{13}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Calorimetria (Exemplo Template)}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Calor Sens\IeC {\'\i }vel e Latente (Exemplo Template)}{13}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Framework Django (Exemplo Template)}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Microframework Flask (Exemplo Template)}{13}{section.2.4}
+\contentsline {section}{\numberline {2.5}Sistema interno (Exemplo Template)}{13}{section.2.5}
+\contentsline {section}{\numberline {2.6}Ergonomia de carregamento de peso (Exemplo Template)}{14}{section.2.6}
+\contentsline {section}{\numberline {2.7}TERMOVIDA \IeC {\textendash } Caixa t\IeC {\'e}rmica para transporte de \IeC {\'o}rg\IeC {\~a}os para transplantes (Exemplo Template)}{14}{section.2.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Solu\IeC {\c c}\IeC {\~a}o Proposta}}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Arquitetura de Software}{13}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Sistema Web}{13}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Sistema Mobile}{13}{subsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.2.1}Requisitos funcionais}{13}{subsubsection.3.1.2.1}
-\contentsline {section}{\numberline {3.2}Sistema de Refrigera\IeC {\c c}\IeC {\~a}o (Exemplo Template Solu\IeC {\c c}\IeC {\~a}o Energia)}{13}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Dimensionamento do Sistema}{13}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}C\IeC {\'a}lculo de Carga T\IeC {\'e}rmica}{13}{subsubsection.3.2.1.1}
-\contentsline {subsubsection}{\numberline {3.2.1.2}C\IeC {\'a}lculo da energia e pot\IeC {\^e}ncia t\IeC {\'e}rmica da embalagem com solu\IeC {\c c}\IeC {\~a}o Viaspan na qual o \IeC {\'o}rg\IeC {\~a}o est\IeC {\'a} contido}{13}{subsubsection.3.2.1.2}
-\contentsline {subsection}{\numberline {3.2.2}C\IeC {\'a}lculo da energia e pot\IeC {\^e}ncia t\IeC {\'e}rmica do alum\IeC {\'\i }nio da caixa interna}{13}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}C\IeC {\'a}lculo da resist\IeC {\^e}ncia t\IeC {\'e}rmica $(Rt)$ e o coeficiente global de transfer\IeC {\^e}ncia de calor (U)}{13}{subsubsection.3.2.2.1}
-\contentsline {section}{\numberline {3.3}Estrutura do Conjunto de Refrigera\IeC {\c c}\IeC {\~a}o}{14}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Sistema de prote\IeC {\c c}\IeC {\~a}o de componentes el\IeC {\'e}tricos e eletr\IeC {\^o}nicos}{14}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Baterias}{14}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Dimmer Microcontrolado}{14}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Inversor}{14}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Transformador}{14}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Filtro de 60Hz}{14}{subsection.3.3.6}
-\contentsline {section}{\numberline {3.4}Estrutura (Exemplo solu\IeC {\c c}\IeC {\~a}o estrutura Template)}{14}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Componentes Estruturais}{14}{subsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.1.1}Compartimento de carga}{14}{subsubsection.3.4.1.1}
-\contentsline {subsubsection}{\numberline {3.4.1.2}C\IeC {\^a}mara de Resfriamento}{15}{subsubsection.3.4.1.2}
-\contentsline {subsubsection}{\numberline {3.4.1.3}Estrutura}{15}{subsubsection.3.4.1.3}
-\contentsline {subsection}{\numberline {3.4.2}Simula\IeC {\c c}\IeC {\~a}o Computacional}{15}{subsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.2.1}An\IeC {\'a}lise Estrutural}{15}{subsubsection.3.4.2.1}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Simula\IeC {\c c}\IeC {\~a}o de Transfer\IeC {\^e}ncia de Calor }{15}{subsubsection.3.4.2.2}
-\contentsline {section}{\numberline {3.5}Sistemas Eletr\IeC {\^o}nicos (Exemplo Solu\IeC {\c c}\IeC {\~a}o Eletr\IeC {\^o}nica Template)}{15}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Servidor}{15}{subsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.1.1}Subsistema de Controle}{16}{subsubsection.3.5.1.1}
-\contentsline {subsubsection}{\numberline {3.5.1.2}Subsistema de Prote\IeC {\c c}\IeC {\~a}o}{16}{subsubsection.3.5.1.2}
-\contentsline {subsubsection}{\numberline {3.5.1.3}Subsistema de Comunica\IeC {\c c}\IeC {\~a}o e An\IeC {\'a}lise}{16}{subsubsection.3.5.1.3}
-\contentsline {section}{\numberline {3.6}Tabela de custos}{16}{section.3.6}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Solu\IeC {\c c}\IeC {\~a}o Proposta}}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Arquitetura de Software}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Sistema Web}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Sistema Mobile}{15}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Requisitos funcionais}{15}{subsubsection.3.1.2.1}
+\contentsline {section}{\numberline {3.2}Sistema de Refrigera\IeC {\c c}\IeC {\~a}o (Exemplo Template Solu\IeC {\c c}\IeC {\~a}o Energia)}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Dimensionamento do Sistema}{15}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}C\IeC {\'a}lculo de Carga T\IeC {\'e}rmica}{15}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}C\IeC {\'a}lculo da energia e pot\IeC {\^e}ncia t\IeC {\'e}rmica da embalagem com solu\IeC {\c c}\IeC {\~a}o Viaspan na qual o \IeC {\'o}rg\IeC {\~a}o est\IeC {\'a} contido}{15}{subsubsection.3.2.1.2}
+\contentsline {subsection}{\numberline {3.2.2}C\IeC {\'a}lculo da energia e pot\IeC {\^e}ncia t\IeC {\'e}rmica do alum\IeC {\'\i }nio da caixa interna}{15}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}C\IeC {\'a}lculo da resist\IeC {\^e}ncia t\IeC {\'e}rmica $(Rt)$ e o coeficiente global de transfer\IeC {\^e}ncia de calor (U)}{15}{subsubsection.3.2.2.1}
+\contentsline {section}{\numberline {3.3}Estrutura do Conjunto de Refrigera\IeC {\c c}\IeC {\~a}o}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Sistema de prote\IeC {\c c}\IeC {\~a}o de componentes el\IeC {\'e}tricos e eletr\IeC {\^o}nicos}{16}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Baterias}{16}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Dimmer Microcontrolado}{16}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Inversor}{16}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Transformador}{16}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Filtro de 60Hz}{16}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Estrutura (Exemplo solu\IeC {\c c}\IeC {\~a}o estrutura Template)}{16}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Componentes Estruturais}{16}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Compartimento de carga}{16}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\numberline {3.4.1.2}C\IeC {\^a}mara de Resfriamento}{17}{subsubsection.3.4.1.2}
+\contentsline {subsubsection}{\numberline {3.4.1.3}Estrutura}{17}{subsubsection.3.4.1.3}
+\contentsline {subsection}{\numberline {3.4.2}Simula\IeC {\c c}\IeC {\~a}o Computacional}{17}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}An\IeC {\'a}lise Estrutural}{17}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Simula\IeC {\c c}\IeC {\~a}o de Transfer\IeC {\^e}ncia de Calor }{17}{subsubsection.3.4.2.2}
+\contentsline {section}{\numberline {3.5}Sistemas Eletr\IeC {\^o}nicos (Exemplo Solu\IeC {\c c}\IeC {\~a}o Eletr\IeC {\^o}nica Template)}{17}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Servidor}{17}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}Subsistema de Controle}{18}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.1.2}Subsistema de Prote\IeC {\c c}\IeC {\~a}o}{18}{subsubsection.3.5.1.2}
+\contentsline {subsubsection}{\numberline {3.5.1.3}Subsistema de Comunica\IeC {\c c}\IeC {\~a}o e An\IeC {\'a}lise}{18}{subsubsection.3.5.1.3}
+\contentsline {section}{\numberline {3.6}Tabela de custos}{18}{section.3.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Sistema de Comunica\IeC {\c c}\IeC {\~a}o(Exemplo Resultado Software)}{17}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Vis\IeC {\~a}o Geral}{17}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}API}{17}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Sistema WEB}{17}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Diagramas de Classe}{17}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Diagramas de Sequ\IeC {\^e}ncia}{17}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{17}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Exemplo: Uma subse\IeC {\c c}\IeC {\~a}o para cada hist\IeC {\'o}ria}{17}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Sistema Mobile}{17}{section.4.3}
-\contentsline {subsubsection}{\numberline {4.3.0.1}Deployment}{17}{subsubsection.4.3.0.1}
-\contentsline {section}{\numberline {4.4}Sistema de Controle (Exemplo Resultados Eletr\IeC {\^o}nica)}{18}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Sistema de controle de temperatura}{18}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Sistema de prote\IeC {\c c}\IeC {\~a}o de componentes el\IeC {\'e}tricos e eletr\IeC {\^o}nicos}{18}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Alimenta\IeC {\c c}\IeC {\~a}o (Exemplo resultado energia)}{18}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Testes e Resultados do Sistema de Inversor}{18}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Outros Testes Realizados}{18}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Dificuldades do projeto do inversor}{18}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Inversor Implementado}{18}{subsection.4.5.4}
-\contentsline {subsection}{\numberline {4.5.5}Testes e Resultados do Sistema de Alimenta\IeC {\c c}\IeC {\~a}o}{18}{subsection.4.5.5}
-\contentsline {section}{\numberline {4.6}Estrutura (Exemplo Resultados Estrutura)}{18}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Compartimento de carga}{18}{subsection.4.6.1}
-\contentsline {subsubsection}{\numberline {4.6.1.1}Requisitos}{18}{subsubsection.4.6.1.1}
-\contentsline {subsubsection}{\numberline {4.6.1.2}Design}{19}{subsubsection.4.6.1.2}
-\contentsline {subsubsection}{\numberline {4.6.1.3}Fabrica\IeC {\c c}\IeC {\~a}o}{19}{subsubsection.4.6.1.3}
-\contentsline {subsubsection}{\numberline {4.6.1.4}Resultados}{19}{subsubsection.4.6.1.4}
-\contentsline {subsection}{\numberline {4.6.2}C\IeC {\^a}mara de Resfriamento}{19}{subsection.4.6.2}
-\contentsline {subsubsection}{\numberline {4.6.2.1}Requisitos}{19}{subsubsection.4.6.2.1}
-\contentsline {subsubsection}{\numberline {4.6.2.2}Design}{19}{subsubsection.4.6.2.2}
-\contentsline {subsubsection}{\numberline {4.6.2.3}Fabrica\IeC {\c c}\IeC {\~a}o}{19}{subsubsection.4.6.2.3}
-\contentsline {subsubsection}{\numberline {4.6.2.4}Resultados}{19}{subsubsection.4.6.2.4}
-\contentsline {subsection}{\numberline {4.6.3}Estrutura}{19}{subsection.4.6.3}
-\contentsline {subsubsection}{\numberline {4.6.3.1}Requisitos}{19}{subsubsection.4.6.3.1}
-\contentsline {subsubsection}{\numberline {4.6.3.2}Fabrica\IeC {\c c}\IeC {\~a}o}{19}{subsubsection.4.6.3.2}
-\contentsline {subsubsection}{\numberline {4.6.3.3}Resultados}{19}{subsubsection.4.6.3.3}
-\contentsline {subsection}{\numberline {4.6.4}Sistema de amortecimento}{20}{subsection.4.6.4}
-\contentsline {subsubsection}{\numberline {4.6.4.1}An\IeC {\'a}lise computacional de vibra\IeC {\c c}\IeC {\~o}es da estrutura}{20}{subsubsection.4.6.4.1}
-\contentsline {subsubsection}{\numberline {4.6.4.2}Dimensionamento do coxim}{20}{subsubsection.4.6.4.2}
-\contentsline {subsubsection}{\numberline {4.6.4.3}Teste e valida\IeC {\c c}\IeC {\~a}o do sistema}{20}{subsubsection.4.6.4.3}
-\contentsline {subsection}{\numberline {4.6.5}Simula\IeC {\c c}\IeC {\~a}o Computacional}{20}{subsection.4.6.5}
-\contentsline {subsubsection}{\numberline {4.6.5.1}An\IeC {\'a}lise Estrutural}{20}{subsubsection.4.6.5.1}
-\contentsline {subsubsection}{\numberline {4.6.5.2}Simula\IeC {\c c}\IeC {\~a}o de Transfer\IeC {\^e}ncia de Calor }{20}{subsubsection.4.6.5.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Sistema de Comunica\IeC {\c c}\IeC {\~a}o(Exemplo Resultado Software)}{19}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Vis\IeC {\~a}o Geral}{19}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}API}{19}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Sistema WEB}{19}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Diagramas de Classe}{19}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Diagramas de Sequ\IeC {\^e}ncia}{19}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{19}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Exemplo: Uma subse\IeC {\c c}\IeC {\~a}o para cada hist\IeC {\'o}ria}{19}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Sistema Mobile}{19}{section.4.3}
+\contentsline {subsubsection}{\numberline {4.3.0.1}Deployment}{19}{subsubsection.4.3.0.1}
+\contentsline {section}{\numberline {4.4}Sistema de Controle (Exemplo Resultados Eletr\IeC {\^o}nica)}{20}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Sistema de controle de temperatura}{20}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Sistema de prote\IeC {\c c}\IeC {\~a}o de componentes el\IeC {\'e}tricos e eletr\IeC {\^o}nicos}{20}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Alimenta\IeC {\c c}\IeC {\~a}o (Exemplo resultado energia)}{20}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Testes e Resultados do Sistema de Inversor}{20}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Outros Testes Realizados}{20}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Dificuldades do projeto do inversor}{20}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Inversor Implementado}{20}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Testes e Resultados do Sistema de Alimenta\IeC {\c c}\IeC {\~a}o}{20}{subsection.4.5.5}
+\contentsline {section}{\numberline {4.6}Estrutura (Exemplo Resultados Estrutura)}{20}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Compartimento de carga}{20}{subsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.1.1}Requisitos}{20}{subsubsection.4.6.1.1}
+\contentsline {subsubsection}{\numberline {4.6.1.2}Design}{21}{subsubsection.4.6.1.2}
+\contentsline {subsubsection}{\numberline {4.6.1.3}Fabrica\IeC {\c c}\IeC {\~a}o}{21}{subsubsection.4.6.1.3}
+\contentsline {subsubsection}{\numberline {4.6.1.4}Resultados}{21}{subsubsection.4.6.1.4}
+\contentsline {subsection}{\numberline {4.6.2}C\IeC {\^a}mara de Resfriamento}{21}{subsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2.1}Requisitos}{21}{subsubsection.4.6.2.1}
+\contentsline {subsubsection}{\numberline {4.6.2.2}Design}{21}{subsubsection.4.6.2.2}
+\contentsline {subsubsection}{\numberline {4.6.2.3}Fabrica\IeC {\c c}\IeC {\~a}o}{21}{subsubsection.4.6.2.3}
+\contentsline {subsubsection}{\numberline {4.6.2.4}Resultados}{21}{subsubsection.4.6.2.4}
+\contentsline {subsection}{\numberline {4.6.3}Estrutura}{21}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}Requisitos}{21}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}Fabrica\IeC {\c c}\IeC {\~a}o}{21}{subsubsection.4.6.3.2}
+\contentsline {subsubsection}{\numberline {4.6.3.3}Resultados}{21}{subsubsection.4.6.3.3}
+\contentsline {subsection}{\numberline {4.6.4}Sistema de amortecimento}{22}{subsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.4.1}An\IeC {\'a}lise computacional de vibra\IeC {\c c}\IeC {\~o}es da estrutura}{22}{subsubsection.4.6.4.1}
+\contentsline {subsubsection}{\numberline {4.6.4.2}Dimensionamento do coxim}{22}{subsubsection.4.6.4.2}
+\contentsline {subsubsection}{\numberline {4.6.4.3}Teste e valida\IeC {\c c}\IeC {\~a}o do sistema}{22}{subsubsection.4.6.4.3}
+\contentsline {subsection}{\numberline {4.6.5}Simula\IeC {\c c}\IeC {\~a}o Computacional}{22}{subsection.4.6.5}
+\contentsline {subsubsection}{\numberline {4.6.5.1}An\IeC {\'a}lise Estrutural}{22}{subsubsection.4.6.5.1}
+\contentsline {subsubsection}{\numberline {4.6.5.2}Simula\IeC {\c c}\IeC {\~a}o de Transfer\IeC {\^e}ncia de Calor }{22}{subsubsection.4.6.5.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Or\IeC {\c c}amento do Projeto}}{21}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Or\IeC {\c c}amento do Projeto}}{23}{chapter.5}

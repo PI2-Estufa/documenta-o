@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  10 MAY 2018 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  12 MAY 2018 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1519,20 +1519,14 @@ l.3 \cleardoublepage
 ]) (./fixos/indiceAutomatico.tex
 (./index.toc [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 47.
+(Font)              <10.95> on input line 49.
  [6]) [7] [8
 
 ]) (./editaveis/introducao.tex [9
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
-as been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.50 \section
-             {Metodologia de gerenciamento}]) (./editaveis/fundamentacao.tex
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
-}) has been already used, duplicate ignored
+] [10])
+(./editaveis/fundamentacao.tex [11pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1544,18 +1538,19 @@ duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            [Referencial Teórico]{Referencial Teórico}]
-(./editaveis/fundamentacao_energia.tex) (./editaveis/fundamentacao_software.tex
-) (./editaveis/fundamentacao_estrutura.tex [11
+            [Referencial Teórico]{Referencial Teórico}] [12
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
-has been already used, duplicate ignored
+]
+(./editaveis/fundamentacao_energia.tex) (./editaveis/fundamentacao_software.tex
+) (./editaveis/fundamentacao_estrutura.tex [13pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.2.3}) has been already used, duplicate 
+ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.5 \section
             {TERMOVIDA – Caixa térmica para transporte de órgãos para t...
-])) (./editaveis/solucao.tex [12] (./editaveis/solucao_software.tex)
+])) (./editaveis/solucao.tex [14] (./editaveis/solucao_software.tex)
 (./editaveis/solucao_energia.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1565,10 +1560,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 10.
 
-[13
+[15
 
-]) (./editaveis/solucao_estrutura.tex [14])
-(./editaveis/solucao_eletronica.tex [15])) (./editaveis/resultados.tex [16pdfTe
+]) (./editaveis/solucao_estrutura.tex [16])
+(./editaveis/solucao_eletronica.tex [17])) (./editaveis/resultados.tex [18pdfTe
 X warning (ext4): destination with the same identifier (name{figure.3.4}) has b
 een already used, duplicate ignored
 
@@ -1576,13 +1571,13 @@ een already used, duplicate ignored
                                                   \fi \fi 
 l.1 \chapter
             [Resultados]{Resultados}] (./editaveis/resultados_software.tex)
-(./editaveis/resultados_eletronica.tex [17
+(./editaveis/resultados_eletronica.tex [19
 
 ])
 (./editaveis/resultados_energia.tex) (./editaveis/resultados_estrutura.tex
-[18] [19])) (./editaveis/orcamento.tex [20]) 
+[20] [21])) (./editaveis/orcamento.tex [22]) 
 AED: lastpage setting LastPage
-[21
+[23
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) 
 has been already used, duplicate ignored
@@ -1620,26 +1615,26 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 26.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 14946 strings out of 492990
- 213299 string characters out of 6135006
- 339717 words of memory out of 5000000
- 17986 multiletter control sequences out of 15000+600000
+ 14952 strings out of 492990
+ 213360 string characters out of 6135006
+ 339770 words of memory out of 5000000
+ 17989 multiletter control sequences out of 15000+600000
  64223 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,38p,372b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,38p,782b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share
-/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmssbx10.pfb>
-Output written on index.pdf (23 pages, 348063 bytes).
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lm
+bx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on index.pdf (25 pages, 354397 bytes).
 PDF statistics:
- 749 PDF objects out of 1000 (max. 8388607)
- 700 compressed objects within 7 object streams
- 142 named destinations out of 1000 (max. 500000)
- 882 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 772 PDF objects out of 1000 (max. 8388607)
+ 720 compressed objects within 8 object streams
+ 145 named destinations out of 1000 (max. 500000)
+ 898 words of extra memory for PDF output out of 10000 (max. 10000000)
 
