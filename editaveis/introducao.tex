@@ -1,42 +1,48 @@
 \chapter[Introdução]{Introdução}
 
-Espaço reservado para Introdução.
+Ao longo dos anos, agricultores buscaram soluções para o cultivo em ambientes protegidos e seguros. Além disso, houve uma necessidade de produzir em períodos climáticos desfavoráveis, ter o melhor controle do plantio como um todo e realizar o desuso quanto aos agrotóxicos causadores de enfermos. Essas causas, inspirou a realização de muito estudo para proteger o plantio dos dados causados pela natureza e para a não utilização de pesticidas, sendo estes responsáveis por doenças em consumidores.
+A criação de um microclima adequado para o cultivo do plantio torna o desenvolvimento de plantas mais seguro e controlável. 
 
 \section{Contexto}
  
-Espaço reservado para Contexto.
+Dessa forma, os alunos de Engenharia da Universidade de Brasília do Campus do Gama propuseram em desenvolver uma estufa hidropônica automatizada, nomeada como Greenhouse, capaz de manter as condições ideais para o cultivo de diversas hortaliças, permitindo tanto o uso de configurações pré definidas quanto a customização das condições internas, fornecendo dados ao usuário através de uma interface local, um aplicativo mobile e um sistema
+web. O escopo não engloba a produção de plantas que não sejam hortaliças; a produção de hortaliças que não suportam um sistema de hidroponia; o controle da umidade; e a utilização em um ambiente aberto (i.e. outdoor). 
 
 \section{Justificativa}
 
-Espaço reservado para Justificativa.
-
-\begin{table}[h!]
-\centering
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Exemplo} & \textbf{Exemplo Tabela} \\ \hline
-Teste1        & Exemplo1                         \\ \hline
-Teste2         & Exemplo2                     \\ \hline
-Teste3         & Exemplo3                        \\ \hline
-Teste4            & Exemplo4                  \\ \hline
-Teste5       & Exemplo5                   \\ \hline
-\end{tabular}
-\caption{Exemplo de Tabela.}\label{isquemia_orgaos}
-\end{table}
+O objetivo do projeto Greenhouse é fornecer a moradores de casas e apartamentos uma forma automatizada de cultivar hortaliças em suas residências. Isto irá permitir que, mesmo sem uma grande área dedicada, tempo, ou conhecimentos sobre cultivo, os usuários possam cultivar seus próprios produtos orgânicos para consumo próprio.
 
 \section{Escopo do projeto}
  \subsection{Premissas}
   
-  Espaço reservado para Premissas.
-
+ \begin{itemize}
+ 	\item  O produto será utilizado exclusivamente para o cultivo de hortaliças.
+ 	\item O produto será utilizado exclusivamente em um ambiente fechado (i.e. não será utilizado ao ar livre).
+ 	\item  O produto estará conectado a uma fonte de água.
+ 	\item Não serão utilizados pesticidas nas plantas cultivadas no produto, ou na água utilizada pelo mesmo.
+ \end{itemize}
+  
   \subsection{Restrições}
   
-  Espaço reservado para Restrições.
+  \begin{itemize}
+  	\item Irá controlar uma situação de um sistema especificamente hidropônico.
+  	\item As variáveis serão dimensionadas de modo específico, pH, nutrientes diluídos na água e temperatura do ambiente isolado.
+  \end{itemize}
+                             
 
 \section{Detalhamento do escopo}
- 
- Espaço reservado para Detalhamento do escopo.
+\subsection{Projeto}
+A equipe Greenhouse pretende contornar as adversidades descritas ao realizar um controle do cultivo, ao constatar a praticidade e despreocupação do usuário final com relação ao desenvolvimento automatizado das hortaliças, além do controle do usuário para as mudanças pertinentes de cada espécie, notificando-o sempre que necessário para que o mesmo esteja ciente do monitoramento do plantio.
 
+O público alvo do projeto são as pessoas preocupadas em produzir o cultivo de hortaliças em um local protegido e em fácil acesso, monitoramento e controle de seu equipamento, sendo este instalado em uma casa, apartamento ou em qualquer local que forneça suas especificações de dimensionamento e que tenha conexão a uma fonte de água.
+
+\subsection{Produto}
+
+O sistema de automatização da estufa irá controlar a temperatura e umidade interna, realizar a abertura automática da gaveta onde se comportará o sistema composto pelas hortaliças e monitorar nível da água, temperatura da água e pH da água.
+
+O sistema funcionará da seguinte forma: o usuário prepara os sachês com substâncias específicas para a germinação, implementa a semente da hortaliça de acordo com as especificações ideais de plantio, informa no sistema web a espécie da hortaliça e acompanha o desenvolvimento da planta por meio de gráficos e informações de uso disponíveis no sistema web, pois os dados coletados pelos sensores da estufa irá para o servidor web e estará disponível para o monitoramento de todos os dados previamente planejados e o controle de alguns dados específicos, caso não há internet no local de instalação da estufa, os dados estarão empilhados e disponíveis para o acompanhamento quando houver conexão de internet.
+
+A estrutura completa terá dimensões ideias para sua instalação em apartamentos, casas e afins.
 \section{Objetivos}
 
 \subsection{Objetivo Geral}
