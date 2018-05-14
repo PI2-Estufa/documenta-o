@@ -116,3 +116,52 @@ O esquemático do circuito do conversor AD se encontra na figura abaixo:
 Para realizar a leitura dos dados obtidos nas suas entradas analógicas foi nessesário importar a biblioteca smbus.[NXP, 2013]
 
 Para testar seus funcionamento foi utilizado um potenciômetro de 10K$\Omega$, que variava a tensão de entrada no pino A0 do conversor entre 0V e 5V. O resultado obtido foi satisfatório com precisão de 0.01 V.
+
+
+\subsection{Sensor LDR}
+
+LDR (Light Dependent Resistor), ou fotoresistror, é um dispositivo resistivo que tem a sua resistência alterada de acordo com a quantidade de luz que atinge seus terminais. O componente é feito de um semicondutor de resistência elevada. O sensor apresenta uma alta sensibilidade, com uma resposta rápida as variações de luz e é sensível a todo o espectro visível de luz.[1]
+
+\subsubsection{Características elétricas}
+
+O LDR apresenta em uma temperatura ambiente uma variação de resistência de aproximadamente 8$\Omega$ até 20K$\Omega$, no escuro total a resistência atinge um valor elevado e 1M$\Omega$. O seu pico de resposta é com o comprimento de onda de 540nm, podendo funcionar dentro de um ambiente com temperaturas variando de -30℃ até 70℃.[Jawaaz Ahmad, 2016]
+
+O sensor aguenta nos seus terminais uma diferença de potencial de até 150 Volts. A leitura do sensor é feita através de um divisor de tensão que é causada pela variação da resistência devido a diferença de iluminação. A tensão lida na saída do divisor de tensão é lida por um conversor AD e assim é transformada em dados para o microcontrolador.[Jawaaz Ahmad, 2016]
+
+\subsubsection{Princípios físicos de funcionamento}
+
+Um LDR trabalha com a fotocondutividade, que é um efeito ótico onde a condutividade de um material aumenta com a absorção de luz do semicondutor. A exposição à luz do sensor faz com que fótons dessa fonte de luz ao caírem no sensor excitem os elétrons da camada de valência do semicondutor que compõem o sensor. Os elétrons são excitados até adquirirem energia suficiente para chegar a camada de condução do material. Quanto mais elétrons são excitados até a camada de condução do semicondutor, mais corrente passa a fluir pelo semicondutor e assim a resistência que antes era alta, passa a cair com o aumento de luminosidade.[Sunroom Technologies,2008]
+
+\subsection{Sensores DHT22}
+
+O sensor DHT22 é um sensor digital capacitivo que utiliza uma comunicação serial do tipo Single-bus communication para o envio de dados em 8bits. O sensor apresenta um baixo consumo de potência e uma grande capacidade de envio dos dados eliminando a necessidade de usar amplificadores periféricos para aumentar a potência da saída do sinal. [2]
+
+\begin{table}[]
+	\centering
+	\caption{Características elétricas do sensor LDR}
+	\label{caracteristicas}
+	\begin{tabular}{|l|l|l|l|l|l|}
+		\hline
+		\textbf{Parameter}                 & \textbf{Condition}                                           & \textbf{min} & \textbf{typ} & \textbf{max} & \textbf{Unit} \\ \hline
+		Voltage                            &                                                              & 3.3          & 5            & 5.5          & V             \\ \hline
+		\multirow{3}{*}{Power consumption} & Dormancy                                                     & 10           & 15           &              & $\mu$A           \\ \cline{2-6} 
+		& Meansuring                                                   &              & 500          &              & $\mu$A           \\ \cline{2-6} 
+		& Average                                                      &              & 300          &              & $\mu$A           \\ \hline
+		Low level output voltage           & loL{[}5{]}                                                   & 0            &              & 300          & mV            \\ \hline
+		High output voltage                & Rp\textless{}25 k$\Omega$                                       & 90\%         &              & 100\%        & VDD           \\ \hline
+		Low input voltage                  & Decline                                                      & 0            &              & 30\%         & VDD           \\ \hline
+		Input High Voltage                 & Rise                                                         & 70\%         &              & 100\%        & VDD           \\ \hline
+		Pull up Resistor                   & \begin{tabular}[c]{@{}l@{}}VDD = 5V\\ VIN = VSS\end{tabular} & 30           & 45           & 60           & k$\Omega$        \\ \hline
+		\multirow{2}{*}{Output current}    & turn on                                                      &              & 8            &              & mA            \\ \cline{2-6} 
+		& turn off                                                     & 10           & 20           &              & $\mu$A           \\ \hline
+		Sampling period                    &                                                              & 2            &              &              & S             \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/curva_ldr.png}
+	\caption{Curva característica de resposta do LDR} \label{curva_ldr}
+\end{figure}
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  14 MAY 2018 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  14 MAY 2018 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,7 +1177,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count191
 \c@LT@chunks=\count192
 \LT@p@ftn=\toks47
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -1333,6 +1333,13 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip279
+\multirow@cntb=\count193
+\multirow@dima=\skip280
+\bigstrutjot=\dimen170
 )
 (./fixos/comandos.tex) (./fixos/novosComandos.tex) (./editaveis/informacoes.tex
 ) (./index.aux
@@ -1376,7 +1383,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count193
+\c@section@level=\count194
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1388,22 +1395,22 @@ LaTeX Info: Redefining \degres on input line 7.
 LaTeX Info: Redefining \dots on input line 7.
 LaTeX Info: Redefining \up on input line 7.
 \myptabbox=\box39
-\myptabboxwidth=\skip279
+\myptabboxwidth=\skip281
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 7.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
-\scratchdimen=\dimen170
+\scratchcounter=\count266
+\scratchdimen=\dimen171
 \scratchbox=\box40
-\nofMPsegments=\count266
-\nofMParguments=\count267
+\nofMPsegments=\count267
+\nofMParguments=\count268
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count268
-\MPscratchDim=\dimen171
-\MPnumerator=\count269
-\makeMPintoPDFobject=\count270
+\MPscratchCnt=\count269
+\MPscratchDim=\dimen172
+\MPnumerator=\count270
+\makeMPintoPDFobject=\count271
 \everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1531,7 +1538,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figuras/eap.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<figuras/eap.pdf, id=355, pagebox=cropbox, 597.23125pt x 845.1575pt>
+<figuras/eap.pdf, id=367, pagebox=cropbox, 597.23125pt x 845.1575pt>
 File: figuras/eap.pdf Graphic file (type pdf)
 <use figuras/eap.pdf>
 Package pdftex.def Info: figuras/eap.pdf  used on input line 163. on input line
@@ -1545,7 +1552,7 @@ e.1.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.170 
        <./figuras/eap.pdf>]
-<figuras/cronograma_1.png, id=391, 1217.54875pt x 1157.32375pt>
+<figuras/cronograma_1.png, id=403, 1217.54875pt x 1157.32375pt>
 File: figuras/cronograma_1.png Graphic file (type png)
 <use figuras/cronograma_1.png>
 Package pdftex.def Info: figuras/cronograma_1.png  used on input line 179. on i
@@ -1553,7 +1560,7 @@ nput line 179.
 Package pdftex.def Info: Requested size: 455.24408pt x 432.72386pt on input lin
 e 179.
  [15]
-<figuras/cronograma_2.png, id=396, 1145.27875pt x 888.31876pt>
+<figuras/cronograma_2.png, id=408, 1145.27875pt x 888.31876pt>
 File: figuras/cronograma_2.png Graphic file (type png)
 <use figuras/cronograma_2.png>
 Package pdftex.def Info: figuras/cronograma_2.png  used on input line 185. on i
@@ -1567,7 +1574,7 @@ e 185.
                                                   \fi \fi 
 l.188 
        <./figuras/cronograma_1.png>]
-<figuras/cronograma_3.png, id=401, 1281.78876pt x 857.2025pt>
+<figuras/cronograma_3.png, id=413, 1281.78876pt x 857.2025pt>
 File: figuras/cronograma_3.png Graphic file (type png)
 <use figuras/cronograma_3.png>
 Package pdftex.def Info: figuras/cronograma_3.png  used on input line 191. on i
@@ -1620,7 +1627,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 ]) (./editaveis/solucao_estrutura.tex [24])
 (./editaveis/solucao_eletronica.tex [25] [26]
-<figuras/eletronica_1.png, id=451, 463.7325pt x 370.38374pt>
+<figuras/eletronica_1.png, id=463, 463.7325pt x 370.38374pt>
 File: figuras/eletronica_1.png Graphic file (type png)
 <use figuras/eletronica_1.png>
 Package pdftex.def Info: figuras/eletronica_1.png  used on input line 37. on in
@@ -1634,14 +1641,14 @@ e 37.
                                                   \fi \fi 
 l.54 	\item R
              esistência do contato: 0.1 $\Omega$ <./figuras/eletronica_1.png>]
-<figuras/optocoaplador.png, id=456, 186.6975pt x 180.675pt>
+<figuras/optocoaplador.png, id=468, 186.6975pt x 180.675pt>
 File: figuras/optocoaplador.png Graphic file (type png)
 <use figuras/optocoaplador.png>
 Package pdftex.def Info: figuras/optocoaplador.png  used on input line 70. on i
 nput line 70.
 Package pdftex.def Info: Requested size: 142.26378pt x 137.68108pt on input lin
 e 70.
-<figuras/optoacopladores.jpg, id=457, 2569.6pt x 1927.2pt>
+<figuras/optoacopladores.jpg, id=469, 2569.6pt x 1927.2pt>
 File: figuras/optoacopladores.jpg Graphic file (type jpg)
 <use figuras/optoacopladores.jpg>
 Package pdftex.def Info: figuras/optoacopladores.jpg  used on input line 79. on
@@ -1655,7 +1662,7 @@ e 79.
                                                   \fi \fi 
 l.82 
       <./figuras/optocoaplador.png>]
-<figuras/rele.png, id=462, 322.20375pt x 249.93375pt>
+<figuras/rele.png, id=474, 322.20375pt x 249.93375pt>
 File: figuras/rele.png Graphic file (type png)
 <use figuras/rele.png>
 Package pdftex.def Info: figuras/rele.png  used on input line 90. on input line
@@ -1669,7 +1676,7 @@ e 90.
                                                   \fi \fi 
 l.93 
       <./figuras/optoacopladores.jpg>]
-<figuras/circuito_1.png, id=468, 749.80125pt x 463.7325pt>
+<figuras/circuito_1.png, id=480, 749.80125pt x 463.7325pt>
 File: figuras/circuito_1.png Graphic file (type png)
 <use figuras/circuito_1.png>
 Package pdftex.def Info: figuras/circuito_1.png  used on input line 112. on inp
@@ -1682,43 +1689,67 @@ e 112.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.115 
-       <./figuras/rele.png>])) (./editaveis/resultados.tex [31pdfTeX warning (e
-xt4): destination with the same identifier (name{figure.3.11}) has been already
- used, duplicate ignored
+       <./figuras/rele.png>] [31pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.3.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.134 
+       <./figuras/circuito_1.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 139.
+
+<figuras/curva_ldr.png, id=489, 401.5pt x 289.08pt>
+File: figuras/curva_ldr.png Graphic file (type png)
+<use figuras/curva_ldr.png>
+Package pdftex.def Info: figuras/curva_ldr.png  used on input line 164. on inpu
+t line 164.
+Package pdftex.def Info: Requested size: 227.62204pt x 163.89069pt on input lin
+e 164.
+[32pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.167 
+      ])) (./editaveis/resultados.tex [33pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.3.12}) has been already used, duplicate igno
+red
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             [Resultados]{Resultados}pdfTeX warning (ext4): destination with the
- same identifier (name{figure.3.12}) has been already used, duplicate ignored
+ same identifier (name{figure.3.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            [Resultados]{Resultados} <./figuras/circuito_1.png>] [32
+            [Resultados]{Resultados} <./figuras/curva_ldr.png>] [34
 
 ]
 (./editaveis/resultados_software.tex) (./editaveis/resultados_eletronica.tex
-[33]) (./editaveis/resultados_energia.tex)
-(./editaveis/resultados_estrutura.tex [34] [35])) (./editaveis/orcamento.tex
-[36]) 
+[35]) (./editaveis/resultados_energia.tex)
+(./editaveis/resultados_estrutura.tex [36] [37])) (./editaveis/orcamento.tex
+[38]) 
 AED: lastpage setting LastPage
-[37
+[39
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.13})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.14})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.26 \end{document}
                    pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.5.14}) has been already used, duplicate ignored
+(name{figure.5.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.26 \end{document}
                    pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.5.15}) has been already used, duplicate ignored
+(name{figure.5.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1745,13 +1776,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 15058 strings out of 492990
- 215257 string characters out of 6135006
- 341350 words of memory out of 5000000
- 18047 multiletter control sequences out of 15000+600000
+ 15136 strings out of 492990
+ 216447 string characters out of 6135006
+ 341111 words of memory out of 5000000
+ 18112 multiletter control sequences out of 15000+600000
  64223 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,38p,811b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,16n,38p,811b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lm
@@ -1761,10 +1792,10 @@ fb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on index.pdf (39 pages, 3249968 bytes).
+Output written on index.pdf (41 pages, 3268071 bytes).
 PDF statistics:
- 950 PDF objects out of 1000 (max. 8388607)
- 854 compressed objects within 9 object streams
- 179 named destinations out of 1000 (max. 500000)
- 1039 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 988 PDF objects out of 1000 (max. 8388607)
+ 888 compressed objects within 9 object streams
+ 187 named destinations out of 1000 (max. 500000)
+ 1076 words of extra memory for PDF output out of 10000 (max. 10000000)
 
