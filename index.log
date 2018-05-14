@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  13 MAY 2018 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  14 MAY 2018 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1456,10 +1456,9 @@ Package pdftex.def Info: figuras/capa-eps-converted-to.pdf  used on input line
 10. on input line 10.
 Package pdftex.def Info: Requested size: 597.52437pt x 844.34396pt on input lin
 e 10.
- [1
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figuras/capa-eps-convert
-ed-to.pdf>] [2
+ <./figuras/capa-eps-converted-to.pdf>] [2
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
@@ -1523,7 +1522,7 @@ l.3 \cleardoublepage
 ]) (./fixos/indiceAutomatico.tex
 (./index.toc [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 58.
+(Font)              <10.95> on input line 60.
  [6] [7]) [8]) (./editaveis/introducao.tex [9
 
 
@@ -1532,7 +1531,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figuras/eap.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<figuras/eap.pdf, id=336, pagebox=cropbox, 597.23125pt x 845.1575pt>
+<figuras/eap.pdf, id=355, pagebox=cropbox, 597.23125pt x 845.1575pt>
 File: figuras/eap.pdf Graphic file (type pdf)
 <use figuras/eap.pdf>
 Package pdftex.def Info: figuras/eap.pdf  used on input line 163. on input line
@@ -1546,7 +1545,7 @@ e.1.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.170 
        <./figuras/eap.pdf>]
-<figuras/cronograma_1.png, id=373, 1217.54875pt x 1157.32375pt>
+<figuras/cronograma_1.png, id=391, 1217.54875pt x 1157.32375pt>
 File: figuras/cronograma_1.png Graphic file (type png)
 <use figuras/cronograma_1.png>
 Package pdftex.def Info: figuras/cronograma_1.png  used on input line 179. on i
@@ -1554,7 +1553,7 @@ nput line 179.
 Package pdftex.def Info: Requested size: 455.24408pt x 432.72386pt on input lin
 e 179.
  [15]
-<figuras/cronograma_2.png, id=378, 1145.27875pt x 888.31876pt>
+<figuras/cronograma_2.png, id=396, 1145.27875pt x 888.31876pt>
 File: figuras/cronograma_2.png Graphic file (type png)
 <use figuras/cronograma_2.png>
 Package pdftex.def Info: figuras/cronograma_2.png  used on input line 185. on i
@@ -1568,7 +1567,7 @@ e 185.
                                                   \fi \fi 
 l.188 
        <./figuras/cronograma_1.png>]
-<figuras/cronograma_3.png, id=383, 1281.78876pt x 857.2025pt>
+<figuras/cronograma_3.png, id=401, 1281.78876pt x 857.2025pt>
 File: figuras/cronograma_3.png Graphic file (type png)
 <use figuras/cronograma_3.png>
 Package pdftex.def Info: figuras/cronograma_3.png  used on input line 191. on i
@@ -1591,18 +1590,24 @@ l.209
        <./figuras/cronograma_3.png>]) (./editaveis/fundamentacao.tex [19]
 [20
 
-] (./editaveis/fundamentacao_energia.tex)
-(./editaveis/fundamentacao_software.tex)
-(./editaveis/fundamentacao_estrutura.tex [21pdfTeX warning (ext4): destination 
-with the same identifier (name{figure.2.5}) has been already used, duplicate ig
-nored
+] (./editaveis/fundamentacao_eletronica.tex)
+(./editaveis/fundamentacao_energia.tex) (./editaveis/fundamentacao_software.tex
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.5 \section
-            {TERMOVIDA – Caixa térmica para transporte de órgãos para t...
-])) (./editaveis/solucao.tex [22] (./editaveis/solucao_software.tex)
-(./editaveis/solucao_energia.tex
+l.9 \section
+            {Sistema interno (Exemplo Template)}pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.2.6}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.9 \section
+            {Sistema interno (Exemplo Template)}])
+(./editaveis/fundamentacao_estrutura.tex)) (./editaveis/solucao.tex [22]
+(./editaveis/solucao_software.tex) (./editaveis/solucao_energia.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 10.
@@ -1614,36 +1619,106 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [23
 
 ]) (./editaveis/solucao_estrutura.tex [24])
-(./editaveis/solucao_eletronica.tex [25])) (./editaveis/resultados.tex [26pdfTe
-X warning (ext4): destination with the same identifier (name{figure.3.6}) has b
-een already used, duplicate ignored
+(./editaveis/solucao_eletronica.tex [25] [26]
+<figuras/eletronica_1.png, id=451, 463.7325pt x 370.38374pt>
+File: figuras/eletronica_1.png Graphic file (type png)
+<use figuras/eletronica_1.png>
+Package pdftex.def Info: figuras/eletronica_1.png  used on input line 37. on in
+put line 37.
+Package pdftex.def Info: Requested size: 284.52756pt x 227.25621pt on input lin
+e 37.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 	\item R
+             esistência do contato: 0.1 $\Omega$ <./figuras/eletronica_1.png>]
+<figuras/optocoaplador.png, id=456, 186.6975pt x 180.675pt>
+File: figuras/optocoaplador.png Graphic file (type png)
+<use figuras/optocoaplador.png>
+Package pdftex.def Info: figuras/optocoaplador.png  used on input line 70. on i
+nput line 70.
+Package pdftex.def Info: Requested size: 142.26378pt x 137.68108pt on input lin
+e 70.
+<figuras/optoacopladores.jpg, id=457, 2569.6pt x 1927.2pt>
+File: figuras/optoacopladores.jpg Graphic file (type jpg)
+<use figuras/optoacopladores.jpg>
+Package pdftex.def Info: figuras/optoacopladores.jpg  used on input line 79. on
+ input line 79.
+Package pdftex.def Info: Requested size: 426.79134pt x 320.09157pt on input lin
+e 79.
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+      <./figuras/optocoaplador.png>]
+<figuras/rele.png, id=462, 322.20375pt x 249.93375pt>
+File: figuras/rele.png Graphic file (type png)
+<use figuras/rele.png>
+Package pdftex.def Info: figuras/rele.png  used on input line 90. on input line
+ 90.
+Package pdftex.def Info: Requested size: 142.26378pt x 110.35637pt on input lin
+e 90.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.93 
+      <./figuras/optoacopladores.jpg>]
+<figuras/circuito_1.png, id=468, 749.80125pt x 463.7325pt>
+File: figuras/circuito_1.png Graphic file (type png)
+<use figuras/circuito_1.png>
+Package pdftex.def Info: figuras/circuito_1.png  used on input line 112. on inp
+ut line 112.
+Package pdftex.def Info: Requested size: 341.43306pt x 211.16843pt on input lin
+e 112.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 
+       <./figuras/rele.png>])) (./editaveis/resultados.tex [31pdfTeX warning (e
+xt4): destination with the same identifier (name{figure.3.11}) has been already
+ used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            [Resultados]{Resultados}] (./editaveis/resultados_software.tex)
-(./editaveis/resultados_eletronica.tex [27
+            [Resultados]{Resultados}pdfTeX warning (ext4): destination with the
+ same identifier (name{figure.3.12}) has been already used, duplicate ignored
 
-])
-(./editaveis/resultados_energia.tex) (./editaveis/resultados_estrutura.tex
-[28] [29])) (./editaveis/orcamento.tex [30]) 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            [Resultados]{Resultados} <./figuras/circuito_1.png>] [32
+
+]
+(./editaveis/resultados_software.tex) (./editaveis/resultados_eletronica.tex
+[33]) (./editaveis/resultados_energia.tex)
+(./editaveis/resultados_estrutura.tex [34] [35])) (./editaveis/orcamento.tex
+[36]) 
 AED: lastpage setting LastPage
-[31
+[37
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.26 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.5.8}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.13})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.26 \end{document}
                    pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.5.9}) has been already used, duplicate ignored
+(name{figure.5.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.26 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.5.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1670,13 +1745,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 15003 strings out of 492990
- 214212 string characters out of 6135006
- 340916 words of memory out of 5000000
- 18016 multiletter control sequences out of 15000+600000
+ 15058 strings out of 492990
+ 215257 string characters out of 6135006
+ 341350 words of memory out of 5000000
+ 18047 multiletter control sequences out of 15000+600000
  64223 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,38p,782b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,38p,811b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lm
@@ -1686,10 +1761,10 @@ fb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on index.pdf (33 pages, 1804254 bytes).
+Output written on index.pdf (39 pages, 3249968 bytes).
 PDF statistics:
- 889 PDF objects out of 1000 (max. 8388607)
- 804 compressed objects within 9 object streams
- 164 named destinations out of 1000 (max. 500000)
- 990 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 950 PDF objects out of 1000 (max. 8388607)
+ 854 compressed objects within 9 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 1039 words of extra memory for PDF output out of 10000 (max. 10000000)
 
