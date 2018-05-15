@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  14 MAY 2018 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.14)  14 MAY 2018 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **index.tex
 (./index.tex
-LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (./fixos/pacotes.tex
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
@@ -13,7 +13,7 @@ Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docu
+Document Class: memoir 2015/07/08 v3.7e configurable book, report, article docu
 ment class
 \onelineskip=\skip41
 \lxvchars=\skip42
@@ -21,7 +21,8 @@ ment class
 \@memcnta=\count79
 \c@@memmarkcntra=\count80
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
 Package: ifetex 2011/12/15 v1.2 ifetex
@@ -31,7 +32,7 @@ Package: ifetex 2011/12/15 v1.2 ifetex
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 \stockheight=\skip44
@@ -192,8 +193,8 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \afterepigraphskip=\skip125
 \epigraphwidth=\skip126
 \epigraphrule=\skip127
-LaTeX Info: Redefining \em on input line 7551.
-LaTeX Info: Redefining \emph on input line 7559.
+LaTeX Info: Redefining \em on input line 7535.
+LaTeX Info: Redefining \emph on input line 7543.
 \tocentryskip=\skip128
 \tocbaseline=\skip129
 \cftparskip=\skip130
@@ -276,8 +277,8 @@ LaTeX Info: Redefining \emph on input line 7559.
 \FrameRule=\dimen145
 \FrameSep=\dimen146
 \c@cp@cntr=\count118
-LaTeX Info: Redefining \: on input line 12068.
-LaTeX Info: Redefining \! on input line 12070.
+LaTeX Info: Redefining \: on input line 12052.
+LaTeX Info: Redefining \! on input line 12054.
 \c@ism@mctr=\count119
 \c@xsm@mctr=\count120
 \c@csm@mctr=\count121
@@ -305,7 +306,7 @@ LaTeX Info: Redefining \! on input line 12070.
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
 Package array [2008/09/09] emulated by memoir.
-Package booktabs [2016/05/16] emulated by memoir.
+Package booktabs [2008/07/23] emulated by memoir.
 Package ccaption [2008/07/23] emulated by memoir.
 Package changepage [2008/07/23] emulated by memoir.
 Package chngcntr [2008/07/23] emulated by memoir.
@@ -347,100 +348,100 @@ LaTeX Info: Redefining \MakeTextUppercase on input line 47.
 LaTeX Info: Redefining \MakeTextLowercase on input line 50.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
 \Hy@linkcounter=\count137
 \Hy@pagecounter=\count138
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count139
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count140
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen148
 \Fld@menulength=\count141
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count142
 \c@Item=\count143
 \c@Hfootnote=\count144
@@ -455,39 +456,32 @@ ass
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count147
 \c@bookmark@seq@number=\count148
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip185
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
-Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
+Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
-File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
+File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/06/29 3.12 The Babel package
+Package: babel 2016/02/24 3.9q The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
-)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/06/29 3.12 Babel common definitions
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
-)
+File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count150
 \U@D=\dimen151
 )
@@ -496,41 +490,34 @@ File: switch.def 2017/06/29 3.12 Babel switching mechanism
 \l@newzealand = a dialect from \language\l@british 
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-french/frenchb.ldf
-Language: frenchb 2017/07/08 v3.3b French support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2017/07/08 v3.3b French support from the babel system
-\FB@nonchar=\count151
-\FBcolonsp=\toks23
-\FBthinsp=\toks24
-Package babel Info: Making : an active character on input line 321.
-Package babel Info: Making ; an active character on input line 322.
-Package babel Info: Making ! an active character on input line 323.
-Package babel Info: Making ? an active character on input line 324.
-\FBguillsp=\toks25
-\FBguill@level=\count152
-\FB@everypar=\toks26
+Language: frenchb 2016/02/13 v3.1l French support from the babel system
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FBcolonskip=\skip186
+\FBthinskip=\skip187
+Package babel Info: Making : an active character on input line 342.
+Package babel Info: Making ; an active character on input line 343.
+Package babel Info: Making ! an active character on input line 344.
+Package babel Info: Making ? an active character on input line 345.
+\FBguillskip=\skip188
+\FBguill@level=\count151
+\FB@everypar=\toks23
 \FB@Mht=\dimen152
-\mc@charclass=\count153
-\mc@charfam=\count154
-\mc@charslot=\count155
-\std@mcc=\count156
-\dec@mcc=\count157
-\listindentFB=\skip186
-\descindentFB=\skip187
-\labelwidthFB=\skip188
-\leftmarginFB=\skip189
+\std@mcc=\count152
+\dec@mcc=\count153
+\listindentFB=\skip189
+\labelwidthFB=\skip190
+\leftmarginFB=\skip191
 \parindentFFN=\dimen153
-\FBfnindent=\skip190
-))
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks27
-\es@quotdepth=\count158
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
+Language: spanish.ldf 2016/01/15 v5.0o Spanish support from the babel system
+\es@quottoks=\toks24
+\es@quotdepth=\count154
+Package babel Info: Making " an active character on input line 533.
+Package babel Info: Making . an active character on input line 634.
+Package babel Info: Making < an active character on input line 679.
+Package babel Info: Making > an active character on input line 679.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
@@ -539,24 +526,24 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip191
+\labelindent=\skip192
 \enit@outerparindent=\dimen154
-\enit@toks=\toks28
+\enit@toks=\toks25
 \enit@inbox=\box29
-\enitdp@description=\count159
+\enitdp@description=\count155
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count160
-\calc@Bcount=\count161
+\calc@Acount=\count156
+\calc@Bcount=\count157
 \calc@Adimen=\dimen155
 \calc@Bdimen=\dimen156
-\calc@Askip=\skip192
-\calc@Bskip=\skip193
+\calc@Askip=\skip193
+\calc@Bskip=\skip194
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count162
-\calc@Cskip=\skip194
+\calc@Ccount=\count158
+\calc@Cskip=\skip256
 )
 
 ******************************************************
@@ -578,20 +565,20 @@ Sidefoothsep and sidefootwidth: 7pt and 92pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count163
-\cftlastnumwidth=\skip256
-\chapternamenumlength=\skip257
-\ABNTEXcitacaorecuo=\skip258
-\c@alineasi=\count164
-\c@alineasii=\count165
-\enitdp@alineas=\count166
-\c@subalineasi=\count167
-\enitdp@subalineas=\count168
-\c@incisosi=\count169
-\enitdp@incisos=\count170
-\ABNTEXsignwidth=\skip259
-\ABNTEXsignthickness=\skip260
-\ABNTEXsignskip=\skip261
+\c@abntex@bookmarkcounter=\count159
+\cftlastnumwidth=\skip257
+\chapternamenumlength=\skip258
+\ABNTEXcitacaorecuo=\skip259
+\c@alineasi=\count160
+\c@alineasii=\count161
+\enitdp@alineas=\count162
+\c@subalineasi=\count163
+\enitdp@subalineas=\count164
+\c@incisosi=\count165
+\enitdp@incisos=\count166
+\ABNTEXsignwidth=\skip260
+\ABNTEXsignthickness=\skip261
+\ABNTEXsignskip=\skip262
 ) (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 )
@@ -631,26 +618,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )<<t1.cmap>>)
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks29
-\inpenc@posthook=\toks30
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -862,17 +849,11 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -884,14 +865,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -932,7 +911,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -964,29 +943,30 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 143.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count167
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 )
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
@@ -996,29 +976,29 @@ Package: units 1998/08/04 v0.9b Typesetting units
 
 (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip262
-\L@UnitsRaiseTextstyle=\skip263
-\L@UnitsRaiseScriptstyle=\skip264
+\L@UnitsRaiseDisplaystyle=\skip263
+\L@UnitsRaiseTextstyle=\skip264
+\L@UnitsRaiseScriptstyle=\skip265
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2016/05/21 v1.39 Bibliographical back referencing
+Package: backref 2012/07/25 v1.38 Bibliographical back referencing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-\minimumbiblabelwidth=\skip265
-\ABCIauxlen=\skip266
-\c@ABCIaux=\count171
-\c@ABCImax=\count172
+\minimumbiblabelwidth=\skip266
+\ABCIauxlen=\skip267
+\c@ABCIaux=\count168
+\c@ABCImax=\count169
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip267
+\biblabelsep=\skip268
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks31
+\ABCItoken=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/bold-extra/bold-extra.sty
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
@@ -1031,15 +1011,15 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count173
-\float@exts=\toks32
+\c@float@type=\count170
+\float@exts=\toks29
 \float@box=\box30
-\@float@everytoks=\toks33
+\@float@everytoks=\toks30
 \@floatcapt=\box31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip268
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip269
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1047,7 +1027,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks34
+\@emptytoks=\toks31
 \ex@=\dimen159
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -1055,57 +1035,57 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen160
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count174
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count175
-\leftroot@=\count176
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count177
-\DOTSCASE@=\count178
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+\inf@bad=\count171
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count172
+\leftroot@=\count173
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count174
+\DOTSCASE@=\count175
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box32
 \strutbox@=\box33
 \big@size=\dimen161
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count179
-\c@MaxMatrixCols=\count180
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count176
+\c@MaxMatrixCols=\count177
 \dotsspace@=\muskip11
-\c@parentequation=\count181
-\dspbrk@lvl=\count182
-\tag@help=\toks35
-\row@=\count183
-\column@=\count184
-\maxfields@=\count185
-\andhelp@=\toks36
+\c@parentequation=\count178
+\dspbrk@lvl=\count179
+\tag@help=\toks32
+\row@=\count180
+\column@=\count181
+\maxfields@=\count182
+\andhelp@=\toks33
 \eqnshift@=\dimen162
 \alignsep@=\dimen163
 \tagshift@=\dimen164
 \tagwidth@=\dimen165
 \totwidth@=\dimen166
 \lineht@=\dimen167
-\@envbody=\toks37
-\multlinegap=\skip269
-\multlinetaggap=\skip270
-\mathdisplay@stack=\toks38
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+\@envbody=\toks34
+\multlinegap=\skip270
+\multlinetaggap=\skip271
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks39
-\thm@bodyfont=\toks40
-\thm@headfont=\toks41
-\thm@notefont=\toks42
-\thm@headpunct=\toks43
-\thm@preskip=\skip271
-\thm@postskip=\skip272
-\thm@headsep=\skip273
-\dth@everypar=\toks44
+\thm@style=\toks36
+\thm@bodyfont=\toks37
+\thm@headfont=\toks38
+\thm@notefont=\toks39
+\thm@headpunct=\toks40
+\thm@preskip=\skip272
+\thm@postskip=\skip273
+\thm@headsep=\skip274
+\dth@everypar=\toks41
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1119,14 +1099,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks45
+\FN@temptoken=\toks42
 \footnotemargin=\dimen168
 
 
 LaTeX Warning: Command \@makecol  has changed.
                Check if current package is valid.
 
-\c@pp@next@reset=\count186
+\c@pp@next@reset=\count183
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1136,50 +1116,50 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks46
-\minrowclearance=\skip274
+\everycr=\toks43
+\minrowclearance=\skip275
 )
-LaTeX Info: Redefining \color on input line 709.
-\rownum=\count187
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count184
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip275
-\LTright=\skip276
-\LTpre=\skip277
-\LTpost=\skip278
-\LTchunksize=\count188
+\LTleft=\skip276
+\LTright=\skip277
+\LTpre=\skip278
+\LTpost=\skip279
+\LTchunksize=\count185
 \LTcapwidth=\dimen169
 \LT@head=\box34
 \LT@firsthead=\box35
 \LT@foot=\box36
 \LT@lastfoot=\box37
-\LT@cols=\count189
-\LT@rows=\count190
-\c@LT@tables=\count191
-\c@LT@chunks=\count192
-\LT@p@ftn=\toks47
+\LT@cols=\count186
+\LT@rows=\count187
+\c@LT@tables=\count188
+\c@LT@chunks=\count189
+\LT@p@ftn=\toks44
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -1199,7 +1179,7 @@ Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -1335,19 +1315,15 @@ Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip279
-\multirow@cntb=\count193
-\multirow@dima=\skip280
 \bigstrutjot=\dimen170
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box38
 \UL@hyphenbox=\box39
-\UL@skip=\skip281
-\UL@hook=\toks48
+\UL@skip=\skip280
+\UL@hook=\toks45
 \UL@height=\dimen171
-\UL@pe=\count194
+\UL@pe=\count190
 \UL@pixel=\dimen172
 \ULC@box=\box40
 Package: ulem 2012/05/18
@@ -1389,12 +1365,12 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Package hyperref Info: Link coloring OFF on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count266
+\c@section@level=\count191
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1406,35 +1382,33 @@ LaTeX Info: Redefining \degres on input line 7.
 LaTeX Info: Redefining \dots on input line 7.
 LaTeX Info: Redefining \up on input line 7.
 \myptabbox=\box42
-\myptabboxwidth=\skip282
+\myptabboxwidth=\skip281
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 7.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count267
+\scratchcounter=\count192
 \scratchdimen=\dimen174
 \scratchbox=\box43
-\nofMPsegments=\count268
-\nofMParguments=\count269
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count270
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count266
 \MPscratchDim=\dimen175
-\MPnumerator=\count271
-\makeMPintoPDFobject=\count272
-\everyMPtoPDFconversion=\toks50
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
+\everyMPtoPDFconversion=\toks47
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 452.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -1457,23 +1431,23 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 10.
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package epstopdf Info: Source file: <figuras/capa.eps>
-(epstopdf)                    date: 2018-05-08 20:27:43
+(epstopdf)                    date: 2018-05-14 14:04:32
 (epstopdf)                    size: 649636 bytes
 (epstopdf)             Output file: <figuras/capa-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-10 00:18:59
+(epstopdf)                    date: 2018-05-14 14:04:32
 (epstopdf)                    size: 105943 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/capa-eps-converted
 -to.pdf figuras/capa.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/capa-eps-converted-to.pdf, id=5, pagebox=cropbox, 814.04124pt x 1150.2
-975pt>
+
+<figuras/capa-eps-converted-to.pdf, id=5, 814.04124pt x 1150.2975pt>
 File: figuras/capa-eps-converted-to.pdf Graphic file (type pdf)
+
 <use figuras/capa-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/capa-eps-converted-to.pdf  used on input line 
-10. on input line 10.
-Package pdftex.def Info: Requested size: 597.52437pt x 844.34396pt on input lin
-e 10.
+Package pdftex.def Info: figuras/capa-eps-converted-to.pdf used on input line 1
+0.
+(pdftex.def)             Requested size: 597.52437pt x 844.34396pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./figuras/capa-eps-converted-to.pdf>] [2
@@ -1538,116 +1512,130 @@ l.3 \cleardoublepage
 ] [4
 
 ]) (./fixos/indiceAutomatico.tex
-(./index.toc [5]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 63.
- [6] [7]) [8]) (./editaveis/introducao.tex [9
+(./index.toc [5]) [6]) (./editaveis/introducao.tex [7
 
 
-] [10] [11]
-[12]
+] [8] [9] [10]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figuras/eap.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<figuras/eap.pdf, id=408, pagebox=cropbox, 597.23125pt x 845.1575pt>
+<figuras/eap.pdf, id=246, 597.23125pt x 845.1575pt>
 File: figuras/eap.pdf Graphic file (type pdf)
-<use figuras/eap.pdf>
-Package pdftex.def Info: figuras/eap.pdf  used on input line 163. on input line
- 163.
-Package pdftex.def Info: Requested size: 426.79134pt x 603.97353pt on input lin
-e 163.
-[13] [14pdfTeX warning (ext4): destination with the same identifier (name{figur
+ <use figuras/eap.pdf>
+Package pdftex.def Info: figuras/eap.pdf used on input line 163.
+(pdftex.def)             Requested size: 426.79134pt x 603.97353pt.
+
+[11] [12pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.170 
        <./figuras/eap.pdf>]
-<figuras/cronograma_1.png, id=444, 1217.54875pt x 1157.32375pt>
+<figuras/cronograma_1.png, id=283, 1217.54875pt x 1157.32375pt>
 File: figuras/cronograma_1.png Graphic file (type png)
+
 <use figuras/cronograma_1.png>
-Package pdftex.def Info: figuras/cronograma_1.png  used on input line 179. on i
-nput line 179.
-Package pdftex.def Info: Requested size: 455.24408pt x 432.72386pt on input lin
-e 179.
- [15]
-<figuras/cronograma_2.png, id=449, 1145.27875pt x 888.31876pt>
+Package pdftex.def Info: figuras/cronograma_1.png used on input line 179.
+(pdftex.def)             Requested size: 455.24408pt x 432.72386pt.
+ [13]
+<figuras/cronograma_2.png, id=288, 1145.27875pt x 888.31876pt>
 File: figuras/cronograma_2.png Graphic file (type png)
+
 <use figuras/cronograma_2.png>
-Package pdftex.def Info: figuras/cronograma_2.png  used on input line 185. on i
-nput line 185.
-Package pdftex.def Info: Requested size: 455.24408pt x 353.09825pt on input lin
-e 185.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+Package pdftex.def Info: figuras/cronograma_2.png used on input line 185.
+(pdftex.def)             Requested size: 455.24408pt x 353.09825pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.188 
        <./figuras/cronograma_1.png>]
-<figuras/cronograma_3.png, id=454, 1281.78876pt x 857.2025pt>
+<figuras/cronograma_3.png, id=293, 1281.78876pt x 857.2025pt>
 File: figuras/cronograma_3.png Graphic file (type png)
+
 <use figuras/cronograma_3.png>
-Package pdftex.def Info: figuras/cronograma_3.png  used on input line 191. on i
-nput line 191.
-Package pdftex.def Info: Requested size: 455.24408pt x 304.44635pt on input lin
-e 191.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+Package pdftex.def Info: figuras/cronograma_3.png used on input line 191.
+(pdftex.def)             Requested size: 455.24408pt x 304.44635pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.194 
-       <./figuras/cronograma_2.png>] [18pdfTeX warning (ext4): destination with
+       <./figuras/cronograma_2.png>] [16pdfTeX warning (ext4): destination with
  the same identifier (name{figure.1.4}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.209 
-       <./figuras/cronograma_3.png>]) (./editaveis/fundamentacao.tex [19]
-[20
+       <./figuras/cronograma_3.png>]
+<figuras/riscos.png, id=302, 198.7425pt x 194.7275pt>
+File: figuras/riscos.png Graphic file (type png)
+ <use figuras/riscos.png>
+Package pdftex.def Info: figuras/riscos.png used on input line 224.
+(pdftex.def)             Requested size: 113.81102pt x 111.5158pt.
 
-] (./editaveis/fundamentacao_eletronica.tex [21]
-<figuras/rele.png, id=476, 322.20375pt x 249.93375pt>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 229.
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.249 \end{table}
+                  <./figuras/riscos.png (PNG copy)>] [18pdfTeX warning (ext4): 
+destination with the same identifier (name{table.1.1}) has been already used, d
+uplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.272 
+      ]) (./editaveis/fundamentacao.tex [19] [20
+
+]
+(./editaveis/fundamentacao_eletronica.tex [21]
+<figuras/rele.png, id=325, 322.20375pt x 249.93375pt>
 File: figuras/rele.png Graphic file (type png)
-<use figuras/rele.png>
-Package pdftex.def Info: figuras/rele.png  used on input line 36. on input line
- 36.
-Package pdftex.def Info: Requested size: 142.26378pt x 110.35637pt on input lin
-e 36.
- [22] [23pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.2.5}) has been already used, duplicate ignored
+ <use figuras/rele.png>
+Package pdftex.def Info: figuras/rele.png used on input line 36.
+(pdftex.def)             Requested size: 142.26378pt x 110.35637pt.
+
+[22] [23pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.50 
       <./figuras/rele.png>]
-<figuras/circuito_sample.jpg, id=486, 481.8pt x 301.125pt>
+<figuras/circuito_sample.jpg, id=335, 481.8pt x 301.125pt>
 File: figuras/circuito_sample.jpg Graphic file (type jpg)
+
 <use figuras/circuito_sample.jpg>
-Package pdftex.def Info: figuras/circuito_sample.jpg  used on input line 53. on
- input line 53.
-Package pdftex.def Info: Requested size: 256.0748pt x 160.05037pt on input line
- 53.
-<figuras/saida_sample.png, id=487, 698.61pt x 417.56pt>
+Package pdftex.def Info: figuras/circuito_sample.jpg used on input line 53.
+(pdftex.def)             Requested size: 256.0748pt x 160.05037pt.
+
+<figuras/saida_sample.png, id=336, 698.61pt x 417.56pt>
 File: figuras/saida_sample.png Graphic file (type png)
+
 <use figuras/saida_sample.png>
-Package pdftex.def Info: figuras/saida_sample.png  used on input line 59. on in
-put line 59.
-Package pdftex.def Info: Requested size: 256.0748pt x 153.05482pt on input line
- 59.
+Package pdftex.def Info: figuras/saida_sample.png used on input line 59.
+(pdftex.def)             Requested size: 256.0748pt x 153.05482pt.
 ) (./editaveis/fundamentacao_energia.tex)
 (./editaveis/fundamentacao_software.tex)
 (./editaveis/fundamentacao_estrutura.tex)) (./editaveis/solucao.tex [24pdfTeX w
-arning (ext4): destination with the same identifier (name{figure.2.6}) has been
+arning (ext4): destination with the same identifier (name{figure.2.7}) has been
  already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             [Solução Proposta]{Solução Proposta}pdfTeX warning (ext4): dest
-ination with the same identifier (name{figure.2.7}) has been already used, dupl
+ination with the same identifier (name{figure.2.8}) has been already used, dupl
 icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1659,167 +1647,158 @@ l.1 \chapter
 (./editaveis/solucao_estrutura.tex) (./editaveis/solucao_eletronica.tex
 [25
 
-]
-<figuras/eletronica_1.png, id=496, 463.7325pt x 370.38374pt>
+] <figuras/eletronica_1.png, id=345, 463.7325pt x 370.38374pt>
 File: figuras/eletronica_1.png Graphic file (type png)
+
 <use figuras/eletronica_1.png>
-Package pdftex.def Info: figuras/eletronica_1.png  used on input line 33. on in
-put line 33.
-Package pdftex.def Info: Requested size: 170.71652pt x 136.35034pt on input lin
-e 33.
+Package pdftex.def Info: figuras/eletronica_1.png used on input line 33.
+(pdftex.def)             Requested size: 170.71652pt x 136.35034pt.
  [26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-8}) has been already used, duplicate ignored
+9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.53 	\item D
              iâmetro do eixo: 8mm <./figuras/eletronica_1.png>]
-<figuras/optocoaplador.png, id=503, 186.6975pt x 180.675pt>
+<figuras/optocoaplador.png, id=351, 186.6975pt x 180.675pt>
 File: figuras/optocoaplador.png Graphic file (type png)
+
 <use figuras/optocoaplador.png>
-Package pdftex.def Info: figuras/optocoaplador.png  used on input line 63. on i
-nput line 63.
-Package pdftex.def Info: Requested size: 227.62204pt x 220.28807pt on input lin
-e 63.
-<figuras/optoacopladores.jpg, id=504, 2569.6pt x 1927.2pt>
+Package pdftex.def Info: figuras/optocoaplador.png used on input line 63.
+(pdftex.def)             Requested size: 227.62204pt x 220.28807pt.
+
+<figuras/optoacopladores.jpg, id=352, 2569.6pt x 1927.2pt>
 File: figuras/optoacopladores.jpg Graphic file (type jpg)
+
 <use figuras/optoacopladores.jpg>
-Package pdftex.def Info: figuras/optoacopladores.jpg  used on input line 73. on
- input line 73.
-Package pdftex.def Info: Requested size: 426.79134pt x 320.09157pt on input lin
-e 73.
+Package pdftex.def Info: figuras/optoacopladores.jpg used on input line 73.
+(pdftex.def)             Requested size: 426.79134pt x 320.09157pt.
  [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-9}) has been already used, duplicate ignored
+10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.76 
       <./figuras/optocoaplador.png>]
-<figuras/modulo_re.jpg, id=509, 451.6875pt x 451.6875pt>
+<figuras/modulo_re.jpg, id=357, 451.6875pt x 451.6875pt>
 File: figuras/modulo_re.jpg Graphic file (type jpg)
+
 <use figuras/modulo_re.jpg>
-Package pdftex.def Info: figuras/modulo_re.jpg  used on input line 85. on input
- line 85.
-Package pdftex.def Info: Requested size: 227.62204pt x 227.62827pt on input lin
-e 85.
+Package pdftex.def Info: figuras/modulo_re.jpg used on input line 85.
+(pdftex.def)             Requested size: 227.62204pt x 227.62827pt.
  [28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-10}) has been already used, duplicate ignored
+11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.88 
       <./figuras/optoacopladores.jpg>]
-<figuras/circuito_1.png, id=514, 749.80125pt x 463.7325pt>
+<figuras/circuito_1.png, id=362, 749.80125pt x 463.7325pt>
 File: figuras/circuito_1.png Graphic file (type png)
+
 <use figuras/circuito_1.png>
-Package pdftex.def Info: figuras/circuito_1.png  used on input line 103. on inp
-ut line 103.
-Package pdftex.def Info: Requested size: 227.62204pt x 140.7766pt on input line
- 103.
+Package pdftex.def Info: figuras/circuito_1.png used on input line 103.
+(pdftex.def)             Requested size: 227.62204pt x 140.7766pt.
  [29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-11}) has been already used, duplicate ignored
+12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.106 
        <./figuras/modulo_re.jpg>]
-<figuras/curva_ldr.png, id=520, 401.5pt x 289.08pt>
+<figuras/curva_ldr.png, id=368, 401.5pt x 289.08pt>
 File: figuras/curva_ldr.png Graphic file (type png)
+
 <use figuras/curva_ldr.png>
-Package pdftex.def Info: figuras/curva_ldr.png  used on input line 124. on inpu
-t line 124.
-Package pdftex.def Info: Requested size: 227.62204pt x 163.89069pt on input lin
-e 124.
+Package pdftex.def Info: figuras/curva_ldr.png used on input line 124.
+(pdftex.def)             Requested size: 227.62204pt x 163.89069pt.
  [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-12}) has been already used, duplicate ignored
+13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.126 \end{figure}
                    <./figuras/circuito_1.png>]
-<figuras/single_bus.jpg, id=529, 961.34157pt x 112.16907pt>
+<figuras/single_bus.jpg, id=375, 961.34157pt x 112.16907pt>
 File: figuras/single_bus.jpg Graphic file (type jpg)
+
 <use figuras/single_bus.jpg>
-Package pdftex.def Info: figuras/single_bus.jpg  used on input line 164. on inp
-ut line 164.
-Package pdftex.def Info: Requested size: 455.24408pt x 53.11826pt on input line
- 164.
+Package pdftex.def Info: figuras/single_bus.jpg used on input line 164.
+(pdftex.def)             Requested size: 455.24408pt x 53.11826pt.
  [31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-13}) has been already used, duplicate ignored
+14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.167 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
-name{table.3.1}) has been already used, duplicate ignored
+name{table.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.167 \end{figure}
                    <./figuras/curva_ldr.png>] [32pdfTeX warning (ext4): destina
-tion with the same identifier (name{figure.3.14}) has been already used, duplic
+tion with the same identifier (name{figure.3.15}) has been already used, duplic
 ate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.207 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
-.2}) has been already used, duplicate ignored
+.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.207 
        <./figuras/single_bus.jpg>]
-<figuras/humity_sensor.jpg, id=540, 602.25pt x 291.0875pt>
+<figuras/humity_sensor.jpg, id=386, 602.25pt x 291.0875pt>
 File: figuras/humity_sensor.jpg Graphic file (type jpg)
+
 <use figuras/humity_sensor.jpg>
-Package pdftex.def Info: figuras/humity_sensor.jpg  used on input line 210. on 
-input line 210.
-Package pdftex.def Info: Requested size: 341.43306pt x 165.03326pt on input lin
-e 210.
-<figuras/thermistor.jpg, id=541, 501.875pt x 255.95625pt>
+Package pdftex.def Info: figuras/humity_sensor.jpg used on input line 210.
+(pdftex.def)             Requested size: 341.43306pt x 165.03326pt.
+
+<figuras/thermistor.jpg, id=387, 501.875pt x 255.95625pt>
 File: figuras/thermistor.jpg Graphic file (type jpg)
+
 <use figuras/thermistor.jpg>
-Package pdftex.def Info: figuras/thermistor.jpg  used on input line 219. on inp
-ut line 219.
-Package pdftex.def Info: Requested size: 341.43306pt x 174.13776pt on input lin
-e 219.
+Package pdftex.def Info: figuras/thermistor.jpg used on input line 219.
+(pdftex.def)             Requested size: 341.43306pt x 174.13776pt.
  [33pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-15}) has been already used, duplicate ignored
+16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.227 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.16}) has been already used, duplicate ignored
+3.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.227 
        <./figuras/humity_sensor.jpg> <./figuras/thermistor.jpg>]
-<figuras/calculo_equilibrio.png, id=546, 210.03468pt x 116.68594pt>
+<figuras/calculo_equilibrio.png, id=392, 210.03468pt x 116.68594pt>
 File: figuras/calculo_equilibrio.png Graphic file (type png)
+
 <use figuras/calculo_equilibrio.png>
-Package pdftex.def Info: figuras/calculo_equilibrio.png  used on input line 247
-. on input line 247.
-Package pdftex.def Info: Requested size: 213.39566pt x 118.55336pt on input lin
-e 247.
+Package pdftex.def Info: figuras/calculo_equilibrio.png used on input line 247.
+
+(pdftex.def)             Requested size: 213.39566pt x 118.55336pt.
  [34]
-<figuras/valores_ph.png, id=551, 282.30469pt x 83.5622pt>
+<figuras/valores_ph.png, id=397, 282.30469pt x 83.5622pt>
 File: figuras/valores_ph.png Graphic file (type png)
+
 <use figuras/valores_ph.png>
-Package pdftex.def Info: figuras/valores_ph.png  used on input line 270. on inp
-ut line 270.
-Package pdftex.def Info: Requested size: 142.26378pt x 42.10994pt on input line
- 270.
+Package pdftex.def Info: figuras/valores_ph.png used on input line 270.
+(pdftex.def)             Requested size: 142.26378pt x 42.10994pt.
  [35pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-17}) has been already used, duplicate ignored
+18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.285 	\item C
               onsumo em funcionamento menor igual a 0,5WpdfTeX warning (ext4): 
-destination with the same identifier (name{figure.3.18}) has been already used,
+destination with the same identifier (name{figure.3.19}) has been already used,
  duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1827,57 +1806,57 @@ destination with the same identifier (name{figure.3.18}) has been already used,
 l.285 	\item C
               onsumo em funcionamento menor igual a 0,5W <./figuras/calculo_equ
 ilibrio.png (PNG copy)> <./figuras/valores_ph.png (PNG copy)>]
-<figuras/sensor_ph.png, id=558, 555.57562pt x 353.82187pt>
+<figuras/sensor_ph.png, id=403, 555.57562pt x 353.82187pt>
 File: figuras/sensor_ph.png Graphic file (type png)
+
 <use figuras/sensor_ph.png>
-Package pdftex.def Info: figuras/sensor_ph.png  used on input line 296. on inpu
-t line 296.
-Package pdftex.def Info: Requested size: 142.26378pt x 90.5986pt on input line 
-296.
-<figuras/amplificador.png, id=559, 270.25969pt x 179.92218pt>
+Package pdftex.def Info: figuras/sensor_ph.png used on input line 296.
+(pdftex.def)             Requested size: 142.26378pt x 90.5986pt.
+
+<figuras/amplificador.png, id=404, 270.25969pt x 179.92218pt>
 File: figuras/amplificador.png Graphic file (type png)
+
 <use figuras/amplificador.png>
-Package pdftex.def Info: figuras/amplificador.png  used on input line 303. on i
-nput line 303.
-Package pdftex.def Info: Requested size: 284.52756pt x 189.42627pt on input lin
-e 303.
-<figuras/parametros_medicoes.png, id=560, 405.76593pt x 150.5625pt>
+Package pdftex.def Info: figuras/amplificador.png used on input line 303.
+(pdftex.def)             Requested size: 284.52756pt x 189.42627pt.
+
+<figuras/parametros_medicoes.png, id=405, 405.76593pt x 150.5625pt>
 File: figuras/parametros_medicoes.png Graphic file (type png)
+
 <use figuras/parametros_medicoes.png>
-Package pdftex.def Info: figuras/parametros_medicoes.png  used on input line 31
-0. on input line 310.
-Package pdftex.def Info: Requested size: 426.79134pt x 158.36867pt on input lin
-e 310.
+Package pdftex.def Info: figuras/parametros_medicoes.png used on input line 310
+.
+(pdftex.def)             Requested size: 426.79134pt x 158.36867pt.
  [36pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-19}) has been already used, duplicate ignored
+20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.314 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.20}) has been already used, duplicate ignored
+3.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.314 
        <./figuras/sensor_ph.png (PNG copy)> <./figuras/amplificador.png (PNG co
 py)>] [37pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.3.21}) has been already used, duplicate ignored
+re.3.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.347 
        <./figuras/parametros_medicoes.png (PNG copy)>]
-<figuras/solucoes_especiais.png, id=572, 515.67656pt x 351.56343pt>
+<figuras/solucoes_especiais.png, id=414, 515.67656pt x 351.56343pt>
 File: figuras/solucoes_especiais.png Graphic file (type png)
+
 <use figuras/solucoes_especiais.png>
-Package pdftex.def Info: figuras/solucoes_especiais.png  used on input line 362
-. on input line 362.
-Package pdftex.def Info: Requested size: 455.24408pt x 310.37454pt on input lin
-e 362.
- [38]))
-(./editaveis/resultados.tex [39pdfTeX warning (ext4): destination with the same
- identifier (name{figure.3.22}) has been already used, duplicate ignored
+Package pdftex.def Info: figuras/solucoes_especiais.png used on input line 362.
+
+(pdftex.def)             Requested size: 455.24408pt x 310.37454pt.
+ [38])) (./editaveis/resultados.tex
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1914,275 +1893,26 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 15265 strings out of 492990
- 219143 string characters out of 6135006
- 344494 words of memory out of 5000000
- 18197 multiletter control sequences out of 15000+600000
- 64329 words of font info for 57 fonts, out of 8000000 for 9000
+ 15053 strings out of 493029
+ 215682 string characters out of 6136234
+ 344972 words of memory out of 5000000
+ 18059 multiletter control sequences out of 15000+600000
+ 59951 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,16n,38p,996b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsubsection.4.6.5.2} has been referenced but do
-es not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.5.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.6.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.4.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.4.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.4.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.6.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.3.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.3.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.3.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.6.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.2.4} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.2.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.2.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.6.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.1.4} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.1.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.1.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.6.1.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.6.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.3.0.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.16.1} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.16} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.15.4} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.15.3} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.15.2} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.15.1} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.15} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.14.2} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.14.1} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.14} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.13} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.4.2.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.4.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.4.1.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.4.1.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.4.1.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.2.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.2.1.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.2.1.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.1.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.12} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.11} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.10} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.7.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.6.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.6.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.6} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/t
-exmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx
-12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on index.pdf (45 pages, 3648421 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lm
+bx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmssbx10.pfb>
+Output written on index.pdf (45 pages, 3646654 bytes).
 PDF statistics:
- 876 PDF objects out of 1000 (max. 8388607)
- 761 compressed objects within 8 object streams
- 214 named destinations out of 1000 (max. 500000)
- 632 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 637 words of extra memory for PDF output out of 10000 (max. 10000000)
 

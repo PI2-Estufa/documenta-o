@@ -4,34 +4,34 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{9}{chapter.1}
-\contentsline {section}{\numberline {1.1}Contexto}{9}{section.1.1}
-\contentsline {section}{\numberline {1.2}Justificativa}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Escopo do projeto}{9}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Premissas}{9}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Restri\IeC {\c c}\IeC {\~o}es}{10}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Mapeamento do modelo 5W2H}{10}{subsection.1.3.3}
-\contentsline {subsubsection}{\numberline {1.3.3.1}What - O qu\IeC {\^e}?}{10}{subsubsection.1.3.3.1}
-\contentsline {subsubsection}{\numberline {1.3.3.2}Why - Por qu\IeC {\^e}?}{10}{subsubsection.1.3.3.2}
-\contentsline {subsubsection}{\numberline {1.3.3.3}Where - Onde?}{10}{subsubsection.1.3.3.3}
-\contentsline {subsubsection}{\numberline {1.3.3.4}Who - Quem?}{10}{subsubsection.1.3.3.4}
-\contentsline {subsubsection}{\numberline {1.3.3.5}How - Como?}{10}{subsubsection.1.3.3.5}
-\contentsline {subsubsection}{\numberline {1.3.3.6}How Much - Quanto?}{11}{subsubsection.1.3.3.6}
-\contentsline {section}{\numberline {1.4}Detalhamento do escopo}{11}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Projeto}{11}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Produto}{11}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Objetivos}{11}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Objetivo Geral}{11}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Objetivos Espec\IeC {\'\i }ficos}{12}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Metodologia de gerenciamento}{12}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}EAP}{14}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Plano de gerenciamento de tempo}{15}{subsection.1.6.2}
-\contentsline {subsubsection}{\numberline {1.6.2.1}Papeis e responsabilidades}{15}{subsubsection.1.6.2.1}
-\contentsline {subsubsection}{\numberline {1.6.2.2}Cronograma}{16}{subsubsection.1.6.2.2}
-\contentsline {subsection}{\numberline {1.6.3}Plano de gerenciamento de comunica\IeC {\c c}\IeC {\~a}o}{18}{subsection.1.6.3}
-\contentsline {subsubsection}{\numberline {1.6.3.1}Reuni\IeC {\~o}es presenciais}{18}{subsubsection.1.6.3.1}
-\contentsline {subsubsection}{\numberline {1.6.3.2}Ferramentas de comunica\IeC {\c c}\IeC {\~a}o}{18}{subsubsection.1.6.3.2}
-\contentsline {subsection}{\numberline {1.6.4}Plano de gerenciamento de riscos}{19}{subsection.1.6.4}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Contexto}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Justificativa}{7}{section.1.2}
+\contentsline {section}{\numberline {1.3}Escopo do projeto}{7}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Premissas}{7}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Restri\IeC {\c c}\IeC {\~o}es}{8}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Mapeamento do modelo 5W2H}{8}{subsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.3.1}What - O qu\IeC {\^e}?}{8}{subsubsection.1.3.3.1}
+\contentsline {subsubsection}{\numberline {1.3.3.2}Why - Por qu\IeC {\^e}?}{8}{subsubsection.1.3.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3.3}Where - Onde?}{8}{subsubsection.1.3.3.3}
+\contentsline {subsubsection}{\numberline {1.3.3.4}Who - Quem?}{8}{subsubsection.1.3.3.4}
+\contentsline {subsubsection}{\numberline {1.3.3.5}How - Como?}{8}{subsubsection.1.3.3.5}
+\contentsline {subsubsection}{\numberline {1.3.3.6}How Much - Quanto?}{9}{subsubsection.1.3.3.6}
+\contentsline {section}{\numberline {1.4}Detalhamento do escopo}{9}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Projeto}{9}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Produto}{9}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Objetivos}{9}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Objetivo Geral}{9}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Objetivos Espec\IeC {\'\i }ficos}{10}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Metodologia de gerenciamento}{10}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}EAP}{12}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Plano de gerenciamento de tempo}{13}{subsection.1.6.2}
+\contentsline {subsubsection}{\numberline {1.6.2.1}Papeis e responsabilidades}{13}{subsubsection.1.6.2.1}
+\contentsline {subsubsection}{\numberline {1.6.2.2}Cronograma}{14}{subsubsection.1.6.2.2}
+\contentsline {subsection}{\numberline {1.6.3}Plano de gerenciamento de comunica\IeC {\c c}\IeC {\~a}o}{16}{subsection.1.6.3}
+\contentsline {subsubsection}{\numberline {1.6.3.1}Reuni\IeC {\~o}es presenciais}{16}{subsubsection.1.6.3.1}
+\contentsline {subsubsection}{\numberline {1.6.3.2}Ferramentas de comunica\IeC {\c c}\IeC {\~a}o}{16}{subsubsection.1.6.3.2}
+\contentsline {subsection}{\numberline {1.6.4}Plano de gerenciamento de riscos}{17}{subsection.1.6.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{21}{chapter.2}
 \contentsline {section}{\numberline {2.1}Sistemas Embarcados}{21}{section.2.1}

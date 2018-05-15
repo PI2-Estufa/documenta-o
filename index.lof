@@ -1,23 +1,24 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces EAP - estrutura anal\IeC {\'\i }tica do projeto}}{14}{figure.1.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Cronograma do projeto}}{16}{figure.1.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Cronograma do projeto}}{17}{figure.1.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Cronograma do projeto}}{18}{figure.1.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Rel\IeC {\'e} Internamente}}{23}{figure.2.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Circuito Sample \& Hold simplificado}}{24}{figure.2.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Sa\IeC {\'\i }da de um circuito Sample \& Hold quando estimulada por um sinal cont\IeC {\'\i }nuo}}{24}{figure.2.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Disposi\IeC {\c c}\IeC {\~a}o das B\IeC {\'o}ias no Reservat\IeC {\'o}rio}}{26}{figure.3.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Funcionamento do optoacoplador}}{27}{figure.3.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Funcionamento do optoacoplador}}{28}{figure.3.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces M\IeC {\'o}dulo Rel\IeC {\'e} de 8 canais}}{29}{figure.3.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces M\IeC {\'o}dulo Rel\IeC {\'e} de 8 canais}}{30}{figure.3.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Curva caracter\IeC {\'\i }stica de resposta do LDR}}{31}{figure.3.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Protocolo de comunica\IeC {\c c}\IeC {\~a}o}}{32}{figure.3.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Esquema com eletrodos e o substrato de reten\IeC {\c c}\IeC {\~a}o de umidade}}{33}{figure.3.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o entre temperatura e a resist\IeC {\^e}ncia do termistor}}{33}{figure.3.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Equa\IeC {\c c}\IeC {\~o}es matem\IeC {\'a}ticas do pH}}{35}{figure.3.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Valores de medidas estabelecidas pelo fornecedor de pH e DDP}}{35}{figure.3.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Sensor de pH}}{36}{figure.3.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Amplificador de sinal conex\IeC {\~a}o BNC}}{36}{figure.3.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Par\IeC {\^a}metros de medi\IeC {\c c}\IeC {\~o}es de acordo com o tipo de sonda}}{37}{figure.3.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Solu\IeC {\c c}\IeC {\~o}es especiais}}{39}{figure.3.22}
+\contentsline {figure}{\numberline {1}{\ignorespaces EAP - estrutura anal\IeC {\'\i }tica do projeto}}{12}{figure.1.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Cronograma do projeto}}{14}{figure.1.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Cronograma do projeto}}{15}{figure.1.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Cronograma do projeto}}{16}{figure.1.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Riscos}}{17}{figure.1.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Rel\IeC {\'e} Internamente}}{23}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Circuito Sample \& Hold simplificado}}{24}{figure.2.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Sa\IeC {\'\i }da de um circuito Sample \& Hold quando estimulada por um sinal cont\IeC {\'\i }nuo}}{24}{figure.2.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Disposi\IeC {\c c}\IeC {\~a}o das B\IeC {\'o}ias no Reservat\IeC {\'o}rio}}{26}{figure.3.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Funcionamento do optoacoplador}}{27}{figure.3.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Funcionamento do optoacoplador}}{28}{figure.3.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces M\IeC {\'o}dulo Rel\IeC {\'e} de 8 canais}}{29}{figure.3.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces M\IeC {\'o}dulo Rel\IeC {\'e} de 8 canais}}{30}{figure.3.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Curva caracter\IeC {\'\i }stica de resposta do LDR}}{31}{figure.3.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Protocolo de comunica\IeC {\c c}\IeC {\~a}o}}{32}{figure.3.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Esquema com eletrodos e o substrato de reten\IeC {\c c}\IeC {\~a}o de umidade}}{33}{figure.3.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o entre temperatura e a resist\IeC {\^e}ncia do termistor}}{33}{figure.3.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Equa\IeC {\c c}\IeC {\~o}es matem\IeC {\'a}ticas do pH}}{35}{figure.3.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Valores de medidas estabelecidas pelo fornecedor de pH e DDP}}{35}{figure.3.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Sensor de pH}}{36}{figure.3.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Amplificador de sinal conex\IeC {\~a}o BNC}}{36}{figure.3.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Par\IeC {\^a}metros de medi\IeC {\c c}\IeC {\~o}es de acordo com o tipo de sonda}}{37}{figure.3.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Solu\IeC {\c c}\IeC {\~o}es especiais}}{39}{figure.3.23}
