@@ -217,7 +217,7 @@ Durante a execução do projeto, serão utilizadas ferramentas de comunicação 
 
 \subsection{Plano de gerenciamento de riscos}
 
-Espaço reservado para Plano de gerenciamento de riscos.
+A probabilidade de ocorrência de um risco ou oportunidade é classificada em baixa, média e alta. De forma similar, o impacto de um risco ou oportunidade também é classificado como baixo, médio ou alto. Por fim, a prioridade de um risco ou oportunidade é uma relação entre sua probabilidade e seu impacto, e varia de 1 (baixa prioridade) a 3 (alta prioridade).
 
 \section{Requisitos estruturais}
 
@@ -304,3 +304,75 @@ Definido em escopo, toda equipe preferiu trabalhar com uma estufa voltada para a
 
 Por se tratar de um protótipo e não de um produto final propriamente dito, e também por ser financiado pelos próprios alunos as dimensões foram reduzidas ao extremo para que comportasse nas finanças pessoais da equipe.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4cm]{figuras/riscos.png}
+	\caption{Riscos} 
+	\label{Risco}
+\end{figure}
+
+\begin{table}[]	
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		ID & Descrição do Risco & Probabilidade & Impacto & Prioridade \\ \hline
+		1 & Mal funcionamento de sensores. & Baixa & Alto & 2 \\ \hline
+		2 & Saída de um membro da equipe. & Alta & Médio & 3 \\ \hline
+		3 & Demora na entrega de equipamentos adquiridos. & Média & Médio & 2 \\ \hline
+		4 & Indisponibilidade dos membros do grupo. & Média & Médio & 2	 \\ \hline
+		5 & Falha ou impossibilidade de comunicação entre hardware e software. & Baixa & Alto & 2 \\ \hline
+		6 & Falta de verba para aquisição de equipamentos e material. & Média & Alto & 3 \\ \hline
+		7 & Desinformação na equipe do projeto. & Média & Baixo & 1 \\ \hline
+		8 & Aquisição de investimento para o projeto. & Baixa & Alto & 2 \\ \hline
+			9 & Documentação inconsistente. & Média & Médio & 2 \\ \hline
+			10 & Possíveis acidentes. & Baixa & Alto & 3 \\ \hline
+	\end{tabular}%
+}
+	\caption{Tabela responsável por realizar o mapeamento da descrição de cada risco e seus impactos, probabilidades e prioridades.}
+	\label{Riscos}
+\end{table}
+
+\begin{itemize}
+	\item 1 - Mal funcionamento de sensores \\
+	Possíveis consequências: prejuízo financeiro, atraso em determinada etapa de fabricação do produto; leitura errônea de medições. \\
+	Ação: mitigar. Realizar pesquisa de mercado e adquirir sensores de marcas cuja qualidade é reconhecida; utilizar os sensores seguindo seus manuais ou guias de uso; realizar debug dos sensores.
+	
+	\item 2 - Saída de um membro da equipe \\
+	Possíveis consequências: excesso  de trabalho sobre demais membros da equipe; atraso em determinadas etapas de fabricação do produto; aumento de despesas individuais. \\
+	Ação: aceitar. A realocação de trabalho será pensada de acordo com o subsistema ao qual pertencia o membro sainte.
+	
+	\item 3 - Demora na entrega de equipamentos adquiridos \\
+	Possíveis consequências:  atraso em determinada etapa de fabricação do produto. \\
+	Ação: mitigar. Realizar pesquisa de mercado sobre a loja virtual na qual se planeja comprar; optar por tipo de envio mais rápido disponível, conforme necessidade; realizar pedidos tão logo se perceba a necessidade de determinado equipamento, mesmo que ainda se demore a utilizá-lo, e pesquisar em lojas próximas.
+	
+	\item 4 - Indisponibilidade de um membro do grupo \\
+	Possíveis consequências: excesso de trabalho sobre os demais membros do grupo; atraso em determinadas etapas de fabricação do produto. \\
+	Ação: mitigar. Sempre que possível, avisar com antecedência o período de indisponibilidade. Em caso de ausências prolongadas, exigir justificativa plausível, médica ou judicial.
+	
+	\item 5 - Falha ou impossibilidade de comunicação entre hardware e software \\
+	Possíveis consequências: atraso em determinadas etapas de fabricação do produto. \\
+	Ação: evitar. Adquirir equipamentos cuja compatibilidade com o software utilizado seja reconhecida. Garantir funcionamento de tecnologia Wi-Fi, Bluetooth ou outra tecnologia necessária.
+	
+	\item 6 - Falta de verba para aquisição de equipamentos e material \\ 
+	Possíveis consequências: atraso em determinadas etapas de fabricação do produto; redução de escopo do produto. \\
+	Ação: evitar. Gerenciar e monitorar custos do projeto ao longo de todo o seu ciclo de vida.
+	
+	\item 7 - Desinformação na equipe do projeto \\
+	Possíveis consequências: atraso em determinadas etapas de fabricação do produto; retrabalho; gastos desnecessários. \\
+	Ação: mitigar. Realizar reuniões informativas diárias. Documentar decisões e alterações em qualquer área de gerenciamento.
+	
+	\item 8 - Aquisição de investimento para o projeto \\
+	Possíveis consequências: aumento de verba; possibilidade de comercialização tão logo ocorra a finalização do projeto. \\
+	Ação: explorar. Realizar pesquisa de mercado, levantando possíveis áreas e entidades com potencial interesse no produto. Elaborar apresentação formal do produto.
+	
+	\item 9 - Documentação inconsistente \\
+	Possíveis consequências: falha na comunicação entre membros da equipe; atraso em determinadas etapas da fabricação do produto; prejuízo financeiro; desentendimento por parte de terceiros em relação ao projeto. \\
+	Ação: evitar. Validar todos os documentos escritos. Realizar controle e gerenciamento relativo a alterações.
+	
+	\item 10 - Possíveis acidentes \\
+	Possíveis consequências: perda de um membro por um tempo determinado; perdas no orçamento; atraso na criação da estrutura. \\
+	Ação: evitar. Utilizar os EPIs e EPCs necessários de acordo com as normas da ABNT; em casos de possíveis acidentes, trabalhar com a supervisão de um profissional.
+	
+	
+\end{itemize}
