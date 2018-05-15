@@ -41,28 +41,30 @@
 \contentsline {section}{\numberline {2.5}Conversor Anal\IeC {\'o}gico/Digital}{23}{section.2.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Solu\IeC {\c c}\IeC {\~a}o Proposta}}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Sistema embarcado}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Medi\IeC {\c c}\IeC {\~a}o do N\IeC {\'\i }vel da \IeC {\'A}gua}{26}{section.3.2}
-\contentsline {section}{\numberline {3.3}Optoacoplador 4N25}{27}{section.3.3}
-\contentsline {section}{\numberline {3.4}Rel\IeC {\'e}}{28}{section.3.4}
-\contentsline {section}{\numberline {3.5}Conversor anal\IeC {\'o}gico para digital}{29}{section.3.5}
-\contentsline {section}{\numberline {3.6}Sensor LDR}{30}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Caracter\IeC {\'\i }sticas el\IeC {\'e}tricas}{30}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Princ\IeC {\'\i }pios f\IeC {\'\i }sicos de funcionamento}{30}{subsection.3.6.2}
-\contentsline {section}{\numberline {3.7}Sensores DHT22}{31}{section.3.7}
-\contentsline {section}{\numberline {3.8}Comunica\IeC {\c c}\IeC {\~a}o}{32}{section.3.8}
-\contentsline {section}{\numberline {3.9}Princ\IeC {\'\i }pio F\IeC {\'\i }sico do Sensor}{33}{section.3.9}
-\contentsline {section}{\numberline {3.10}Motor DC 12V}{33}{section.3.10}
-\contentsline {subsection}{\numberline {3.10.1}Comunica\IeC {\c c}\IeC {\~a}o}{34}{subsection.3.10.1}
-\contentsline {subsection}{\numberline {3.10.2}Princ\IeC {\'\i }pio f\IeC {\'\i }sico de funcionamento}{34}{subsection.3.10.2}
-\contentsline {section}{\numberline {3.11}Sonda de pH}{34}{section.3.11}
-\contentsline {subsection}{\numberline {3.11.1}Especifica\IeC {\c c}\IeC {\~o}es gerais}{35}{subsection.3.11.1}
-\contentsline {subsection}{\numberline {3.11.2}Documenta\IeC {\c c}\IeC {\~a}o}{36}{subsection.3.11.2}
-\contentsline {subsection}{\numberline {3.11.3}Esquema de liga\IeC {\c c}\IeC {\~a}o}{37}{subsection.3.11.3}
-\contentsline {subsection}{\numberline {3.11.4}Informa\IeC {\c c}\IeC {\~o}es de limpeza e manuten\IeC {\c c}\IeC {\~a}o das sondas de pH}{37}{subsection.3.11.4}
-\contentsline {section}{\numberline {3.12}Sensor de Temperatura para liqu\IeC {\'\i }dos}{38}{section.3.12}
+\contentsline {section}{\numberline {3.1}Ponte H}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Confec\IeC {\c c}\IeC {\~a}o Ponte H}{27}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Sistema embarcado}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}Medi\IeC {\c c}\IeC {\~a}o do N\IeC {\'\i }vel da \IeC {\'A}gua}{29}{section.3.3}
+\contentsline {section}{\numberline {3.4}Optoacoplador 4N25}{30}{section.3.4}
+\contentsline {section}{\numberline {3.5}Rel\IeC {\'e}}{31}{section.3.5}
+\contentsline {section}{\numberline {3.6}Conversor anal\IeC {\'o}gico para digital}{32}{section.3.6}
+\contentsline {section}{\numberline {3.7}Sensor LDR}{33}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Caracter\IeC {\'\i }sticas el\IeC {\'e}tricas}{33}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Princ\IeC {\'\i }pios f\IeC {\'\i }sicos de funcionamento}{33}{subsection.3.7.2}
+\contentsline {section}{\numberline {3.8}Sensores DHT22}{34}{section.3.8}
+\contentsline {section}{\numberline {3.9}Comunica\IeC {\c c}\IeC {\~a}o}{35}{section.3.9}
+\contentsline {section}{\numberline {3.10}Princ\IeC {\'\i }pio F\IeC {\'\i }sico do Sensor}{36}{section.3.10}
+\contentsline {section}{\numberline {3.11}Motor DC 12V}{36}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Comunica\IeC {\c c}\IeC {\~a}o}{37}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Princ\IeC {\'\i }pio f\IeC {\'\i }sico de funcionamento}{37}{subsection.3.11.2}
+\contentsline {section}{\numberline {3.12}Sonda de pH}{37}{section.3.12}
 \contentsline {subsection}{\numberline {3.12.1}Especifica\IeC {\c c}\IeC {\~o}es gerais}{38}{subsection.3.12.1}
+\contentsline {subsection}{\numberline {3.12.2}Documenta\IeC {\c c}\IeC {\~a}o}{39}{subsection.3.12.2}
+\contentsline {subsection}{\numberline {3.12.3}Esquema de liga\IeC {\c c}\IeC {\~a}o}{40}{subsection.3.12.3}
+\contentsline {subsection}{\numberline {3.12.4}Informa\IeC {\c c}\IeC {\~o}es de limpeza e manuten\IeC {\c c}\IeC {\~a}o das sondas de pH}{40}{subsection.3.12.4}
+\contentsline {section}{\numberline {3.13}Sensor de Temperatura para liqu\IeC {\'\i }dos}{41}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Especifica\IeC {\c c}\IeC {\~o}es gerais}{41}{subsection.3.13.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{41}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{43}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Or\IeC {\c c}amento do Projeto}}{43}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Or\IeC {\c c}amento do Projeto}}{45}{chapter.5}
