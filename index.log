@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  15 MAY 2018 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.8)  15 MAY 2018 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1532,22 +1532,21 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 ... Ponte H confeccionada.}}{47}{figure.3.28}
+l.28 ...nto do usu\IeC {\'a}rio}}{51}{figure.3.27}
                                                    [2]) [3] [4
 
 ] (./index.lot)
 [5] [6
 
-]) (./fixos/indiceAutomatico.tex (./index.toc [7] [8]) [9] [10
-
-])
+]) (./fixos/indiceAutomatico.tex (./index.toc [7] [8] [9]) [10])
 (./editaveis/introducao.tex [11
+
 
 ] [12] [13] [14]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figuras/eap.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<figuras/eap.pdf, id=389, pagebox=cropbox, 597.23125pt x 845.1575pt>
+<figuras/eap.pdf, id=471, pagebox=cropbox, 597.23125pt x 845.1575pt>
 File: figuras/eap.pdf Graphic file (type pdf)
 <use figuras/eap.pdf>
 Package pdftex.def Info: figuras/eap.pdf  used on input line 163. on input line
@@ -1561,7 +1560,7 @@ e.1.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.170 
        <./figuras/eap.pdf>]
-<figuras/cronograma_1.png, id=425, 1217.54875pt x 1157.32375pt>
+<figuras/cronograma_1.png, id=507, 1217.54875pt x 1157.32375pt>
 File: figuras/cronograma_1.png Graphic file (type png)
 <use figuras/cronograma_1.png>
 Package pdftex.def Info: figuras/cronograma_1.png  used on input line 179. on i
@@ -1569,7 +1568,7 @@ nput line 179.
 Package pdftex.def Info: Requested size: 455.24408pt x 432.72386pt on input lin
 e 179.
  [17]
-<figuras/cronograma_2.png, id=431, 1145.27875pt x 888.31876pt>
+<figuras/cronograma_2.png, id=513, 1145.27875pt x 888.31876pt>
 File: figuras/cronograma_2.png Graphic file (type png)
 <use figuras/cronograma_2.png>
 Package pdftex.def Info: figuras/cronograma_2.png  used on input line 185. on i
@@ -1583,7 +1582,7 @@ e 185.
                                                   \fi \fi 
 l.188 
        <./figuras/cronograma_1.png>]
-<figuras/cronograma_3.png, id=436, 1281.78876pt x 857.2025pt>
+<figuras/cronograma_3.png, id=518, 1281.78876pt x 857.2025pt>
 File: figuras/cronograma_3.png Graphic file (type png)
 <use figuras/cronograma_3.png>
 Package pdftex.def Info: figuras/cronograma_3.png  used on input line 191. on i
@@ -1604,7 +1603,7 @@ d
                                                   \fi \fi 
 l.209 
        <./figuras/cronograma_3.png>]
-<figuras/riscos.png, id=445, 198.7425pt x 194.7275pt>
+<figuras/riscos.png, id=528, 198.7425pt x 194.7275pt>
 File: figuras/riscos.png Graphic file (type png)
 <use figuras/riscos.png>
 Package pdftex.def Info: figuras/riscos.png  used on input line 224. on input l
@@ -1630,7 +1629,7 @@ uplicate ignored
                                                   \fi \fi 
 l.271 
       ] [23] [24]
-<figuras/cronograma_estrutura.png, id=463, 1356.06625pt x 675.52374pt>
+<figuras/cronograma_estrutura.png, id=546, 1356.06625pt x 675.52374pt>
 File: figuras/cronograma_estrutura.png Graphic file (type png)
 <use figuras/cronograma_estrutura.png>
 Package pdftex.def Info: figuras/cronograma_estrutura.png  used on input line 3
@@ -1642,7 +1641,7 @@ Overfull \hbox (28.69684pt too wide) in paragraph at lines 335--336
  [][] 
  []
 
-<figuras/fase_2.png, id=464, 973.6375pt x 469.755pt>
+<figuras/fase_2.png, id=547, 973.6375pt x 469.755pt>
 File: figuras/fase_2.png Graphic file (type png)
 <use figuras/fase_2.png>
 Package pdftex.def Info: figuras/fase_2.png  used on input line 341. on input l
@@ -1661,7 +1660,7 @@ Overfull \hbox (28.69684pt too wide) in paragraph at lines 341--342
                                                   \fi \fi 
 l.345 
        <./figuras/cronograma_estrutura.png (PNG copy)>]
-<figuras/fase_3.png, id=470, 831.105pt x 1156.32pt>
+<figuras/fase_3.png, id=553, 831.105pt x 1156.32pt>
 File: figuras/fase_3.png Graphic file (type png)
 <use figuras/fase_3.png>
 Package pdftex.def Info: figuras/fase_3.png  used on input line 354. on input l
@@ -1690,7 +1689,7 @@ Overfull \vbox (10.7931pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.358 
        <./figuras/fase_3.png>]
-<figuras/fase_4.png, id=482, 1002.74625pt x 459.7175pt>
+<figuras/fase_4.png, id=564, 1002.74625pt x 459.7175pt>
 File: figuras/fase_4.png Graphic file (type png)
 <use figuras/fase_4.png>
 Package pdftex.def Info: figuras/fase_4.png  used on input line 371. on input l
@@ -1712,7 +1711,7 @@ l.1 \chapter
 ] (./editaveis/fundamentacao_eletronica.tex [29
 
 ]
-<figuras/rele.png, id=493, 322.20375pt x 249.93375pt>
+<figuras/rele.png, id=575, 322.20375pt x 249.93375pt>
 File: figuras/rele.png Graphic file (type png)
 <use figuras/rele.png>
 Package pdftex.def Info: figuras/rele.png  used on input line 37. on input line
@@ -1726,14 +1725,14 @@ re.2.10}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.51 
       <./figuras/rele.png>]
-<figuras/circuito_sample.jpg, id=502, 481.8pt x 301.125pt>
+<figuras/circuito_sample.jpg, id=584, 481.8pt x 301.125pt>
 File: figuras/circuito_sample.jpg Graphic file (type jpg)
 <use figuras/circuito_sample.jpg>
 Package pdftex.def Info: figuras/circuito_sample.jpg  used on input line 54. on
  input line 54.
 Package pdftex.def Info: Requested size: 256.0748pt x 160.05037pt on input line
  54.
-<figuras/saida_sample.png, id=503, 698.61pt x 417.56pt>
+<figuras/saida_sample.png, id=585, 698.61pt x 417.56pt>
 File: figuras/saida_sample.png Graphic file (type png)
 <use figuras/saida_sample.png>
 Package pdftex.def Info: figuras/saida_sample.png  used on input line 60. on in
@@ -1741,167 +1740,191 @@ put line 60.
 Package pdftex.def Info: Requested size: 256.0748pt x 153.05482pt on input line
  60.
 ) (./editaveis/fundamentacao_energia.tex)
-(./editaveis/fundamentacao_software.tex)
-(./editaveis/fundamentacao_estrutura.tex [32pdfTeX warning (ext4): destination 
-with the same identifier (name{figure.2.11}) has been already used, duplicate i
-gnored
+(./editaveis/fundamentacao_software.tex [32pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.2.11}) has been already used, duplicate ig
+nored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.10 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-.12}) has been already used, duplicate ignored
+l.8 
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.10 
-      <./figuras/circuito_sample.jpg> <./figuras/saida_sample.png (PNG copy)>]
+l.8 
+     <./figuras/circuito_sample.jpg> <./figuras/saida_sample.png (PNG copy)>]
+<figuras/microsservicos.png, id=590, 1027.84pt x 770.88pt>
+File: figuras/microsservicos.png Graphic file (type png)
+<use figuras/microsservicos.png>
+Package pdftex.def Info: figuras/microsservicos.png  used on input line 21. on 
+input line 21.
+Package pdftex.def Info: Requested size: 426.79134pt x 320.09744pt on input lin
+e 21.
+
 [33]
-<figuras/tabela_frequencia.png, id=517, 812.03375pt x 507.39563pt>
+Overfull \hbox (36.80347pt too wide) in paragraph at lines 30--39
+ [][] 
+ []
+
+) (./editaveis/fundamentacao_estrutura.tex [34pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.2.13}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \section
+            {Estrutura}pdfTeX warning (ext4): destination with the same identif
+ier (name{table.2.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \section
+            {Estrutura} <./figuras/microsservicos.png>] [35]
+<figuras/tabela_frequencia.png, id=605, 812.03375pt x 507.39563pt>
 File: figuras/tabela_frequencia.png Graphic file (type png)
 <use figuras/tabela_frequencia.png>
 Package pdftex.def Info: figuras/tabela_frequencia.png  used on input line 52. 
 on input line 52.
 Package pdftex.def Info: Requested size: 284.52756pt x 177.78468pt on input lin
 e 52.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-13}) has been already used, duplicate ignored
+ [36] [37pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.58 
+l.67 
       <./figuras/tabela_frequencia.png>]
-<figuras/catia_1.jpg, id=523, 651.18282pt x 619.56468pt>
+<figuras/catia_1.jpg, id=621, 651.18282pt x 619.56468pt>
 File: figuras/catia_1.jpg Graphic file (type jpg)
 <use figuras/catia_1.jpg>
 Package pdftex.def Info: figuras/catia_1.jpg  used on input line 72. on input l
 ine 72.
 Package pdftex.def Info: Requested size: 284.52756pt x 270.71854pt on input lin
 e 72.
- [35]
-<figuras/catia_2.jpg, id=529, 454.69875pt x 551.81157pt>
+<figuras/catia_2.jpg, id=622, 454.69875pt x 551.81157pt>
 File: figuras/catia_2.jpg Graphic file (type jpg)
 <use figuras/catia_2.jpg>
 Package pdftex.def Info: figuras/catia_2.jpg  used on input line 79. on input l
 ine 79.
 Package pdftex.def Info: Requested size: 256.0748pt x 310.77214pt on input line
  79.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-14}) has been already used, duplicate ignored
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.83 
       <./figuras/catia_1.jpg>]
-<figuras/catia_3.jpg, id=534, 548.0475pt x 572.89032pt>
+<figuras/catia_3.jpg, id=627, 548.0475pt x 572.89032pt>
 File: figuras/catia_3.jpg Graphic file (type jpg)
 <use figuras/catia_3.jpg>
 Package pdftex.def Info: figuras/catia_3.jpg  used on input line 86. on input l
 ine 86.
 Package pdftex.def Info: Requested size: 256.0748pt x 267.685pt on input line 8
 6.
-<figuras/catia_4.jpg, id=535, 548.0475pt x 560.0925pt>
+<figuras/catia_4.jpg, id=628, 548.0475pt x 560.0925pt>
 File: figuras/catia_4.jpg Graphic file (type jpg)
 <use figuras/catia_4.jpg>
 Package pdftex.def Info: figuras/catia_4.jpg  used on input line 93. on input l
 ine 93.
 Package pdftex.def Info: Requested size: 256.0748pt x 261.70517pt on input line
  93.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-15}) has been already used, duplicate ignored
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.97 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-.16}) has been already used, duplicate ignored
+.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.97 
       <./figuras/catia_2.jpg> <./figuras/catia_3.jpg>]
-<figuras/catia_5.jpg, id=540, 670.00313pt x 613.54219pt>
+<figuras/catia_5.jpg, id=633, 670.00313pt x 613.54219pt>
 File: figuras/catia_5.jpg Graphic file (type jpg)
 <use figuras/catia_5.jpg>
 Package pdftex.def Info: figuras/catia_5.jpg  used on input line 100. on input 
 line 100.
 Package pdftex.def Info: Requested size: 256.0748pt x 234.4872pt on input line 
 100.
-<figuras/catia_6.jpg, id=541, 669.2503pt x 616.55344pt>
+<figuras/catia_6.jpg, id=634, 669.2503pt x 616.55344pt>
 File: figuras/catia_6.jpg Graphic file (type jpg)
 <use figuras/catia_6.jpg>
 Package pdftex.def Info: figuras/catia_6.jpg  used on input line 107. on input 
 line 107.
 Package pdftex.def Info: Requested size: 256.0748pt x 235.92029pt on input line
  107.
- [38pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-17}) has been already used, duplicate ignored
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.111 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.18}) has been already used, duplicate ignored
+2.19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.111 
        <./figuras/catia_4.jpg> <./figuras/catia_5.jpg>]
-<figuras/catia_7.jpg, id=546, 669.2503pt x 616.55344pt>
+<figuras/catia_7.jpg, id=639, 669.2503pt x 616.55344pt>
 File: figuras/catia_7.jpg Graphic file (type jpg)
 <use figuras/catia_7.jpg>
 Package pdftex.def Info: figuras/catia_7.jpg  used on input line 114. on input 
 line 114.
 Package pdftex.def Info: Requested size: 256.0748pt x 235.92029pt on input line
  114.
-<figuras/catia_8.jpg, id=547, 560.8453pt x 493.0922pt>
+<figuras/catia_8.jpg, id=640, 560.8453pt x 493.0922pt>
 File: figuras/catia_8.jpg Graphic file (type jpg)
 <use figuras/catia_8.jpg>
 Package pdftex.def Info: figuras/catia_8.jpg  used on input line 121. on input 
 line 121.
 Package pdftex.def Info: Requested size: 256.0748pt x 225.13226pt on input line
  121.
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-19}) has been already used, duplicate ignored
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.125 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.20}) has been already used, duplicate ignored
+2.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.125 
        <./figuras/catia_6.jpg> <./figuras/catia_7.jpg>]
-<figuras/catia_9.png, id=552, 2436.9444pt x 2593.0476pt>
+<figuras/catia_9.png, id=646, 2436.9444pt x 2593.0476pt>
 File: figuras/catia_9.png Graphic file (type png)
 <use figuras/catia_9.png>
 Package pdftex.def Info: figuras/catia_9.png  used on input line 128. on input 
 line 128.
 Package pdftex.def Info: Requested size: 256.0748pt x 272.45609pt on input line
  128.
-<figuras/catia_10.png, id=553, 3275.2764pt x 2593.0476pt>
+<figuras/catia_10.png, id=647, 3275.2764pt x 2593.0476pt>
 File: figuras/catia_10.png Graphic file (type png)
 <use figuras/catia_10.png>
 Package pdftex.def Info: figuras/catia_10.png  used on input line 135. on input
  line 135.
 Package pdftex.def Info: Requested size: 256.0748pt x 202.70004pt on input line
  135.
- [40pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-21}) has been already used, duplicate ignored
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.139 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.22}) has been already used, duplicate ignored
+2.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.139 
        <./figuras/catia_8.jpg> <./figuras/catia_9.png>]
-<figuras/catia_11.png, id=559, 1789.4052pt x 2561.2488pt>
+<figuras/catia_11.png, id=653, 1789.4052pt x 2561.2488pt>
 File: figuras/catia_11.png Graphic file (type png)
 <use figuras/catia_11.png>
 Package pdftex.def Info: figuras/catia_11.png  used on input line 142. on input
@@ -1909,137 +1932,342 @@ Package pdftex.def Info: figuras/catia_11.png  used on input line 142. on input
 Package pdftex.def Info: Requested size: 256.0748pt x 366.50592pt on input line
  142.
 ))
-(./editaveis/solucao.tex [41pdfTeX warning (ext4): destination with the same id
-entifier (name{figure.2.23}) has been already used, duplicate ignored
+(./editaveis/solucao.tex [43pdfTeX warning (ext4): destination with the same id
+entifier (name{figure.2.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             [Solução Proposta]{Solução Proposta}pdfTeX warning (ext4): dest
-ination with the same identifier (name{figure.2.24}) has been already used, dup
+ination with the same identifier (name{figure.2.25}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             [Solução Proposta]{Solução Proposta} <./figuras/catia_10.png> <
-./figuras/catia_11.png>] [42
+./figuras/catia_11.png>] [44
 
-] (./editaveis/solucao_software.tex)
-(./editaveis/solucao_energia.tex
-<figuras/ponteH.png, id=571, 459.7175pt x 284.06125pt>
+] (./editaveis/solucao_software.tex [45] [46]
+[47] [48] [49]
+<figuras/microservico_temperatura.png, id=685, 1034.86626pt x 529.98pt>
+File: figuras/microservico_temperatura.png Graphic file (type png)
+<use figuras/microservico_temperatura.png>
+Package pdftex.def Info: figuras/microservico_temperatura.png  used on input li
+ne 272. on input line 272.
+Package pdftex.def Info: Requested size: 483.69684pt x 247.71587pt on input lin
+e 272.
+
+Overfull \hbox (28.69684pt too wide) in paragraph at lines 272--273
+ [][] 
+ []
+
+[50]
+<figuras/microservico_usuario.png, id=690, 954.56625pt x 433.62pt>
+File: figuras/microservico_usuario.png Graphic file (type png)
+<use figuras/microservico_usuario.png>
+Package pdftex.def Info: figuras/microservico_usuario.png  used on input line 2
+82. on input line 282.
+Package pdftex.def Info: Requested size: 483.69684pt x 219.72072pt on input lin
+e 282.
+
+Overfull \hbox (28.69684pt too wide) in paragraph at lines 282--283
+ [][] 
+ []
+
+[51pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.291 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.291 
+       <./figuras/microservico_temperatura.png> <./figuras/microservico_usuario
+.png>]
+<figuras/ajuste_manual.png, id=697, 1832.8475pt x 693.59125pt>
+File: figuras/ajuste_manual.png Graphic file (type png)
+<use figuras/ajuste_manual.png>
+Package pdftex.def Info: figuras/ajuste_manual.png  used on input line 300. on 
+input line 300.
+Package pdftex.def Info: Requested size: 796.67715pt x 301.47693pt on input lin
+e 300.
+
+Overfull \hbox (341.67715pt too wide) in paragraph at lines 300--301
+ [][] 
+ []
+
+<figuras/ajuste_automatico.png, id=698, 1206.5075pt x 588.1975pt>
+File: figuras/ajuste_automatico.png Graphic file (type png)
+<use figuras/ajuste_automatico.png>
+Package pdftex.def Info: figuras/ajuste_automatico.png  used on input line 310.
+ on input line 310.
+Package pdftex.def Info: Requested size: 455.24408pt x 221.93774pt on input lin
+e 310.
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.313 
+       <./figuras/ajuste_manual.png>]
+<figuras/crud_hortalicas.png, id=704, 894.34125pt x 653.44125pt>
+File: figuras/crud_hortalicas.png Graphic file (type png)
+<use figuras/crud_hortalicas.png>
+Package pdftex.def Info: figuras/crud_hortalicas.png  used on input line 320. o
+n input line 320.
+Package pdftex.def Info: Requested size: 512.1496pt x 374.20029pt on input line
+ 320.
+
+Overfull \hbox (57.1496pt too wide) in paragraph at lines 320--321
+ [][] 
+ []
+
+[53pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.323 
+       <./figuras/ajuste_automatico.png>]
+<figuras/ajuste_iluminacao.png, id=711, 1228.59pt x 593.21625pt>
+File: figuras/ajuste_iluminacao.png Graphic file (type png)
+<use figuras/ajuste_iluminacao.png>
+Package pdftex.def Info: figuras/ajuste_iluminacao.png  used on input line 330.
+ on input line 330.
+Package pdftex.def Info: Requested size: 455.24408pt x 219.81244pt on input lin
+e 330.
+ [54pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+30}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.333 
+       <./figuras/crud_hortalicas.png>]
+<figuras/edicao_usuario.png, id=717, 884.30376pt x 653.44125pt>
+File: figuras/edicao_usuario.png Graphic file (type png)
+<use figuras/edicao_usuario.png>
+Package pdftex.def Info: figuras/edicao_usuario.png  used on input line 340. on
+ input line 340.
+Package pdftex.def Info: Requested size: 512.1496pt x 378.45776pt on input line
+ 340.
+
+Overfull \hbox (57.1496pt too wide) in paragraph at lines 340--341
+ [][] 
+ []
+
+[55pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.343 
+       <./figuras/ajuste_iluminacao.png>]
+<figuras/enviar_alerta.png, id=723, 1135.24126pt x 583.17876pt>
+File: figuras/enviar_alerta.png Graphic file (type png)
+<use figuras/enviar_alerta.png>
+Package pdftex.def Info: figuras/enviar_alerta.png  used on input line 350. on 
+input line 350.
+Package pdftex.def Info: Requested size: 483.69684pt x 248.47504pt on input lin
+e 350.
+
+Overfull \hbox (28.69684pt too wide) in paragraph at lines 350--351
+ [][] 
+ []
+
+[56pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.353 
+       <./figuras/edicao_usuario.png>]
+<figuras/exibir_relatorio.png, id=729, 673.51625pt x 583.17876pt>
+File: figuras/exibir_relatorio.png Graphic file (type png)
+<use figuras/exibir_relatorio.png>
+Package pdftex.def Info: figuras/exibir_relatorio.png  used on input line 360. 
+on input line 360.
+Package pdftex.def Info: Requested size: 512.1496pt x 443.46072pt on input line
+ 360.
+
+Overfull \hbox (57.1496pt too wide) in paragraph at lines 360--361
+ [][] 
+ []
+
+[57pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.363 
+       <./figuras/enviar_alerta.png>]
+<figuras/troca_agua.png, id=736, 1075.01625pt x 583.17876pt>
+File: figuras/troca_agua.png Graphic file (type png)
+<use figuras/troca_agua.png>
+Package pdftex.def Info: figuras/troca_agua.png  used on input line 370. on inp
+ut line 370.
+Package pdftex.def Info: Requested size: 483.69684pt x 262.39243pt on input lin
+e 370.
+
+Overfull \hbox (28.69684pt too wide) in paragraph at lines 370--371
+ [][] 
+ []
+
+[58pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.373 
+       <./figuras/exibir_relatorio.png>]
+<figuras/troca_agua_manual.png, id=742, 1105.12875pt x 583.17876pt>
+File: figuras/troca_agua_manual.png Graphic file (type png)
+<use figuras/troca_agua_manual.png>
+Package pdftex.def Info: figuras/troca_agua_manual.png  used on input line 380.
+ on input line 380.
+Package pdftex.def Info: Requested size: 512.1496pt x 270.25876pt on input line
+ 380.
+
+Overfull \hbox (57.1496pt too wide) in paragraph at lines 380--381
+ [][] 
+ []
+
+) (./editaveis/solucao_energia.tex [59pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.3.35}) has been already used, duplicate ignored
+
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \section
+            {Ponte H} <./figuras/troca_agua.png>]
+<figuras/ponteH.png, id=749, 459.7175pt x 284.06125pt>
 File: figuras/ponteH.png Graphic file (type png)
 <use figuras/ponteH.png>
 Package pdftex.def Info: figuras/ponteH.png  used on input line 6. on input lin
 e 6.
 Package pdftex.def Info: Requested size: 142.26378pt x 87.90636pt on input line
  6.
-<figuras/simulacaoPonteH.png, id=572, 503.8825pt x 222.8325pt>
+ [60pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+36}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.12 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.37}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.12 
+      <./figuras/troca_agua_manual.png> <./figuras/ponteH.png (PNG copy)>]
+<figuras/simulacaoPonteH.png, id=755, 503.8825pt x 222.8325pt>
 File: figuras/simulacaoPonteH.png Graphic file (type png)
 <use figuras/simulacaoPonteH.png>
 Package pdftex.def Info: figuras/simulacaoPonteH.png  used on input line 15. on
  input line 15.
 Package pdftex.def Info: Requested size: 199.16928pt x 88.07736pt on input line
  15.
-<figuras/simulacaoPonteH2.png, id=573, 494.84875pt x 218.8175pt>
+<figuras/simulacaoPonteH2.png, id=756, 494.84875pt x 218.8175pt>
 File: figuras/simulacaoPonteH2.png Graphic file (type png)
 <use figuras/simulacaoPonteH2.png>
 Package pdftex.def Info: figuras/simulacaoPonteH2.png  used on input line 22. o
 n input line 22.
 Package pdftex.def Info: Requested size: 199.16928pt x 88.06967pt on input line
  22.
- [43pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-25}) has been already used, duplicate ignored
+
+[61pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.26 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.26}) has been already used, duplicate ignored
+l.58 \item 4
+             resistências de 520$\Omega$;pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.3.39}) has been already used, duplicate ign
+ored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.26 
-      <./figuras/ponteH.png (PNG copy)> <./figuras/simulacaoPonteH.png (PNG cop
-y)>] [44pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.3.27}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.66 
-      <./figuras/simulacaoPonteH2.png (PNG copy)>]
-<figuras/ponteHpronta.png, id=585, 497.86pt x 499.8675pt>
+l.58 \item 4
+             resistências de 520$\Omega$; <./figuras/simulacaoPonteH.png (PNG 
+copy)> <./figuras/simulacaoPonteH2.png (PNG copy)>]
+<figuras/ponteHpronta.png, id=764, 497.86pt x 499.8675pt>
 File: figuras/ponteHpronta.png Graphic file (type png)
 <use figuras/ponteHpronta.png>
 Package pdftex.def Info: figuras/ponteHpronta.png  used on input line 86. on in
 put line 86.
 Package pdftex.def Info: Requested size: 369.88582pt x 371.38348pt on input lin
 e 86.
-)
-(./editaveis/solucao_estrutura.tex [45pdfTeX warning (ext4): destination with t
-he same identifier (name{figure.3.28}) has been already used, duplicate ignored
+ [62])
+(./editaveis/solucao_estrutura.tex [63pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.3.40}) has been already used, duplicate ignored
 
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \section
-            {Materiais} <./figuras/ponteHpronta.png (PNG copy)>] [46]
-<figuras/propriedade_material.jpg, id=594, 178.41656pt x 135.50626pt>
+l.7 	\item N
+            orma NBR 8261: Norma padrão para tubos de aço carbono, com cos...
+ <./figuras/ponteHpronta.png (PNG copy)>]
+<figuras/propriedade_material.jpg, id=773, 178.41656pt x 135.50626pt>
 File: figuras/propriedade_material.jpg Graphic file (type jpg)
 <use figuras/propriedade_material.jpg>
 Package pdftex.def Info: figuras/propriedade_material.jpg  used on input line 3
 2. on input line 32.
 Package pdftex.def Info: Requested size: 142.26378pt x 108.05363pt on input lin
 e 32.
- [47pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-29}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.47 
-      <./figuras/propriedade_material.jpg>]
-<figuras/tensao_normal.png, id=601, 217.81375pt x 146.04562pt>
+ [64]
+<figuras/tensao_normal.png, id=778, 217.81375pt x 146.04562pt>
 File: figuras/tensao_normal.png Graphic file (type png)
 <use figuras/tensao_normal.png>
 Package pdftex.def Info: figuras/tensao_normal.png  used on input line 50. on i
 nput line 50.
 Package pdftex.def Info: Requested size: 227.62204pt x 152.62146pt on input lin
 e 50.
-<figuras/flexao_pura.png, id=602, 289.08pt x 194.7275pt>
+ [65pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+41}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53 
+      <./figuras/propriedade_material.jpg>]
+<figuras/flexao_pura.png, id=784, 289.08pt x 194.7275pt>
 File: figuras/flexao_pura.png Graphic file (type png)
 <use figuras/flexao_pura.png>
 Package pdftex.def Info: figuras/flexao_pura.png  used on input line 58. on inp
 ut line 58.
 Package pdftex.def Info: Requested size: 227.62204pt x 153.3279pt on input line
  58.
-<figuras/esquema_excitacao.png, id=603, 280.54813pt x 233.37187pt>
+<figuras/esquema_excitacao.png, id=785, 280.54813pt x 233.37187pt>
 File: figuras/esquema_excitacao.png Graphic file (type png)
 <use figuras/esquema_excitacao.png>
 Package pdftex.def Info: figuras/esquema_excitacao.png  used on input line 68. 
 on input line 68.
 Package pdftex.def Info: Requested size: 142.26378pt x 118.33792pt on input lin
 e 68.
- [48pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-30}) has been already used, duplicate ignored
+ [66pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+42}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.71 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.31}) has been already used, duplicate ignored
+.43}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.71 
-      <./figuras/tensao_normal.png> <./figuras/flexao_pura.png>] [49pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.3.32}) has been a
+      <./figuras/tensao_normal.png> <./figuras/flexao_pura.png>] [67pdfTeX warn
+ing (ext4): destination with the same identifier (name{figure.3.44}) has been a
 lready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.86 
       <./figuras/esquema_excitacao.png>]
-<figuras/dados.jpg, id=615, 268.00125pt x 210.7875pt>
+<figuras/dados.jpg, id=797, 268.00125pt x 210.7875pt>
 File: figuras/dados.jpg Graphic file (type jpg)
 <use figuras/dados.jpg>
 Package pdftex.def Info: figuras/dados.jpg  used on input line 89. on input lin
@@ -2047,174 +2275,174 @@ e 89.
 Package pdftex.def Info: Requested size: 227.62204pt x 179.0287pt on input line
  89.
 ) (./editaveis/solucao_eletronica.tex
-[50pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
-3}) has been already used, duplicate ignored
+[68pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.13 	\item C
              onector de vídeo HDMI <./figuras/dados.jpg>]
-<figuras/eletronica_1.png, id=620, 463.7325pt x 370.38374pt>
+<figuras/eletronica_1.png, id=802, 463.7325pt x 370.38374pt>
 File: figuras/eletronica_1.png Graphic file (type png)
 <use figuras/eletronica_1.png>
 Package pdftex.def Info: figuras/eletronica_1.png  used on input line 33. on in
 put line 33.
 Package pdftex.def Info: Requested size: 170.71652pt x 136.35034pt on input lin
 e 33.
- [51pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-34}) has been already used, duplicate ignored
+ [69pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+46}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.38 
       <./figuras/eletronica_1.png>]
-<figuras/optocoaplador.png, id=625, 186.6975pt x 180.675pt>
+<figuras/optocoaplador.png, id=807, 186.6975pt x 180.675pt>
 File: figuras/optocoaplador.png Graphic file (type png)
 <use figuras/optocoaplador.png>
 Package pdftex.def Info: figuras/optocoaplador.png  used on input line 63. on i
 nput line 63.
 Package pdftex.def Info: Requested size: 227.62204pt x 220.28807pt on input lin
 e 63.
- [52]
-<figuras/optoacopladores.jpg, id=630, 2569.6pt x 1927.2pt>
+ [70]
+<figuras/optoacopladores.jpg, id=812, 2569.6pt x 1927.2pt>
 File: figuras/optoacopladores.jpg Graphic file (type jpg)
 <use figuras/optoacopladores.jpg>
 Package pdftex.def Info: figuras/optoacopladores.jpg  used on input line 73. on
  input line 73.
 Package pdftex.def Info: Requested size: 426.79134pt x 320.09157pt on input lin
 e 73.
- [53pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-35}) has been already used, duplicate ignored
+ [71pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+47}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.76 
       <./figuras/optocoaplador.png>]
-<figuras/modulo_re.jpg, id=636, 451.6875pt x 451.6875pt>
+<figuras/modulo_re.jpg, id=818, 451.6875pt x 451.6875pt>
 File: figuras/modulo_re.jpg Graphic file (type jpg)
 <use figuras/modulo_re.jpg>
 Package pdftex.def Info: figuras/modulo_re.jpg  used on input line 85. on input
  line 85.
 Package pdftex.def Info: Requested size: 227.62204pt x 227.62827pt on input lin
 e 85.
- [54pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-36}) has been already used, duplicate ignored
+ [72pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+48}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.88 
       <./figuras/optoacopladores.jpg>]
-<figuras/circuito_1.png, id=641, 749.80125pt x 463.7325pt>
+<figuras/circuito_1.png, id=823, 749.80125pt x 463.7325pt>
 File: figuras/circuito_1.png Graphic file (type png)
 <use figuras/circuito_1.png>
 Package pdftex.def Info: figuras/circuito_1.png  used on input line 103. on inp
 ut line 103.
 Package pdftex.def Info: Requested size: 227.62204pt x 140.7766pt on input line
  103.
- [55pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-37}) has been already used, duplicate ignored
+ [73pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+49}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.106 
        <./figuras/modulo_re.jpg>]
-<figuras/curva_ldr.png, id=646, 401.5pt x 289.08pt>
+<figuras/curva_ldr.png, id=828, 401.5pt x 289.08pt>
 File: figuras/curva_ldr.png Graphic file (type png)
 <use figuras/curva_ldr.png>
 Package pdftex.def Info: figuras/curva_ldr.png  used on input line 124. on inpu
 t line 124.
 Package pdftex.def Info: Requested size: 227.62204pt x 163.89069pt on input lin
 e 124.
- [56pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-38}) has been already used, duplicate ignored
+ [74pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+50}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.126 \end{figure}
                    <./figuras/circuito_1.png>]
-<figuras/single_bus.jpg, id=652, 961.34157pt x 112.16907pt>
+<figuras/single_bus.jpg, id=834, 961.34157pt x 112.16907pt>
 File: figuras/single_bus.jpg Graphic file (type jpg)
 <use figuras/single_bus.jpg>
 Package pdftex.def Info: figuras/single_bus.jpg  used on input line 164. on inp
 ut line 164.
 Package pdftex.def Info: Requested size: 455.24408pt x 53.11826pt on input line
  164.
- [57pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-39}) has been already used, duplicate ignored
+ [75pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+51}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.167 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
-name{table.3.2}) has been already used, duplicate ignored
+name{table.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.167 \end{figure}
-                   <./figuras/curva_ldr.png>] [58pdfTeX warning (ext4): destina
-tion with the same identifier (name{figure.3.40}) has been already used, duplic
+                   <./figuras/curva_ldr.png>] [76pdfTeX warning (ext4): destina
+tion with the same identifier (name{figure.3.52}) has been already used, duplic
 ate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.207 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
-.3}) has been already used, duplicate ignored
+.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.207 
        <./figuras/single_bus.jpg>]
-<figuras/humity_sensor.jpg, id=662, 602.25pt x 291.0875pt>
+<figuras/humity_sensor.jpg, id=844, 602.25pt x 291.0875pt>
 File: figuras/humity_sensor.jpg Graphic file (type jpg)
 <use figuras/humity_sensor.jpg>
 Package pdftex.def Info: figuras/humity_sensor.jpg  used on input line 210. on 
 input line 210.
 Package pdftex.def Info: Requested size: 341.43306pt x 165.03326pt on input lin
 e 210.
-<figuras/thermistor.jpg, id=663, 501.875pt x 255.95625pt>
+<figuras/thermistor.jpg, id=845, 501.875pt x 255.95625pt>
 File: figuras/thermistor.jpg Graphic file (type jpg)
 <use figuras/thermistor.jpg>
 Package pdftex.def Info: figuras/thermistor.jpg  used on input line 219. on inp
 ut line 219.
 Package pdftex.def Info: Requested size: 341.43306pt x 174.13776pt on input lin
 e 219.
- [59pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-41}) has been already used, duplicate ignored
+ [77pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+53}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.227 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.42}) has been already used, duplicate ignored
+3.54}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.227 
        <./figuras/humity_sensor.jpg> <./figuras/thermistor.jpg>]
-<figuras/calculo_equilibrio.png, id=669, 210.03468pt x 116.68594pt>
+<figuras/calculo_equilibrio.png, id=852, 210.03468pt x 116.68594pt>
 File: figuras/calculo_equilibrio.png Graphic file (type png)
 <use figuras/calculo_equilibrio.png>
 Package pdftex.def Info: figuras/calculo_equilibrio.png  used on input line 247
 . on input line 247.
 Package pdftex.def Info: Requested size: 213.39566pt x 118.55336pt on input lin
 e 247.
- [60]
-<figuras/valores_ph.png, id=674, 282.30469pt x 83.5622pt>
+ [78]
+<figuras/valores_ph.png, id=857, 282.30469pt x 83.5622pt>
 File: figuras/valores_ph.png Graphic file (type png)
 <use figuras/valores_ph.png>
 Package pdftex.def Info: figuras/valores_ph.png  used on input line 270. on inp
 ut line 270.
 Package pdftex.def Info: Requested size: 142.26378pt x 42.10994pt on input line
  270.
- [61pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-43}) has been already used, duplicate ignored
+ [79pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+55}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.285 	\item C
               onsumo em funcionamento menor igual a 0,5WpdfTeX warning (ext4): 
-destination with the same identifier (name{figure.3.44}) has been already used,
+destination with the same identifier (name{figure.3.56}) has been already used,
  duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2222,115 +2450,115 @@ destination with the same identifier (name{figure.3.44}) has been already used,
 l.285 	\item C
               onsumo em funcionamento menor igual a 0,5W <./figuras/calculo_equ
 ilibrio.png (PNG copy)> <./figuras/valores_ph.png (PNG copy)>]
-<figuras/sensor_ph.png, id=679, 555.57562pt x 353.82187pt>
+<figuras/sensor_ph.png, id=862, 555.57562pt x 353.82187pt>
 File: figuras/sensor_ph.png Graphic file (type png)
 <use figuras/sensor_ph.png>
 Package pdftex.def Info: figuras/sensor_ph.png  used on input line 296. on inpu
 t line 296.
 Package pdftex.def Info: Requested size: 142.26378pt x 90.5986pt on input line 
 296.
-<figuras/amplificador.png, id=680, 270.25969pt x 179.92218pt>
+<figuras/amplificador.png, id=863, 270.25969pt x 179.92218pt>
 File: figuras/amplificador.png Graphic file (type png)
 <use figuras/amplificador.png>
 Package pdftex.def Info: figuras/amplificador.png  used on input line 303. on i
 nput line 303.
 Package pdftex.def Info: Requested size: 284.52756pt x 189.42627pt on input lin
 e 303.
-<figuras/parametros_medicoes.png, id=681, 405.76593pt x 150.5625pt>
+<figuras/parametros_medicoes.png, id=864, 405.76593pt x 150.5625pt>
 File: figuras/parametros_medicoes.png Graphic file (type png)
 <use figuras/parametros_medicoes.png>
 Package pdftex.def Info: figuras/parametros_medicoes.png  used on input line 31
 0. on input line 310.
 Package pdftex.def Info: Requested size: 426.79134pt x 158.36867pt on input lin
 e 310.
- [62pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-45}) has been already used, duplicate ignored
+ [80pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+57}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.314 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.46}) has been already used, duplicate ignored
+3.58}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.314 
        <./figuras/sensor_ph.png (PNG copy)> <./figuras/amplificador.png (PNG co
-py)>] [63pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.3.47}) has been already used, duplicate ignored
+py)>] [81pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.59}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.347 
        <./figuras/parametros_medicoes.png (PNG copy)>]
-<figuras/solucoes_especiais.png, id=690, 515.67656pt x 351.56343pt>
+<figuras/solucoes_especiais.png, id=873, 515.67656pt x 351.56343pt>
 File: figuras/solucoes_especiais.png Graphic file (type png)
 <use figuras/solucoes_especiais.png>
 Package pdftex.def Info: figuras/solucoes_especiais.png  used on input line 362
 . on input line 362.
 Package pdftex.def Info: Requested size: 455.24408pt x 310.37454pt on input lin
 e 362.
- [64]))
-(./editaveis/resultados.tex [65pdfTeX warning (ext4): destination with the same
- identifier (name{figure.3.48}) has been already used, duplicate ignored
+ [82]))
+(./editaveis/resultados.tex [83pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.3.60}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             [Resultados]{Resultados} <./figuras/solucoes_especiais.png (PNG cop
-y)>] [66
+y)>] [84
 
 ] (./editaveis/resultados_software.tex)
 (./editaveis/resultados_eletronica.tex) (./editaveis/resultados_energia.tex)
 (./editaveis/resultados_estrutura.tex
-<figuras/resultado_1.jpg, id=705, 2006.49625pt x 1505.625pt>
+<figuras/resultado_1.jpg, id=887, 2006.49625pt x 1505.625pt>
 File: figuras/resultado_1.jpg Graphic file (type jpg)
 <use figuras/resultado_1.jpg>
 Package pdftex.def Info: figuras/resultado_1.jpg  used on input line 26. on inp
 ut line 26.
 Package pdftex.def Info: Requested size: 312.9803pt x 234.8398pt on input line 
 26.
- [67]
-<figuras/resultado_2.jpg, id=710, 2006.49625pt x 1505.625pt>
+ [85]
+<figuras/resultado_2.jpg, id=892, 2006.49625pt x 1505.625pt>
 File: figuras/resultado_2.jpg Graphic file (type jpg)
 <use figuras/resultado_2.jpg>
 Package pdftex.def Info: figuras/resultado_2.jpg  used on input line 32. on inp
 ut line 32.
 Package pdftex.def Info: Requested size: 312.9803pt x 234.8398pt on input line 
 32.
- [68pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-49}) has been already used, duplicate ignored
+ [86pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+61}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.44 	\item E
              spuma ExpansivapdfTeX warning (ext4): destination with the same id
-entifier (name{figure.4.50}) has been already used, duplicate ignored
+entifier (name{figure.4.62}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.44 	\item E
              spuma Expansiva <./figuras/resultado_1.jpg> <./figuras/resultado_2
 .jpg>]
-<figuras/resultado_3.jpg, id=715, 2006.49625pt x 1505.625pt>
+<figuras/resultado_3.jpg, id=897, 2006.49625pt x 1505.625pt>
 File: figuras/resultado_3.jpg Graphic file (type jpg)
 <use figuras/resultado_3.jpg>
 Package pdftex.def Info: figuras/resultado_3.jpg  used on input line 59. on inp
 ut line 59.
 Package pdftex.def Info: Requested size: 341.43306pt x 256.20558pt on input lin
 e 59.
-)) (./editaveis/orcamento.tex [69pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.4.51}) has been already used, duplicate ignored
+)) (./editaveis/orcamento.tex [87pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.4.63}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             [Orçamento do Projeto]{Orçamento do Projeto} <./figuras/resultado
-_3.jpg>] [70
+_3.jpg>] [88
 
 ]) 
 AED: lastpage setting LastPage
-[71]
+[89]
 \tf@lof=\write4
 \openout4 = `index.lof'.
 
@@ -2352,10 +2580,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 15467 strings out of 492990
- 222663 string characters out of 6135006
- 349865 words of memory out of 5000000
- 18370 multiletter control sequences out of 15000+600000
+ 15626 strings out of 492990
+ 225625 string characters out of 6135006
+ 352838 words of memory out of 5000000
+ 18459 multiletter control sequences out of 15000+600000
  64213 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,16n,38p,1000b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2372,10 +2600,10 @@ texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on index.pdf (73 pages, 8480672 bytes).
+Output written on index.pdf (91 pages, 8939129 bytes).
 PDF statistics:
- 1116 PDF objects out of 1200 (max. 8388607)
- 927 compressed objects within 10 object streams
- 219 named destinations out of 1000 (max. 500000)
- 1017 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1391 PDF objects out of 1440 (max. 8388607)
+ 1158 compressed objects within 12 object streams
+ 277 named destinations out of 1000 (max. 500000)
+ 1293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
