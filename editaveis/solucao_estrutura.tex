@@ -1,0 +1,92 @@
+\section{Materiais}
+
+Para a estrutura da estufa automatizada é necessário um material que seja resistente às cargas que serão aplicadas, ao mesmo tempo que seja viável financeiramente. Foram escolhidos dois metais para a estrutura interna, são eles o alumínio e o aço, materiais com resistências variadas e de relativa fácil usinagem, mas que suportam sem problema algum a massa de componentes tais como os motores, sensores e placas a serem acrescentadas no interior. As cantoneiras de Metalon, principal material estrutural do projeto podem vir conforme duas normas técnicas brasileiras de aplicação do aço:
+
+\begin{itemize}
+	\item Norma NBR 6591: Norma padrão para aço carbono com costura, para peças que tem como uso final a utilização em estrutura e indústrias em geral. Nessa norma não há exigências de propriedades mecânicas ou acabamento, mas há a exigência da definição das propriedades químicas.
+	\item Norma NBR 8261: Norma padrão para tubos de aço carbono, com costura opcional e formação à frio, no lugar da formação à quente, própria para peças destinadas à utilização em estruturas soldadas, parafusadas ou rebitadas.
+\end{itemize}
+
+Nessa última norma, os tubos de metalon podem ainda vir em composições diferentes, com maior ou menor grau de carbono, e que diferem no tratamento químico recebido e em suas propriedades mecânicas. [3]
+
+Como se trata de um protótipo e a principal característica a ser cuidada é a sustentação da estufa, as propriedades que foram levados em consideração para referencial teórico foram as tensões conforme 	as propriedades médias de um aço com 0,2\% de carbono, que é aproximadamente a composição do metalon [4]:
+
+\begin{itemize}
+	\item Massa volumétrica': 7860 kg/$m{^3}$ (ou 7,86 g/c$m{^3}$)
+	\item Coeficiente de expansão térmica: 11,7 10--6 (C°)--1
+	\item Condutividade térmica:52,9 W/m-K
+	\item Calor específico: 486 J/kg-K
+	\item Resistividade elétrica: 1,6 10--7$\Omega$m
+	\item Módulo de elasticidade (Módulo de Young) Longitudinal: 210GPa
+	\item Módulo de elasticidade (Módulo de Young) transversal:80 GPa
+	\item Coeficiente de Poisson: 0,3
+	\item Limite de escoamento: 210 MPa
+	\item Limite de resistência à tração: 380 MPa
+	\item Alongamento: 25\%
+\end{itemize}
+
+A figura 13 representa as propriedades do material utilizado para as simulações feitas no Software de modelagem 3D Catia V5R19. Nota-se a extrema semelhança com os dados coletados pela referência, o que garante a veracidade dos resultados obtidos em simulação em relação ao projeto real:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5cm]{figuras/propriedade_material.jpg}
+	\caption{Propriedades do material simulado} \label{propriedade_material}
+\end{figure}
+
+O acabamento da estufa tanto interno como externo está sendo desenvolvido para que cumpra com o papel de revestimento térmico  levando em consideração estética, vedação e viabilidade financeira. Os materiais utilizados para tal finalidade são isopor, chapa de PVC, espuma expansiva e silicone.
+
+A cobertura da estrutura com estes materiais isolantes até este momento do projeto ainda não foi instalado por decisão de toda organização. Esta decisão se dá pelo motivo das demais áreas poderem ter um melhor acesso aos compartimentos para poderem trabalhar livremente sem obstáculos. No entanto, os vãos da estrutura a serem preenchidos com os materiais isolantes já foram dimensionados e montados em módulos encaixáveis a fim de que uma vez que todos os componentes das demais engenharias forem instalados, testados e fixados definitivamente, tais módulos apenas sejam encaixados e vedados com o silicone e se preciso (caso haja alguma avaria) com a espuma expansiva. 
+
+\subsection{Resistência dos materiais}
+
+É pelo estudo das mecânicas dos materiais que o engenheiro consegue dimensionar uma estrutura. Saber o tamanho de uma barra, qual diâmetro ela necessita ter para suportar um dado peso sem haver perdas de materiais, ou em qual ponto pode ocorrer uma ruptura. 
+
+Dentre os esforços mais sentidos pela estrutura da estufa estão os de tensão normal e flexão. Com isso, para saber se tais materiais propostos são resistentes às cargas que serão aplicadas, algumas teorias devem ser estudadas.
+
+TENSÃO NORMAL: Uma força aplicada em uma determinada área está exercendo uma tensão, e quando tal força e área são perpendiculares é chamada de tensão normal, como mostra a figura 13. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/tensao_normal.png}
+	\caption{Tensão normal sobre uma barra prismática} \label{tensao_normal}
+\end{figure}
+
+FLEXÃO: Quando uma força paralela ao eixo longitudinal é aplicada a um elemento estrutural alongado e o mesmo sofre uma deformação é caracterizado como flexão. Tem como aspecto uma deformação na forma de arco, figura 14.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/flexao_pura.png}
+	\caption{Flexão pura sobre uma barra prismática} \label{flexao_pura}
+\end{figure}
+
+\subsection{Vibrações}
+
+Em vários sistemas é muito comum ocorrer o fenômeno da vibração. Ela pode causar desgastes prematuros de superfícies em contato e dependendo da sua frequência pode até mesmo colapsar toda a estrutura, assim o estudo da vibração é necessária para que funcione de maneira desejada. A figura 10 apresenta um esquema básico de vibração causado pela base do sistema.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5cm]{figuras/esquema_excitacao.png}
+	\caption{Esquema de uma excitação pela base} \label{esquema_excitacao}
+\end{figure}
+
+A análise de vibração, como o próprio nome diz, visa analisar as variações nas vibrações das máquinas. Ao avaliar alguma alteração nela, é possível prever problemas que podem vir a ocorrer no desempenho dos equipamentos, além de determinar quais peças que necessitam de manutenção. Outra função dessa análise é para que os especialistas consigam melhorar as condições de trabalho das máquinas. Portanto, ela é de fundamental importância dentro do conceito de manutenção preditiva, já que avalia de forma eficiente as condições dos equipamentos e, consequentemente, evita defeitos e falhas inesperadas. [5]
+
+Sensores são colocados em pontos estratégicos das máquinas, transformando as vibrações em sinais elétricos, que por sua vez são encaminhados para aparelhos registradores de vibrações. Os dados coletados serão analisados por um profissional capacitado, que avaliará se há algum problema ou não naquele equipamento. Para a implementação da análise de vibração, primeiro é avaliada qual máquina deve ser monitorada. Logo em seguida, é feito um cadastramento dela no sistema de monitoramento, definindo as faixas de medição, parâmetros utilizados e a frequência de coleta dos dados. Em um terceiro momento é definida uma rota para a coleta de dados de acordo com as máquinas e equipamentos definidos e há um acompanhamento nos dados coletados. Depois é emitido um relatório com as condições das máquinas e equipamentos, mostrando potenciais defeitos e recomendações para corrigi-los. [5]
+
+Ao realizar este procedimento, há uma redução nos custos de manutenção, já que é possível prever quando é necessário a intervenção de manutenção, além do já citado prolongamento da vida útil dos componentes. Some isso ao aumento da eficiência das intervenções de manutenção, aumento da disponibilidade dos equipamentos, ampliação da confiabilidade operacional e redução no curso de conversão.
+
+A manutenção preditiva baseia-se na avaliação do estado da máquina com inspeções de rotina. Com isso, elimina-se o desperdício de peças, diminui-se os estoques associados, aumenta a eficiência nos reparos, reduz ou elimina problemas e aumenta a disponibilidade das máquinas. Portanto, ela é excelente na questão de custo-benefício, já que dependendo da indústria, os custos com a manutenção representam até 30\% dos investimentos da empresa. [7]
+
+
+\section{Chassi}
+
+\subsection{Dados do chassi}
+
+O chassi, ou seja, o esqueleto metálico da estrutura terá em média 9,200 kg, figura 6, levando em consideração o peso teórico (1,19kg/m) exposto em Normas tais como NBR 7007 graus, MR 250 (ASTM A-36), AR 350 (ASTM A-572 GR50), AR 350COR (ASTM A-572 GR60) e AR 415 (ASTM A-588 GRB) e mensuração de inércia computacional, sendo compostas por 10 cantoneiras 25mm x 25mm 16 de 500mm de comprimento e 4 cantoneiras de 25mm x 25mm 16 de 700mm. Ocupará 0,179 m$^{3}$ (500x500x700mm). [9]
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/dados.jpg}
+	\caption{Dados do chassi estrutural} 
+	\label{dados}
+\end{figure}
