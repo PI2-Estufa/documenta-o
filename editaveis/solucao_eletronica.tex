@@ -1,5 +1,5 @@
 \section{Sistema embarcado}
-A Raspberry Pi é um microcomputador sistema operacional Linux, que foi escolhida para ter o programa embarcado que controla e monitoriza a estufa devido a facilidade de acesso aos seus pinos GPIO para conectar diversos sensores e atuadores, como ela já tem conectividade Wi-Fi, será facilmente facilmente conectada a internet apenas acessando a rede local do usuário e ela já tem autorização pela Anatel, com suas entradas USB, é possível conectar uma câmera USB e utilizá-la para monitorizar a estufa.[1]
+A Raspberry Pi é um microcomputador sistema operacional Linux, que foi escolhida para ter o programa embarcado que controla e monitoriza a estufa devido a facilidade de acesso aos seus pinos GPIO para conectar diversos sensores e atuadores, como ela já tem conectividade Wi-Fi, será facilmente facilmente conectada a internet apenas acessando a rede local do usuário e ela já tem autorização pela Anatel, com suas entradas USB, é possível conectar uma câmera USB e utilizá-la para monitorizar a estufa\cite{raspberry2018}.[1]
 
 Especificações:
 
@@ -26,7 +26,7 @@ Especificações:
 
 O tipo de medição escolhida foi a descontinua e o Sensor de nível de água eletrônico - ON/OFF – US23. Este sensor de nível é uma chave ON/OFF (Liga/desliga) que muda o estado de aberto para fechado quando a água atinge certo nível e abre quando o nível da água fica abaixo de outro determinado nível. Este sensor pode chavear diretamente cargas de até 10W 220V, como bobinas de contatores ou pequenas lâmpadas de sinalização.
 
-No caso do projeto da estufa, ele irá chavear uma tensão de 3.3 V e corrente de 3.3 mA, garantida por um resistor de 10K$\Omega$. E serão utilizadas duas bóias na seguinte disposição da figura abaixo: [2]
+No caso do projeto da estufa, ele irá chavear uma tensão de 3.3 V e corrente de 3.3 mA, garantida por um resistor de 10K$\Omega$. E serão utilizadas duas bóias na seguinte disposição da figura abaixo:\cite{eicos} [2]
 
 \begin{figure}[H]
 	\centering
@@ -34,9 +34,9 @@ No caso do projeto da estufa, ele irá chavear uma tensão de 3.3 V e corrente d
 	\caption{Disposição das Bóias no Reservatório} \label{eletronica_1}
 \end{figure}
 
-Uma ao fundo para definir se o nível da água está baixo e um em cima definir o nível de água baixo.  A leitura do estado dos sensores será feita atraves do pino GPIO, onde o estado HIGH (tensão de 3.3V ) indica que o sensor foi ativado e o estado LOW( tensão de 0V) indica que ele está desativado.[2]
+Uma ao fundo para definir se o nível da água está baixo e um em cima definir o nível de água baixo.  A leitura do estado dos sensores será feita atraves do pino GPIO, onde o estado HIGH (tensão de 3.3V ) indica que o sensor foi ativado e o estado LOW( tensão de 0V) indica que ele está desativado\cite{eicos}.[2]
 
-Este sensor de nível utiliza um sensor magnético e não mercúrio que seria prejudicial à saúde.[2]
+Este sensor de nível utiliza um sensor magnético e não mercúrio que seria prejudicial à saúde\cite{eicos}.[2]
 
 Características:
 
@@ -66,7 +66,7 @@ O optoacoplador escolhido foi 4N25, que é contituído por um diodo emissor de l
 
 A Raspberry irá controlar o LED interno do optoacoplador, quando o LED está aceso o transitor é “ativado” e permite a passagem de corrente através dele. E quando o LED está apagado o trasnsitor fica em situação de corte e não permite a passagem de corrente.
 
-Para o projeto da estufa foi confeccionada uma placa com com 8 optoacopladores, figura abaixo, que serão conectados aos relés que garantirão uma proteção a mais para o circuito.[3]
+Para o projeto da estufa foi confeccionada uma placa com com 8 optoacopladores, figura abaixo, que serão conectados aos relés que garantirão uma proteção a mais para o circuito\cite{vishay}.[3]
 
 \begin{figure}[H]
 	\centering
@@ -78,7 +78,7 @@ Para o projeto da estufa foi confeccionada uma placa com com 8 optoacopladores, 
 
 No projeto da estufa os relé serão utilizados para acionar as 3 bombas de água responsáveis pela circulação de água, os coolers de circulação de ar, as válvulas solenóides que controlam a torca de água do reservatório, as lâmpadas da estufa e o compressor de ar do reservatório de água.
 
-Como serão vários dispositivos e consequentemente vários relés, o grupo optou por comprar um módulo relé de 8 canais.[4]
+Como serão vários dispositivos e consequentemente vários relés, o grupo optou por comprar um módulo relé de 8 canais\cite{braga2012}.[4]
 
 \begin{figure}[H]
 	\centering
@@ -90,11 +90,11 @@ Ele será ativado pelo pinos GPIO da Raspberry Pi, que estarão isolados por um 
 
 \section{Conversor analógico para digital}
 
-A Raspberry Pi não possui conversor AD integrado, como alguns microcontroladores, e alguns dos sensores utilizados no projeto precisam de um, pois apresentão seus dados de forma analógica. Para contornar essa dificuldade haviam duas possibilidades, utilizar um microcontrolador com conversor analógico integrado e realizar a comunicação do mesmo com a Raspberry, ou conectar um conversor AD diretamente a Raspberry. A opção escolhida pelo grupo foi a segunda, pelo baixo custo e pela oportunidade de aprender a utilizar um conversor AD pelos membros do grupo de eletrônica.[5]
+A Raspberry Pi não possui conversor AD integrado, como alguns microcontroladores, e alguns dos sensores utilizados no projeto precisam de um, pois apresentão seus dados de forma analógica. Para contornar essa dificuldade haviam duas possibilidades, utilizar um microcontrolador com conversor analógico integrado e realizar a comunicação do mesmo com a Raspberry, ou conectar um conversor AD diretamente a Raspberry. A opção escolhida pelo grupo foi a segunda, pelo baixo custo e pela oportunidade de aprender a utilizar um conversor AD pelos membros do grupo de eletrônica\cite{nxp2013}.[5]
  
-O conversor escolhido foi PCF8591, que é um dispositivo de aquisição de dados CMOS de 8 bits de alimentação única e baixo consumo de energia, com quatro entradas analógicas, uma saída analógica e uma interface de barramento I2C serial. Três pinos de endereço A0, A1 e A2 são usados para programar o endereço de hardware, permitindo o uso de até oito dispositivos conectados ao barramento I2C sem hardware adicional. O endereço, o controle e os dados do dispositivo são transferidos serialmente por meio do barramento I2C bidirecional de duas linhas.[5]
+O conversor escolhido foi PCF8591, que é um dispositivo de aquisição de dados CMOS de 8 bits de alimentação única e baixo consumo de energia, com quatro entradas analógicas, uma saída analógica e uma interface de barramento I2C serial. Três pinos de endereço A0, A1 e A2 são usados para programar o endereço de hardware, permitindo o uso de até oito dispositivos conectados ao barramento I2C sem hardware adicional. O endereço, o controle e os dados do dispositivo são transferidos serialmente por meio do barramento I2C bidirecional de duas linhas\cite{nxp2013}.[5]
 
-As funções do dispositivo incluem multiplexação de entrada analógica, função de faixa e retenção no chip, conversão de analógico para digital de 8 bits e conversão de digital para analógico de 8 bits. A taxa de conversão máxima é dada pela velocidade máxima do barramento I2C.[5]
+As funções do dispositivo incluem multiplexação de entrada analógica, função de faixa e retenção no chip, conversão de analógico para digital de 8 bits e conversão de digital para analógico de 8 bits. A taxa de conversão máxima é dada pela velocidade máxima do barramento I2C\cite{nxp2013}.[5]
 
 O esquemático do circuito do conversor AD é da figura abaixo.
 
@@ -107,17 +107,17 @@ O esquemático do circuito do conversor AD é da figura abaixo.
 
 \section{Sensor LDR}
 
-LDR (Light Dependent Resistor), ou fotoresistror, é um dispositivo resistivo que tem a sua resistência alterada de acordo com a quantidade de luz que atinge seus terminais. O componente é feito de um semicondutor de resistência elevada. O sensor apresenta uma alta sensibilidade, com uma resposta rápida as variações de luz e é sensível a todo o espectro visível de luz.[1]
+LDR (Light Dependent Resistor), ou fotoresistror, é um dispositivo resistivo que tem a sua resistência alterada de acordo com a quantidade de luz que atinge seus terminais. O componente é feito de um semicondutor de resistência elevada. O sensor apresenta uma alta sensibilidade, com uma resposta rápida as variações de luz e é sensível a todo o espectro visível de luz\cite{ahmad2016}.[1]
 
 \subsection{Características elétricas}
 
-O LDR apresenta em uma temperatura ambiente uma variação de resistência de aproximadamente 8$\Omega$ até 20K$\Omega$, no escuro total a resistência atinge um valor elevado e 1M$\Omega$. O seu pico de resposta é com o comprimento de onda de 540nm, podendo funcionar dentro de um ambiente com temperaturas variando de -30℃ até 70℃.[Jawaaz Ahmad, 2016]
+O LDR apresenta em uma temperatura ambiente uma variação de resistência de aproximadamente 8$\Omega$ até 20K$\Omega$, no escuro total a resistência atinge um valor elevado e 1M$\Omega$. O seu pico de resposta é com o comprimento de onda de 540nm, podendo funcionar dentro de um ambiente com temperaturas variando de -30℃ até 70℃\cite{ahmad2016}.[Jawaaz Ahmad, 2016]
 
-O sensor aguenta nos seus terminais uma diferença de potencial de até 150 Volts. A leitura do sensor é feita através de um divisor de tensão que é causada pela variação da resistência devido a diferença de iluminação. A tensão lida na saída do divisor de tensão é lida por um conversor AD e assim é transformada em dados para o microcontrolador.[Jawaaz Ahmad, 2016]
+O sensor aguenta nos seus terminais uma diferença de potencial de até 150 Volts. A leitura do sensor é feita através de um divisor de tensão que é causada pela variação da resistência devido a diferença de iluminação. A tensão lida na saída do divisor de tensão é lida por um conversor AD e assim é transformada em dados para o microcontrolador\cite{ahmad2016}.[Jawaaz Ahmad, 2016]
 
 \subsection{Princípios físicos de funcionamento}
 
-Um LDR trabalha com a fotocondutividade, que é um efeito ótico onde a condutividade de um material aumenta com a absorção de luz do semicondutor. A exposição à luz do sensor faz com que fótons dessa fonte de luz ao caírem no sensor excitem os elétrons da camada de valência do semicondutor que compõem o sensor. Os elétrons são excitados até adquirirem energia suficiente para chegar a camada de condução do material. Quanto mais elétrons são excitados até a camada de condução do semicondutor, mais corrente passa a fluir pelo semicondutor e assim a resistência que antes era alta, passa a cair com o aumento de luminosidade.[Sunroom Technologies,2008]
+Um LDR trabalha com a fotocondutividade, que é um efeito ótico onde a condutividade de um material aumenta com a absorção de luz do semicondutor. A exposição à luz do sensor faz com que fótons dessa fonte de luz ao caírem no sensor excitem os elétrons da camada de valência do semicondutor que compõem o sensor. Os elétrons são excitados até adquirirem energia suficiente para chegar a camada de condução do material. Quanto mais elétrons são excitados até a camada de condução do semicondutor, mais corrente passa a fluir pelo semicondutor e assim a resistência que antes era alta, passa a cair com o aumento de luminosidade\cite{sunroom2008}.[Sunroom Technologies,2008]
 
 \begin{figure}[H]
 	\centering
@@ -127,7 +127,7 @@ Um LDR trabalha com a fotocondutividade, que é um efeito ótico onde a condutiv
 
 \section{Sensores DHT22}
 
-O sensor DHT22 é um sensor digital capacitivo que utiliza uma comunicação serial do tipo Single-bus communication para o envio de dados em 8bits. O sensor apresenta um baixo consumo de potência e uma grande capacidade de envio dos dados eliminando a necessidade de usar amplificadores periféricos para aumentar a potência da saída do sinal. [LIU, 2018]
+O sensor DHT22 é um sensor digital capacitivo que utiliza uma comunicação serial do tipo Single-bus communication para o envio de dados em 8bits. O sensor apresenta um baixo consumo de potência e uma grande capacidade de envio dos dados eliminando a necessidade de usar amplificadores periféricos para aumentar a potência da saída do sinal\cite{liu2018}. [LIU, 2018]
 
 A tabela \ref{caracteristicas_eletricas} mostra como o sensor deve se comportar sendo alimentado com a voltagem mínima e máxima com que o sensor é capaz de trabalhar. Os valores mínimo, máximo e recomendado para se alimentar o módulo são, respectivamente: 3.3 V, 5.5V e 5V.
 
@@ -166,7 +166,7 @@ A comunicação feita através de um único pino de data é feita de acordo com 
 	\label{single_bus}
 \end{figure}
 
-Primeiramente o sensor deve receber um sinal vindo do microcontrolador para que a comunicação seja iniciada, assim é enviado um sinal de resposta pelo sensor estabelecendo assim a comunicação entre o sensor e um microcontrolador. Em seguida são enviados os dados de forma serial seguindo o protocolo da figura 1. Os  dados são enviados em um formato de 40 bits. Os 16 primeiros bits são relacionados aos dados referentes a umidade, os próximos 16 bits se relacionam a temperatura lida pelo sensor e os 8 bits restantes são usados para um controle de paridade do sinal.[LIU, 2018]
+Primeiramente o sensor deve receber um sinal vindo do microcontrolador para que a comunicação seja iniciada, assim é enviado um sinal de resposta pelo sensor estabelecendo assim a comunicação entre o sensor e um microcontrolador. Em seguida são enviados os dados de forma serial seguindo o protocolo da figura 1. Os  dados são enviados em um formato de 40 bits. Os 16 primeiros bits são relacionados aos dados referentes a umidade, os próximos 16 bits se relacionam a temperatura lida pelo sensor e os 8 bits restantes são usados para um controle de paridade do sinal\cite{liu2018}.[LIU, 2018]
 
 A tradução da informação é feita da seguinte forma:
 
@@ -203,7 +203,7 @@ Bit de Paridade: High umidity + Low Humidity + High Temperature + Low Temperatur
 
 \section{Princípio Físico do Sensor}
 
-A medição de umidade do sensor é feita através de dois eletrodos com um substrato de retenção de umidade entre eles. A mudança de umidade altera a condutividade do substrato e consequentemente a resistência entre os dois eletrodos assim a corrente que passa entre os terminais pode ser lida por um microcontrolador e traduzida em dados legíveis através de um software.[Nedelkovski, 2018]
+A medição de umidade do sensor é feita através de dois eletrodos com um substrato de retenção de umidade entre eles. A mudança de umidade altera a condutividade do substrato e consequentemente a resistência entre os dois eletrodos assim a corrente que passa entre os terminais pode ser lida por um microcontrolador e traduzida em dados legíveis através de um software\cite{ned2017}.[Nedelkovski, 2018]
 
 \begin{figure}[H]
 	\centering
@@ -223,7 +223,7 @@ A realização das medidas de temperatura é feita por um termistor, que é um d
 
 \section{Motor DC 12V}
 
-Um motor DC é uma máquina elétrica onde a corrente que passa pelos terminais do motor é convertida em força mecânica. A maioria dos motores DC dependem de um campo magnético para realizar essa conversão de energia elétrica em mecânica. A velocidade do motor depende da diferença de potencial entre os terminais, podendo assim ser controlada  através de um ajuste na tensão que chega ao motor.
+Um motor DC é uma máquina elétrica onde a corrente que passa pelos terminais do motor é convertida em força mecânica. A maioria dos motores DC dependem de um campo magnético para realizar essa conversão de energia elétrica em mecânica. A velocidade do motor depende da diferença de potencial entre os terminais, podendo assim ser controlada  através de um ajuste na tensão que chega ao motor\cite{metmotor2015}.
 
 \subsection{Comunicação}
 
@@ -231,7 +231,7 @@ A comunicação do motor com o microcontrolador é feita através de uma ponte H
 
 \subsection{Princípio físico de funcionamento}
 
-Quando um ímã permanente é posicionado em torno de um loop de fio que é ligado a uma fonte de energia D.C., temos os fundamentos de um motor D.C. A fim de fazer o loop de rotação do fio, temos que conectar uma bateria ou fonte de alimentação DC entre suas extremidades, e apoiá-lo para que ele possa girar em torno de seu eixo. Para permitir que o rotor gire sem torcer os fios, as extremidades do loop de arame são conectadas a um conjunto de contatos chamado de comutador, que se esfrega contra um conjunto de condutores chamados de escovas. As escovas fazem contato elétrico com o comutador à medida que ele gira e são conectadas aos cabos positivo e negativo da fonte de energia, permitindo que a eletricidade flua pelo circuito. A eletricidade que flui através do circuito cria um campo magnético que interage com o campo magnético do imã permanente para fazer o laço girar. [Page.M, 1999]
+Quando um ímã permanente é posicionado em torno de um loop de fio que é ligado a uma fonte de energia D.C., temos os fundamentos de um motor D.C. A fim de fazer o loop de rotação do fio, temos que conectar uma bateria ou fonte de alimentação DC entre suas extremidades, e apoiá-lo para que ele possa girar em torno de seu eixo. Para permitir que o rotor gire sem torcer os fios, as extremidades do loop de arame são conectadas a um conjunto de contatos chamado de comutador, que se esfrega contra um conjunto de condutores chamados de escovas. As escovas fazem contato elétrico com o comutador à medida que ele gira e são conectadas aos cabos positivo e negativo da fonte de energia, permitindo que a eletricidade flua pelo circuito. A eletricidade que flui através do circuito cria um campo magnético que interage com o campo magnético do imã permanente para fazer o laço girar\cite{page1999}. [Page.M, 1999]
 
 \section{Sonda de pH}
 
@@ -240,7 +240,7 @@ em diferença de potencial elétrico em "Volts", tal informação é extraída a
 projetado na ponta do sensor. A escala de pH é vista de 0 a 14 e mede a concentração em mols a
 quantidade de íons. O pH é definido como o logaritmo do inverso da concentração hidrogeniônica
 [H+], de uma solução aquosa, em termos matemáticos é descrita como como em situação de
-equilíbirio químico:
+equilíbirio químico\cite{atkins2011}:
 
 \begin{figure}[H]
 	\centering

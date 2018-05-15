@@ -96,3 +96,5 @@
 \contentsline {section}{\numberline {4.3}Estrutura externa}{68}{section.4.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Or\IeC {\c c}amento do Projeto}}{71}{chapter.5}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{73}{section*.3}

@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: index.aux
+The style file: plain.bst
+Database file #1: abntex2-options.bib
+Warning--entry type for "abnt-url-package=url" isn't style-file defined
+--line 199 of file abntex2-options.bib
+Database file #2: refs.bib
+Warning--entry type for "braga2013" isn't style-file defined
+--line 20 of file refs.bib
+Warning--entry type for "braga2012" isn't style-file defined
+--line 26 of file refs.bib
+Warning--entry type for "raspberry2018" isn't style-file defined
+--line 39 of file refs.bib
+Warning--entry type for "metmotor2015" isn't style-file defined
+--line 62 of file refs.bib
+Warning--entry type for "ned2017" isn't style-file defined
+--line 75 of file refs.bib
+Warning--entry type for "eicos" isn't style-file defined
+--line 100 of file refs.bib
+Warning--entry type for "sunroom2008" isn't style-file defined
+--line 106 of file refs.bib
+Warning--all relevant fields are empty in abnt-url-package=url
+Warning--can't use both author and editor fields in atkins2011
+Warning--can't use both author and editor fields in heath2003
+You've used 17 entries,
+            2118 wiz_defined-function locations,
+            568 strings with 5122 characters,
+and the built_in function-call counts, 3385 in all, are:
+= -- 298
+> -- 113
+< -- 0
++ -- 50
+- -- 32
+* -- 129
+:= -- 579
+add.period$ -- 40
+call.type$ -- 17
+change.case$ -- 61
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 149
+empty$ -- 349
+format.name$ -- 32
+if$ -- 713
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 9
+newline$ -- 77
+num.names$ -- 32
+pop$ -- 119
+preamble$ -- 1
+purify$ -- 51
+quote$ -- 0
+skip$ -- 125
+stack$ -- 0
+substring$ -- 86
+swap$ -- 22
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 62
+warning$ -- 3
+while$ -- 32
+width$ -- 19
+write$ -- 148
+(There were 11 warnings)

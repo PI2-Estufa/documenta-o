@@ -1,0 +1,80 @@
+\begin{thebibliography}{10}
+
+\bibitem{abnt-url-package=url}
+
+
+\bibitem{ahmad2016}
+R.~Y.~Jawaaz Ahmad.
+\newblock Light dependent resistor (ldr) based low cost light intensity
+  measurement circuit design (lux meter).
+\newblock {\em International Journal of Innovative Research in Computer and
+  Communication Engineering}, 2016.
+
+\bibitem{atkins2011}
+Peter Atkins.
+\newblock {\em Princípios de Química}.
+\newblock Bookman, 2011.
+
+\bibitem{braga2012}
+Newton~C. Braga.
+\newblock Relés - conceitos e aplicações, 2012.
+
+\bibitem{braga2013}
+Newton~C. Braga.
+\newblock Como funcionam conversores a/d, 2013.
+
+\bibitem{cassiolato2010}
+Cesar Cassiolato.
+\newblock Medição de nível.
+\newblock {\em SMAR}, 2010.
+
+\bibitem{raspberry2018}
+RASPBERRY~PI FOUNDATION.
+\newblock Raspberry pi 3 model b+, jul 2018.
+
+\bibitem{heath2003}
+S.~Heath.
+\newblock {\em Embedded Systems Design}.
+\newblock Newnes, 2003.
+
+\bibitem{liu2018}
+T.~Liu.
+\newblock {\em Datasheet:DHT22}.
+\newblock Sparkfun, 2018.
+
+\bibitem{metmotor2015}
+METmotor.
+\newblock A brief overview of a 12v dc motor, 2015.
+
+\bibitem{michael2007}
+B.~Michael.
+\newblock {\em Embedded Systems Glossary}.
+\newblock Neutrino Technical Library, 2007.
+
+\bibitem{ned2017}
+D.~Nedelkovski.
+\newblock Dht11 \& dht22 sensors temperature and humidity tutorial using
+  arduino, 2017.
+
+\bibitem{nxp2013}
+NXP.
+\newblock {\em Datasheet:PCF8591 8-bit A/D and D/A converter}, 2013.
+
+\bibitem{page1999}
+M.~Page.
+\newblock Designing with d.c. motors.
+\newblock {\em MIT}, 1999.
+
+\bibitem{vishay}
+VISHAY SEMICONDUCTORS.
+\newblock {\em Datasheet:4N25,4N26,4N27,4N28}, 2017.
+
+\bibitem{eicos}
+EICOS SENSORES.
+\newblock Sensor de nível: o que é?, 2017.
+
+\bibitem{sunroom2008}
+Sunroom Technologies.
+\newblock Ldr, 2008.
+
+\end{thebibliography}
