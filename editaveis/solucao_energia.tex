@@ -70,7 +70,7 @@ Considera-se que não há variação de altura considerável entre a entrada e s
 
 \begin{center}
 	\large
-	${\displaystyle \frac{W}{m} = \frac{\Delta P}{\rho}}$
+	${\displaystyle \frac{W}{m} = H_g + \frac{P2-P1}{\rho}+ \frac{\Delta_p}{\rho g}}$
 \end{center}
 
 A variação de energia de pressão é dada por: 
@@ -123,11 +123,36 @@ Assim:
 
 \begin{center}
 	\large
-	${\displaystyle \Delta H = 0,00015 \frac{0,4}{0,005} \frac{1}{2} \frac{Q^2*16}{\Pi^2 * (0,005)^4*10}}$
+	${\displaystyle \Delta H = 0,0015 \frac{0,7}{0,005} \frac{1}{2} \frac{3,33*10^-5}{\Pi^2 * (0,005)^4}}=302,01P_a$
 \end{center}
 
-Isolando o termo da vazão e utilizando 0,4m como altura manométrica. Encontra-se Q= 5,103.$10^{-5}$ $m^{3}$/s ou 183,72 L/h. Assim, a bomba para o sistema de cada caneleta deve ter, no mínimo, esses parâmetros.
-O dimensionamento da bomba não condiz com o que realmente será utilizado, pois a produção de bombas são tabeladas. Cada fornecedor de bombas trabalha com um rendimento específico do seu produto. O fornecedor de bomba Sarlobetter, por exemplo, traz a curva característica de seus produtos. Nota-se que, para trabalhar na vazão encontrada. A bomba ideal é a S300 (300L/h) visto que com o aumento da coluna a ser vencida, a vazão decai e a bomba deixa de operar com sua vazão de projeto.  
+\begin{center}
+	\large
+	${\displaystyle \Delta_h = \frac{\Delta_p}{\rho g} =0,03m}$
+\end{center}
+	
+Onde, $\Delta_h$ é a perda de carga em metros.
+
+Por fim, considera-se que a variação de pressão é dada por:
+
+\begin{center}
+	\large
+	${\displaystyle P2 - P1= \rho g H}$
+\end{center}
+
+
+Dessa forma, têm-se:
+
+\begin{center}
+	\large
+	${\displaystyle W= m(2gH + \frac{\Delta_p}{\rho g})= 0,274W}$
+\end{center}
+
+
+
+Como a perda de pressão distribuída é muito pequena em relação a altura e as especificações de bomba de aquário (solução) são vazão volumétrica e altura manométrica, a bomba ideal para o sistema fornece 120L/h e eleva 4,03m. Cada fornecedor de bombas trabalha com um rendimento específico do seu produto. O fornecedor de bomba Sarlobetter®, por exemplo, traz a curva característica de seus produtos. Nota-se que, para trabalhar na vazão encontrada. A bomba ideal é a S300 (300L/h) visto que com o aumento da coluna a ser vencida, a vazão decai e a bomba deixa de operar com sua vazão de projeto.  
+Percebe-se que o cálculo da potência da bomba não envolveu rendimentos que variam de acordo com cada fabricante.
+ 
 
 \begin{figure}[H]
 	\centering
