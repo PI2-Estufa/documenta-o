@@ -213,3 +213,16 @@ UV
 	
 	
 \end{enumerate}
+
+\section{Fonte}
+A fonte de tensão contínua é um dispositivo eletrônico que fornece um valor de tensão fixa à  carga na qual será ligada. A fonte de tensão projetada para esse projeto é constituída basicamente de quatro partes: abaixadora, retifica, filtragem e regulação de tensão.
+A parte abaixadora de tensão é constituída por um transformador que tem como função diminuir o nível de tensão da rede, neste caso de 240 Vrms para  20Vp. Essa transformação  ocorre de acordo com a relação entre o número de espiras entre a parte primária e secundária do transformador. \\
+O componente de retífica é a ponte retificadora na qual transforma a tensão alternada em tensão contínua, em ligação com o capacitor de desacoplamento com função de filtrar o ruído das faixas de alimentação.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/circuito_fonte.png}
+	\caption{Circuito fonte} \label{circuito fonte}
+\end{figure}
+
+Por fim o regulador de tensão deve manter a saída constante mesmo com alterações de tensão ou corrente na saída.

@@ -251,3 +251,108 @@ A iluminação das lâmpadas com bulbo tem como projeção luminosa uma curva ca
 	\caption{Lâmpada BULBO}
 	\label{bulbo}
 \end{figure}
+
+\section{Confecção Fonte}
+Os Consumos que serão exigidos pelo projeto são:  
+
+\textbf{5V:}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{PN} & \multicolumn{1}{c|}{Corrente(mA)} \\ \hline
+		\multicolumn{1}{|c|}{PI 3} & \multicolumn{1}{c|}{2500} \\ \hline
+		\multicolumn{1}{|c|}{sensor PH} & \multicolumn{1}{c|}{10} \\ \hline
+		\multicolumn{1}{|c|}{PCF8591} &   \multicolumn{1}{c|}{50} \\ \hline
+		\multicolumn{1}{|c|}{Total}&\multicolumn{1}{c|}{2560} \\ \hline
+	\end{tabular}
+	\caption{Consumo no projeto 5V}
+	\label{Consumo no projeto 5V}
+\end{table} 
+
+\textbf{12V:}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{PN} & \multicolumn{1}{c|}{Corrente(mA)} \\ \hline
+		\multicolumn{1}{|c|}{Motor DC} & \multicolumn{1}{c|}{2000} \\ \hline
+		\multicolumn{1}{|c|}{FAN 12cm} & \multicolumn{1}{c|}{120} \\ \hline
+		\multicolumn{1}{|c|}{FAN 8cm} &   \multicolumn{1}{c|}{80} \\ \hline
+		\multicolumn{1}{|c|}{Total}&\multicolumn{1}{c|}{2200} \\ \hline
+	\end{tabular}
+	\caption{Consumo no projeto 12V}
+	\label{Consumo no projeto 12V}
+\end{table} 
+
+Foi utilizado o software Proteus para o desenho do esquemático da fonte de 12V.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=15cm]{figuras/circuito_fonte_feita.png}
+	\caption{Esquemático do circuito da fonte feito usando o software Proteus}
+	\label{Circuito fonte feita}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/fonte_frente.png}
+	\caption{Fonte pronta, parte de cima}
+	\label{Fonte pronta parte de cima}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/fonte_tras.png}
+	\caption{Fonte pronta, parte de baixo}
+	\label{Fonte pronta parte de trás}
+\end{figure}
+
+
+Os seguintes componentes foram utilizados  no projeto da fonte:
+
+\begin{itemize}
+	
+	\item \textbf{TR4 (transformador):}   Tem como função abaixar a tensão de entrada AC oriunda da rede (240 Vrms) para um valor de tensão AC com amplitude de 20Vp.  
+	
+	\item \textbf{BR2 (Ponte retificadora)} Dispositivo eletrônico que tem como função transformar corrente alternada em corrente contínua.
+	
+\end{itemize}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/ponte_diodo.png}
+	\caption{BR2 Ponte diodo}
+	\label{Ponte diodo}
+\end{figure}
+
+\begin{itemize}
+	\item \textbf{Capacitores de desacoplamento:} utilizados para manter a tensão estável após a retificação da onda.
+	$V_{pp}$=40v→V secundário=20
+\end{itemize}
+
+\begin{center}
+	$V_{pk}$ = $\sqrt{2}$ . $V_{AC}$ \\
+	$V_{pk}$ = $\sqrt{2}$ . 20 \\
+	Tensão  $V_{pk}$ = 28,3V \\
+	f($V_{pk}$ 2 – VC min2) \\
+	60(28.32+182)= C = 249,53$\mu$F \\
+\end{center}
+
+Dessa forma foi utilizado capacitor de 35v de 330$\mu$F.
+
+\begin{itemize}
+	\item \textbf{Regulador de Tensão 7812:} regulador linear de tensão, utilizado para polarizar a base dos  transistores.
+	\item \textbf{R2 e R3:} usado limitar a corrente no coletor dos transistores.
+	\item \textbf{C3:} capacitor de desacoplamento na saída.
+	\item \textbf{Saída:} saída de 12v.
+
+\end{itemize}
+
+As medições foram feitas somente por multímetro por ser um projeto intermediário, entretanto medições finais serão analisadas por osciloscópio no qual é possível analisar a forma da onda final da fonte o que pode atestar melhor a qualidade.
+
+Apesar de bem sucedida, foi determinado como objetivo  o melhoramento da fonte de energia construindo uma fonte chaveada na qual tem eficiência em torno de 80\% e utilizar como medição padrão das ondas de saída por um equipamento  osciloscópio ao invés de multímetro para verificar o desacoplamento e suavização do ripple no caso da fonte chaveada, dessa forma obtendo mais confiabilidade nos dados finais obtidos.
