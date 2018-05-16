@@ -1,67 +1,4 @@
-\section{Ponte H}
-Os motores de corrente contínua trabalham nos dois sentidos de rotação quando invertidas suas polaridades. A ponte H é um circuito que tem a função de controlar esse sentido de rotação do motor a partir da inversão de sua polaridade. O exemplo a seguir, ilustra uma ponte H composta de quatro transístores que trabalham em pares nas diagonais. Basicamente, quando se aciona uma chave tem-se 12V e a outra chave-par leva o terra (0V) para o motor. A utilização de transístores NPN e PNP é aconselhável para evitar uma perda de tensão maior entre eles, dessa forma, a carga (motor) fica sempre ligado aos coletores dos transístores.     
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=5cm]{figuras/ponteH.png}
-	\caption{Representação ponte H}
-	\label{ponte H}
-\end{figure}
-
-Para o projeto Green House, será necessária a confecção de uma ponte H para controle da rotação do motor. Foi realizada uma simulação no Proteus®, afim de garantir a tensão de 12V para carga, a funcionalidade do circuito e demonstrada também a entrada do controlador de operações (representado pelos 3,3V):
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=7cm]{figuras/simulacaoPonteH.png}
-	\caption{Simulação da ponte H com acionamento em Q1 e Q4. Fonte: Proteus*.}
-	\label{simulação ponte H}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=7cm]{figuras/simulacaoPonteH2.png}
-	\caption{Simulação da ponte H com acionamento em Q2 e Q3. Fonte: Proteus*.}
-	\label{simulação ponte H 2}
-\end{figure}
-
-O microcontrolador que será utilizado é uma Raspberry que trabalha com 3,3V e tem limitação na corrente de 50mA, quando utilizadas todas as suas entradas. Assim, para que essa restrição seja limitada, no nó de conexão entre o transístor e o controlador, a corrente foi limitada a 0,005mA. Para isso ocorrer, é necessário o uso de resistências de 520$\Omega$, como demonstrado a seguir:
-
-\begin{center}
-	
-$\frac{V_{cc} - V_{be}}{R}$ = $l_{b}$ \\
-$\frac{3,3 - 0,7}{R}$ = 0,005\\
-R = 520$\Omega$\\
-$I_{ce}$ = 1000 $\Omega$ * 0,005 = 5 \textit{A}
-
-\end{center}
-
-Onde,
-\begin{itemize}
-
-	\item Ib = corrente que aciona o transistor;
-	
-	\item R = resistências que serão utilizadas para controle da corrente Ib;
-	
-	\item $I_{ce}$ = corrente disponível à carga;
-	
-	\item ${V_{cc} - V_{be}}$ = diferença de tensão entre o controlador e o transístor.
-	
-	\item A corrente $I_{ce}$ é multiplicada por 1000 devido ao transistor TIP. Sendo ela fornecida pela fonte que será construída mais adiante.
-	
-\end{itemize}
-
-Para a construção dessa ponte H, serão necessários:
-\begin{itemize}
-
-\item 2 transístores Darlington TIP 120;
-\item 2 transístores Darlington TIP 125;
-\item 4 resistências de 520$\Omega$;
-\item 1 placa furada;
-\item 3 Borne Conector 2 vias - entradas PCI
-
-\end{itemize}
-
-\subsection{Confecção Ponte H}
+\section{Confecção Ponte H}
 A ponte H foi feita primeiramente em uma protoboard a fim de ser validada sua eficiência. Em seguida, o sistema foi transferido para a placa furada. O resistor utilizado apresentou mudança pois o item não estava disponível para a venda. Os resistores utilizados foram os 4 resistências de 560$\Omega$. Dessa forma:  
 
 \begin{center}
@@ -89,3 +26,159 @@ O resultado final é mostrado a seguir:
 \end{figure}
 
 Os integrantes que confeccionaram a placa tiveram dificuldades com a manipulação dos componentes, por não possuírem prática alguma com circuitos. Para posteriores trabalhos, é recomendado o uso de fios com bitolas maiores a fim de manter a segurança da ponte H.
+
+\section{Confecção do plantário}
+
+No sistema que está foi projetado para estufa, a área disponível para a locação da plantário era restrita a 50cmx50cm. Visto que esse espaço ainda seria compartilhado com os rolamentos da gaveta, a estrutura foi confeccionada em 3 tubos de PVC de 75mm de diâmetro e 40cm de comprimento. Além disso, foram feitos 2 furos em cada cano, com auxílio de serra-copo de 50mm de diâmetro, destinados a alocar as alfaces (as hortaliças do projeto). Os canos foram pintados de preto a fim de evitar o desenvolvimento de fungos e bactérias. O resultado é mostrado a seguir:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=13cm]{figuras/pvc.png}
+	\caption{Plantário confeccionado com canos PVC. Fonte própria}
+	\label{pvc}
+\end{figure}
+
+O sistema deve contar com uma bomba que eleve a água do reservatório para 40 cm acima do mesmo, onde estarão os canos. Os canos estarão dispostos com uma angulação que permite que o fluído percorra o cano pela ação da gravidade. Assim, não é preciso fazer cálculos de perdas de cargas das raízes do substrato. A potência pelo fluxo mássico é dado pela variação de energia na entrada e saída da bomba. Como representado a seguir, há a variação de energia de pressão, energia cinética e energia potencial:
+
+\begin{center}
+	${\displaystyle\frac{W}{m} = (\frac{P2}{\rho} + \frac{V2^2}{2} + gH2) - (\frac{P1}{\rho} + \frac{V1^2}{2} + gH1)}$	
+\end{center}
+
+Onde, 
+
+$W$ = potência consumida (W/s);
+
+$m$ = fluxo mássico (kg/s);
+
+$P2$ = pressão no ponto 2;
+
+$\rho$ = massa específica da água (kg/m³);
+
+$V2$ = velocidade no ponto 2 (m/s)
+
+$H2$ = altura no ponto 2 (m);
+
+$g$ = gravidade (m²/s);
+
+$P1$ = pressão no ponto 1;
+
+$V1$ = velocidade no ponto 1 (m/s);
+
+$H1$ = altura no ponto 1 (m);
+
+Considera-se que não há variação de altura considerável entre a entrada e saída da bomba. Assim, não há variação de energia potencial. Considera-se também que não há variação de energia cinética no sistema (V2 aproximadamente igual a V1). Nota-se, então, que o sistema fornecerá apenas energia de pressão, essa mesma que torna possível a elevação da coluna de água. Dessa forma:
+
+\begin{center}
+	\large
+	${\displaystyle \frac{W}{m} = \frac{\Delta P}{\rho}}$
+\end{center}
+
+A variação de energia de pressão é dada por: 
+
+\begin{center}
+	\large
+	${\displaystyle \Delta P = f \frac{L}{D} \frac{1}{2} \frac{Q^2}{A^2} \rho}$
+\end{center}
+
+Onde,
+
+$f$ = fator de atrito;
+
+$L$ = comprimento do escoamento (m) ;
+
+$D$ = diâmetro;
+
+$\rho$ = massa específica da água (kg/m³);
+
+$A$ = área do escoamento ($m^2$);
+
+$Q$ = vazão volumétrica ($m^3$/s).
+
+Ao dividir a equação pela massa específica e gravidade, tem-se a altura manométrica (m):
+
+\begin{center}
+	\large
+	${\displaystyle \Delta H = f \frac{L}{D} \frac{1}{2} \frac{Q^2}{A^2} \frac{1}{g}}$
+\end{center}
+
+É possível calculá-lo também a partir da equação de Coolebroke - White (1939). O fator de atrito de alguns materiais já são tabelados. A tabela a seguir dispõe de alguns dele:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=13cm]{figuras/fatores_atrito.png}
+	\caption{Fatores de atrito tabelados. Fonte: www.pipelife.com}
+	\label{fatores_atrito}
+\end{figure}
+
+O material da tubulação de escoamento selecionada foi o polietileno, cujo fator de atrito é de 0,0015mm. O diâmetro do tubo é de 0,005m. A imagem a seguir o reporta já conectado aos tubos. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/tubos_plantario.png}
+	\caption{Tubos do plantário. Fonte própria}
+	\label{fatores_atrito}
+\end{figure}
+
+Assim:
+
+\begin{center}
+	\large
+	${\displaystyle \Delta H = 0,00015 \frac{0,4}{0,005} \frac{1}{2} \frac{Q^2*16}{\Pi^2 * (0,005)^4*10}}$
+\end{center}
+
+Isolando o termo da vazão e utilizando 0,4m como altura manométrica. Encontra-se Q= 5,103.$10^{-5}$ $m^{3}$/s ou 183,72 L/h. Assim, a bomba para o sistema de cada caneleta deve ter, no mínimo, esses parâmetros.
+O dimensionamento da bomba não condiz com o que realmente será utilizado, pois a produção de bombas são tabeladas. Cada fornecedor de bombas trabalha com um rendimento específico do seu produto. O fornecedor de bomba Sarlobetter, por exemplo, traz a curva característica de seus produtos. Nota-se que, para trabalhar na vazão encontrada. A bomba ideal é a S300 (300L/h) visto que com o aumento da coluna a ser vencida, a vazão decai e a bomba deixa de operar com sua vazão de projeto.  
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=13cm]{figuras/coluna.png}
+	\caption{Curva característica da moto bomba Sarlo  Fonte: <http://www.sarlobetter.com.br/aquarios/bombas/linha-sarlo/s-90/manual.pdf>}
+	\label{coluna}
+\end{figure}
+
+A fim de reduzir os custos, serão utilizadas bombas que os integrantes já possuíam. A primeira bomba é de 160L/h e 3,8W e a segunda de 240L/h e 4W, que já foram devidamente testadas. A terceira será comprada após a instalação das outras duas no sistema. A imagem a seguir retratada as duas bombas:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/bombas.png}
+	\caption{C Bombas de água. Fonte própria.}
+	\label{coluna}
+\end{figure}
+
+O reservatório deverá conter também um compressor de ar com a finalidade de auxiliar no processo de dissolução dos nutrientes. Como seu fim é apenas mixer, sua seleção foi feita a partir do menor preço de mercado. O compressor que será utilizado é mostrado a seguir:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/compressor.png}
+	\caption{Compressor de ar. Fonte própria.}
+	\label{compressor}
+\end{figure}
+
+
+\subsection{Confecção da ventilação}
+
+Os coolers já foram instaladas na estrutura, na parte superior e em sentidos opostos, a fim de garantir a circulação de fluído no interior e para fora.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/ventilador.png}
+	\caption{Ventilador instalado na estrutura. Fonte própria.}
+	\label{ventilador}
+\end{figure}
+
+O volume total do ambiente interno da estufa é dado por:
+
+\begin{center}
+	\large
+	${\displaystyle V = b^2 * h = (0,5^2) * 0,7 = 0,175 m^3}$
+\end{center}
+
+Onde,
+
+$V$ = volume total (m³);
+
+$b$ = aresta da base quadrada (m);
+
+$h$ = altura (m)
+
+Dessa forma, o primeiro ventilador recicla esse mesmo volume em aproximadamente 16 segundos e o segundo o faz em aproximadamente 9 segundos.  
