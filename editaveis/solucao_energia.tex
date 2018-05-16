@@ -182,3 +182,72 @@ $b$ = aresta da base quadrada (m);
 $h$ = altura (m)
 
 Dessa forma, o primeiro ventilador recicla esse mesmo volume em aproximadamente 16 segundos e o segundo o faz em aproximadamente 9 segundos.  
+
+\section{Confecção iluminação}
+
+Primeiramente foi implementado um parâmetro simples de W/área no qual o indicado para culturas como alface em hidroponia é de 40W/ft , porém devido a intensificação das pesquisas os parâmetros que possibilita melhores resultados são  PAR,PPF \& PPFD onde se utiliza valores diretamente associados ao processo de fotossíntese e fatores fisiológicos da planta.
+A escolha entre as tecnologias HPS e LED foi a favor da escolha do LED devido a 3 fatores.
+
+\textbf{1. Consumo de energia}
+
+Consumo é um dos fatores mais importantes para o uso das lâmpadas de cultivo, o que fez as LEDs se tornarem a opção escolhida pois consomem menos energia que as HPS. consomem aproximadamente 90\% menos energia que as HPS.
+
+\textbf{2. Vida útil}
+
+Em comparação com lâmpadas HPS, a LED tem uma vida útil muito maior. Com o tempo as HQS podem se tornar mais fracas e perder a eficiência, ou seja, o custo real de funcionamento de uma HPS vai aumentando com seu uso.
+
+\textbf{3. Calor gerado}
+
+Para lâmpadas para cultivo indoor, as HPS emanam mais calor do que as luzes LED. O calor que as lâmpadas HPS produzem pode-se fazer necessário a compra de mais equipamentos de exaustão e ventilação, o que acaba gerando custos adicionais.
+
+Levando como base estudos voltados a plantação hidropônica indoor, em especial os que a fonte luminosa fica próxima a planta , foi decidido o uso do modelo RBW(Red,Blue,White) em LED, no qual se utiliza led nas cores Vermelho, Azul e Branco por períodos de 16 horas de luz  nos quais os resultados demonstram melhores desempenhos das amostras plantadas. 
+
+\begin{center}
+	“As características sensoriais comercializáveis (crocância, doçura, forma e cor) de plantas frescas também foram avaliadas. As plantas foram cultivadas hidroponicamente com um fotoperíodo de 16 h a 24/20 ° C (dia / noite), 75 \% de umidade relativa, 900 $\mu$ mol mol -- 1 nível de CO2 e 210 $\mu$ mol m--2 s--1 densidade de fluxo de fótons sob RB LED , RGB e LED branco (RBW), e uma lâmpada fluorescente (FL, como controle) dentro de câmaras de crescimento por 20 dias (15 dias após a semeadura). ”
+	
+\end{center}
+\begin{center}
+ mol m--2 s--1 densidade de fluxo de fótons sob RB LED , RGB e LED branco (RBW), e uma lâmpada fluorescente (FL, como controle) dentro de câmaras de crescimento por 20 dias (15 dias após a semeadura). ”
+ 
+\end{center}
+
+Trechos retirados de artigos da Scientia Horticulturae  international journal.
+
+Equipamento utilizado:
+
+\begin{itemize}
+	\item 1XLED full spectrum 28W 
+	\item 2x LED Branco 3k 9W.
+\end{itemize}
+
+Com objetivo inicial de atender o parâmetro de 40W/ft e o máximo de simetria luminosa no projeto.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/lampada_full.png}
+	\caption{Lâmpada full spectrum}
+	\label{lampada_full}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/montagem.png}
+	\caption{Montagem}
+	\label{montagem}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/posicao_luminarias.png}
+	\caption{Posição luminárias}
+	\label{posicao_luminarias}
+\end{figure}
+
+A iluminação das lâmpadas com bulbo tem como projeção luminosa uma curva cardióide na qual a densidade luminosa no plano pode ser verificada no gráfico feito em Matlab.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{figuras/bulbo.png}
+	\caption{Lâmpada BULBO}
+	\label{bulbo}
+\end{figure}
