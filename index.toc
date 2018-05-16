@@ -56,76 +56,77 @@
 \contentsline {section}{\numberline {2.6}Ponte H}{32}{section.2.6}
 \contentsline {section}{\numberline {2.7}Plant\IeC {\'a}rio}{34}{section.2.7}
 \contentsline {section}{\numberline {2.8}Ventila\IeC {\c c}\IeC {\~a}o}{35}{section.2.8}
-\contentsline {section}{\numberline {2.9}Arquitetura de microsservi\IeC {\c c}os}{36}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Porque utilizar arquitetura de microsservi\IeC {\c c}os}{36}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Microsservi\IeC {\c c}os vs SOA}{36}{subsection.2.9.2}
-\contentsline {subsubsection}{\numberline {2.9.2.1}Diferen\IeC {\c c}as arquiteturais}{36}{subsubsection.2.9.2.1}
-\contentsline {section}{\numberline {2.10}Decis\IeC {\~a}o arquitetural}{38}{section.2.10}
-\contentsline {section}{\numberline {2.11}Estrutura}{38}{section.2.11}
-\contentsline {subsection}{\numberline {2.11.1}C\IeC {\'a}lculos estruturais}{39}{subsection.2.11.1}
-\contentsline {subsubsection}{\numberline {2.11.1.1}Resist\IeC {\^e}ncia dos materiais}{39}{subsubsection.2.11.1.1}
-\contentsline {subsubsection}{\numberline {2.11.1.2}Vibra\IeC {\c c}\IeC {\~a}o natural}{40}{subsubsection.2.11.1.2}
-\contentsline {subsection}{\numberline {2.11.2}Simula\IeC {\c c}\IeC {\~o}es}{41}{subsection.2.11.2}
-\contentsline {subsubsection}{\numberline {2.11.2.1}CATIA}{42}{subsubsection.2.11.2.1}
+\contentsline {section}{\numberline {2.9}Ilumina\IeC {\c c}\IeC {\~a}o}{36}{section.2.9}
+\contentsline {section}{\numberline {2.10}Arquitetura de microsservi\IeC {\c c}os}{41}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Porque utilizar arquitetura de microsservi\IeC {\c c}os}{41}{subsection.2.10.1}
+\contentsline {subsection}{\numberline {2.10.2}Microsservi\IeC {\c c}os vs SOA}{41}{subsection.2.10.2}
+\contentsline {subsubsection}{\numberline {2.10.2.1}Diferen\IeC {\c c}as arquiteturais}{41}{subsubsection.2.10.2.1}
+\contentsline {section}{\numberline {2.11}Decis\IeC {\~a}o arquitetural}{43}{section.2.11}
+\contentsline {section}{\numberline {2.12}Estrutura}{43}{section.2.12}
+\contentsline {subsection}{\numberline {2.12.1}C\IeC {\'a}lculos estruturais}{43}{subsection.2.12.1}
+\contentsline {subsubsection}{\numberline {2.12.1.1}Resist\IeC {\^e}ncia dos materiais}{43}{subsubsection.2.12.1.1}
+\contentsline {subsubsection}{\numberline {2.12.1.2}Vibra\IeC {\c c}\IeC {\~a}o natural}{44}{subsubsection.2.12.1.2}
+\contentsline {subsection}{\numberline {2.12.2}Simula\IeC {\c c}\IeC {\~o}es}{45}{subsection.2.12.2}
+\contentsline {subsubsection}{\numberline {2.12.2.1}CATIA}{46}{subsubsection.2.12.2.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Solu\IeC {\c c}\IeC {\~a}o Proposta}}{49}{chapter.3}
-\contentsline {section}{\numberline {3.1}Requisitos de Software}{49}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Web e Mobile}{49}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Web Service}{50}{section.3.2}
-\contentsline {section}{\numberline {3.3}Linguagens e frameworks}{50}{section.3.3}
-\contentsline {section}{\numberline {3.4}Sistema mobile de controle}{50}{section.3.4}
-\contentsline {section}{\numberline {3.5}Sistema Web de Controle}{50}{section.3.5}
-\contentsline {section}{\numberline {3.6}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{51}{section.3.6}
-\contentsline {section}{\numberline {3.7}Microsservi\IeC {\c c}os utilizados no projeto}{54}{section.3.7}
-\contentsline {section}{\numberline {3.8}Diagramas}{54}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}Diagramas de classe}{54}{subsection.3.8.1}
-\contentsline {subsubsection}{\numberline {3.8.1.1}Microsservi\IeC {\c c}o de controle de temperatura ambiente}{54}{subsubsection.3.8.1.1}
-\contentsline {subsubsection}{\numberline {3.8.1.2}Microsservi\IeC {\c c}o de gerenciamento do usu\IeC {\'a}rio}{55}{subsubsection.3.8.1.2}
-\contentsline {subsection}{\numberline {3.8.2}Diagrama de Sequ\IeC {\^e}ncia}{56}{subsection.3.8.2}
-\contentsline {subsubsection}{\numberline {3.8.2.1}Ajuste de Temperatura Manual}{56}{subsubsection.3.8.2.1}
-\contentsline {subsubsection}{\numberline {3.8.2.2}Ajuste de Temperatura Autom\IeC {\'a}tico}{56}{subsubsection.3.8.2.2}
-\contentsline {subsubsection}{\numberline {3.8.2.3}CRUD Hortali\IeC {\c c}as}{57}{subsubsection.3.8.2.3}
-\contentsline {subsubsection}{\numberline {3.8.2.4}Ajuste de Ilumina\IeC {\c c}\IeC {\~a}o}{58}{subsubsection.3.8.2.4}
-\contentsline {subsubsection}{\numberline {3.8.2.5}Editar Usu\IeC {\'a}rio}{59}{subsubsection.3.8.2.5}
-\contentsline {subsubsection}{\numberline {3.8.2.6}Enviar Alerta}{60}{subsubsection.3.8.2.6}
-\contentsline {subsubsection}{\numberline {3.8.2.7}Exibir Relat\IeC {\'o}rio}{61}{subsubsection.3.8.2.7}
-\contentsline {subsubsection}{\numberline {3.8.2.8}Troca de \IeC {\'A}gua Autom\IeC {\'a}tica}{62}{subsubsection.3.8.2.8}
-\contentsline {subsubsection}{\numberline {3.8.2.9}Troca de \IeC {\'A}gua Manual}{63}{subsubsection.3.8.2.9}
-\contentsline {section}{\numberline {3.9}Confec\IeC {\c c}\IeC {\~a}o Ponte H}{64}{section.3.9}
-\contentsline {section}{\numberline {3.10}Confec\IeC {\c c}\IeC {\~a}o do plant\IeC {\'a}rio}{65}{section.3.10}
-\contentsline {subsection}{\numberline {3.10.1}Confec\IeC {\c c}\IeC {\~a}o da ventila\IeC {\c c}\IeC {\~a}o}{70}{subsection.3.10.1}
-\contentsline {section}{\numberline {3.11}Materiais}{71}{section.3.11}
-\contentsline {subsection}{\numberline {3.11.1}Resist\IeC {\^e}ncia dos materiais}{73}{subsection.3.11.1}
-\contentsline {subsection}{\numberline {3.11.2}Vibra\IeC {\c c}\IeC {\~o}es}{74}{subsection.3.11.2}
-\contentsline {section}{\numberline {3.12}Chassi}{75}{section.3.12}
-\contentsline {subsection}{\numberline {3.12.1}Dados do chassi}{75}{subsection.3.12.1}
-\contentsline {section}{\numberline {3.13}Sistema embarcado}{75}{section.3.13}
-\contentsline {section}{\numberline {3.14}Medi\IeC {\c c}\IeC {\~a}o do N\IeC {\'\i }vel da \IeC {\'A}gua}{76}{section.3.14}
-\contentsline {section}{\numberline {3.15}Optoacoplador 4N25}{77}{section.3.15}
-\contentsline {section}{\numberline {3.16}Rel\IeC {\'e}}{79}{section.3.16}
-\contentsline {section}{\numberline {3.17}Conversor anal\IeC {\'o}gico para digital}{80}{section.3.17}
-\contentsline {section}{\numberline {3.18}Sensor LDR}{81}{section.3.18}
-\contentsline {subsection}{\numberline {3.18.1}Caracter\IeC {\'\i }sticas el\IeC {\'e}tricas}{81}{subsection.3.18.1}
-\contentsline {subsection}{\numberline {3.18.2}Princ\IeC {\'\i }pios f\IeC {\'\i }sicos de funcionamento}{81}{subsection.3.18.2}
-\contentsline {section}{\numberline {3.19}Sensores DHT22}{82}{section.3.19}
-\contentsline {section}{\numberline {3.20}Comunica\IeC {\c c}\IeC {\~a}o}{83}{section.3.20}
-\contentsline {section}{\numberline {3.21}Princ\IeC {\'\i }pio F\IeC {\'\i }sico do Sensor}{84}{section.3.21}
-\contentsline {section}{\numberline {3.22}Motor DC 12V}{84}{section.3.22}
-\contentsline {subsection}{\numberline {3.22.1}Comunica\IeC {\c c}\IeC {\~a}o}{85}{subsection.3.22.1}
-\contentsline {subsection}{\numberline {3.22.2}Princ\IeC {\'\i }pio f\IeC {\'\i }sico de funcionamento}{85}{subsection.3.22.2}
-\contentsline {section}{\numberline {3.23}Sonda de pH}{85}{section.3.23}
-\contentsline {subsection}{\numberline {3.23.1}Especifica\IeC {\c c}\IeC {\~o}es gerais}{86}{subsection.3.23.1}
-\contentsline {subsection}{\numberline {3.23.2}Documenta\IeC {\c c}\IeC {\~a}o}{87}{subsection.3.23.2}
-\contentsline {subsection}{\numberline {3.23.3}Esquema de liga\IeC {\c c}\IeC {\~a}o}{88}{subsection.3.23.3}
-\contentsline {subsection}{\numberline {3.23.4}Informa\IeC {\c c}\IeC {\~o}es de limpeza e manuten\IeC {\c c}\IeC {\~a}o das sondas de pH}{88}{subsection.3.23.4}
-\contentsline {section}{\numberline {3.24}Sensor de Temperatura para liqu\IeC {\'\i }dos}{89}{section.3.24}
-\contentsline {subsection}{\numberline {3.24.1}Especifica\IeC {\c c}\IeC {\~o}es gerais}{89}{subsection.3.24.1}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Solu\IeC {\c c}\IeC {\~a}o Proposta}}{53}{chapter.3}
+\contentsline {section}{\numberline {3.1}Requisitos de Software}{53}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Web e Mobile}{53}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Web Service}{54}{section.3.2}
+\contentsline {section}{\numberline {3.3}Linguagens e frameworks}{54}{section.3.3}
+\contentsline {section}{\numberline {3.4}Sistema mobile de controle}{54}{section.3.4}
+\contentsline {section}{\numberline {3.5}Sistema Web de Controle}{54}{section.3.5}
+\contentsline {section}{\numberline {3.6}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{55}{section.3.6}
+\contentsline {section}{\numberline {3.7}Microsservi\IeC {\c c}os utilizados no projeto}{58}{section.3.7}
+\contentsline {section}{\numberline {3.8}Diagramas}{58}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Diagramas de classe}{58}{subsection.3.8.1}
+\contentsline {subsubsection}{\numberline {3.8.1.1}Microsservi\IeC {\c c}o de controle de temperatura ambiente}{58}{subsubsection.3.8.1.1}
+\contentsline {subsubsection}{\numberline {3.8.1.2}Microsservi\IeC {\c c}o de gerenciamento do usu\IeC {\'a}rio}{59}{subsubsection.3.8.1.2}
+\contentsline {subsection}{\numberline {3.8.2}Diagrama de Sequ\IeC {\^e}ncia}{60}{subsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.2.1}Ajuste de Temperatura Manual}{60}{subsubsection.3.8.2.1}
+\contentsline {subsubsection}{\numberline {3.8.2.2}Ajuste de Temperatura Autom\IeC {\'a}tico}{60}{subsubsection.3.8.2.2}
+\contentsline {subsubsection}{\numberline {3.8.2.3}CRUD Hortali\IeC {\c c}as}{61}{subsubsection.3.8.2.3}
+\contentsline {subsubsection}{\numberline {3.8.2.4}Ajuste de Ilumina\IeC {\c c}\IeC {\~a}o}{62}{subsubsection.3.8.2.4}
+\contentsline {subsubsection}{\numberline {3.8.2.5}Editar Usu\IeC {\'a}rio}{63}{subsubsection.3.8.2.5}
+\contentsline {subsubsection}{\numberline {3.8.2.6}Enviar Alerta}{64}{subsubsection.3.8.2.6}
+\contentsline {subsubsection}{\numberline {3.8.2.7}Exibir Relat\IeC {\'o}rio}{65}{subsubsection.3.8.2.7}
+\contentsline {subsubsection}{\numberline {3.8.2.8}Troca de \IeC {\'A}gua Autom\IeC {\'a}tica}{66}{subsubsection.3.8.2.8}
+\contentsline {subsubsection}{\numberline {3.8.2.9}Troca de \IeC {\'A}gua Manual}{67}{subsubsection.3.8.2.9}
+\contentsline {section}{\numberline {3.9}Confec\IeC {\c c}\IeC {\~a}o Ponte H}{68}{section.3.9}
+\contentsline {section}{\numberline {3.10}Confec\IeC {\c c}\IeC {\~a}o do plant\IeC {\'a}rio}{69}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Confec\IeC {\c c}\IeC {\~a}o da ventila\IeC {\c c}\IeC {\~a}o}{74}{subsection.3.10.1}
+\contentsline {section}{\numberline {3.11}Materiais}{75}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Resist\IeC {\^e}ncia dos materiais}{77}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Vibra\IeC {\c c}\IeC {\~o}es}{78}{subsection.3.11.2}
+\contentsline {section}{\numberline {3.12}Chassi}{79}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Dados do chassi}{79}{subsection.3.12.1}
+\contentsline {section}{\numberline {3.13}Sistema embarcado}{79}{section.3.13}
+\contentsline {section}{\numberline {3.14}Medi\IeC {\c c}\IeC {\~a}o do N\IeC {\'\i }vel da \IeC {\'A}gua}{80}{section.3.14}
+\contentsline {section}{\numberline {3.15}Optoacoplador 4N25}{81}{section.3.15}
+\contentsline {section}{\numberline {3.16}Rel\IeC {\'e}}{83}{section.3.16}
+\contentsline {section}{\numberline {3.17}Conversor anal\IeC {\'o}gico para digital}{84}{section.3.17}
+\contentsline {section}{\numberline {3.18}Sensor LDR}{85}{section.3.18}
+\contentsline {subsection}{\numberline {3.18.1}Caracter\IeC {\'\i }sticas el\IeC {\'e}tricas}{85}{subsection.3.18.1}
+\contentsline {subsection}{\numberline {3.18.2}Princ\IeC {\'\i }pios f\IeC {\'\i }sicos de funcionamento}{85}{subsection.3.18.2}
+\contentsline {section}{\numberline {3.19}Sensores DHT22}{86}{section.3.19}
+\contentsline {section}{\numberline {3.20}Comunica\IeC {\c c}\IeC {\~a}o}{87}{section.3.20}
+\contentsline {section}{\numberline {3.21}Princ\IeC {\'\i }pio F\IeC {\'\i }sico do Sensor}{88}{section.3.21}
+\contentsline {section}{\numberline {3.22}Motor DC 12V}{88}{section.3.22}
+\contentsline {subsection}{\numberline {3.22.1}Comunica\IeC {\c c}\IeC {\~a}o}{89}{subsection.3.22.1}
+\contentsline {subsection}{\numberline {3.22.2}Princ\IeC {\'\i }pio f\IeC {\'\i }sico de funcionamento}{89}{subsection.3.22.2}
+\contentsline {section}{\numberline {3.23}Sonda de pH}{89}{section.3.23}
+\contentsline {subsection}{\numberline {3.23.1}Especifica\IeC {\c c}\IeC {\~o}es gerais}{90}{subsection.3.23.1}
+\contentsline {subsection}{\numberline {3.23.2}Documenta\IeC {\c c}\IeC {\~a}o}{91}{subsection.3.23.2}
+\contentsline {subsection}{\numberline {3.23.3}Esquema de liga\IeC {\c c}\IeC {\~a}o}{92}{subsection.3.23.3}
+\contentsline {subsection}{\numberline {3.23.4}Informa\IeC {\c c}\IeC {\~o}es de limpeza e manuten\IeC {\c c}\IeC {\~a}o das sondas de pH}{92}{subsection.3.23.4}
+\contentsline {section}{\numberline {3.24}Sensor de Temperatura para liqu\IeC {\'\i }dos}{93}{section.3.24}
+\contentsline {subsection}{\numberline {3.24.1}Especifica\IeC {\c c}\IeC {\~o}es gerais}{93}{subsection.3.24.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{91}{chapter.4}
-\contentsline {section}{\numberline {4.1}Processos de fabrica\IeC {\c c}\IeC {\~a}o}{91}{section.4.1}
-\contentsline {section}{\numberline {4.2}Estrutura interna}{91}{section.4.2}
-\contentsline {section}{\numberline {4.3}Estrutura externa}{92}{section.4.3}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{95}{chapter.4}
+\contentsline {section}{\numberline {4.1}Processos de fabrica\IeC {\c c}\IeC {\~a}o}{95}{section.4.1}
+\contentsline {section}{\numberline {4.2}Estrutura interna}{95}{section.4.2}
+\contentsline {section}{\numberline {4.3}Estrutura externa}{96}{section.4.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Or\IeC {\c c}amento do Projeto}}{95}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Or\IeC {\c c}amento do Projeto}}{99}{chapter.5}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{97}{section*.3}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{101}{section*.3}

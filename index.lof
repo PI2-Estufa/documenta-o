@@ -15,58 +15,67 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Simula\IeC {\c c}\IeC {\~a}o da ponte H com acionamento em Q1 e Q4. Fonte: Proteus*.}}{33}{figure.2.14}
 \contentsline {figure}{\numberline {15}{\ignorespaces Simula\IeC {\c c}\IeC {\~a}o da ponte H com acionamento em Q2 e Q3. Fonte: Proteus*.}}{33}{figure.2.15}
 \contentsline {figure}{\numberline {16}{\ignorespaces Plant\IeC {\'a}rio. Adaptado de: <http://www.ecoeficientes.com.br/o-que-e-hidroponia/hidroponia-2/}}{35}{figure.2.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Exemplo de diferen\IeC {\c c}as arquiteturais em um contexto de neg\IeC {\'o}cio de um sistema de supermercado. }}{37}{figure.2.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Tabela de Frequ\IeC {\^e}ncias Naturais (Autoria Pr\IeC {\'o}pria)}}{40}{figure.2.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces An\IeC {\'a}lise de Tens\IeC {\~a}o Von Mises do chassi aplicando 300 N nas 4 faces do assoalho}}{42}{figure.2.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces An\IeC {\'a}lise da magnitude da deforma\IeC {\c c}\IeC {\~a}o do chassi aplicando 300 N nas 4 faces do assoalho}}{43}{figure.2.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces An\IeC {\'a}lise de Tens\IeC {\~a}o Von Mises do chassi aplicando 300 N nas barras de suporte laterais}}{43}{figure.2.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces An\IeC {\'a}lise da magnitude da deforma\IeC {\c c}\IeC {\~a}o do chassi aplicando 300 N nas barras de suporte laterais}}{44}{figure.2.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces An\IeC {\'a}lise da magnitude da deforma\IeC {\c c}\IeC {\~a}o do chassi aplicando 300N nas 4 barras do teto}}{44}{figure.2.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces An\IeC {\'a}lise da tens\IeC {\~a}o Von Mises no chassi aplicando 300N nas 4 barras do teto}}{45}{figure.2.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces An\IeC {\'a}lise da tens\IeC {\~a}o Von Mises no chassi aplicando 300N em todas suas faces do plano XY}}{45}{figure.2.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces An\IeC {\'a}lise da da magnitude de deslocamento no chassi aplicando 300N em todas suas faces do plano XY}}{46}{figure.2.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Vista Frontal da Estufa Hidrop\IeC {\^o}nica simplificada}}{46}{figure.2.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Vista Frontal da Estufa Hidrop\IeC {\^o}nica simplificada com a porta aberta e gaveta estendida}}{47}{figure.2.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Vista frontal da Estufa Hidrop\IeC {\^o}nica Simplificada com a porta fechada }}{47}{figure.2.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Diagrama de classe do microsservi\IeC {\c c}o de controle de temperatura ambiente}}{55}{figure.3.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Diagrama de classe do microsservi\IeC {\c c}o de gerenciamento do usu\IeC {\'a}rio}}{55}{figure.3.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do ajuste de temperatura manual}}{56}{figure.3.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do ajuste de temperatura autom\IeC {\'a}tico}}{57}{figure.3.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do CRUD Hortali\IeC {\c c}as}}{58}{figure.3.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do ajuste de ilumina\IeC {\c c}\IeC {\~a}o}}{59}{figure.3.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de edi\IeC {\c c}\IeC {\~a}o de usu\IeC {\'a}rio}}{60}{figure.3.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de enviar alerta}}{61}{figure.3.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de exibir relat\IeC {\'o}rio}}{62}{figure.3.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de troca de \IeC {\'a}gua autom\IeC {\'a}tica}}{63}{figure.3.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de troca de \IeC {\'a}gua manual}}{64}{figure.3.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Ponte H confeccionada.}}{65}{figure.3.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Plant\IeC {\'a}rio confeccionado com canos PVC. Fonte pr\IeC {\'o}pria}}{66}{figure.3.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Fatores de atrito tabelados. Fonte: www.pipelife.com}}{67}{figure.3.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Tubos do plant\IeC {\'a}rio. Fonte pr\IeC {\'o}pria}}{68}{figure.3.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Curva caracter\IeC {\'\i }stica da moto bomba Sarlo Fonte: <http://www.sarlobetter.com.br/aquarios/bombas/linha-sarlo/s-90/manual.pdf>}}{69}{figure.3.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces C Bombas de \IeC {\'a}gua. Fonte pr\IeC {\'o}pria.}}{69}{figure.3.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces Compressor de ar. Fonte pr\IeC {\'o}pria.}}{70}{figure.3.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces Ventilador instalado na estrutura. Fonte pr\IeC {\'o}pria.}}{70}{figure.3.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces Propriedades do material simulado}}{72}{figure.3.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces Tens\IeC {\~a}o normal sobre uma barra prism\IeC {\'a}tica}}{73}{figure.3.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces Flex\IeC {\~a}o pura sobre uma barra prism\IeC {\'a}tica}}{73}{figure.3.51}
-\contentsline {figure}{\numberline {52}{\ignorespaces Esquema de uma excita\IeC {\c c}\IeC {\~a}o pela base}}{74}{figure.3.52}
-\contentsline {figure}{\numberline {53}{\ignorespaces Dados do chassi estrutural}}{75}{figure.3.53}
-\contentsline {figure}{\numberline {54}{\ignorespaces Disposi\IeC {\c c}\IeC {\~a}o das B\IeC {\'o}ias no Reservat\IeC {\'o}rio}}{77}{figure.3.54}
-\contentsline {figure}{\numberline {55}{\ignorespaces Funcionamento do optoacoplador}}{78}{figure.3.55}
-\contentsline {figure}{\numberline {56}{\ignorespaces Funcionamento do optoacoplador}}{79}{figure.3.56}
-\contentsline {figure}{\numberline {57}{\ignorespaces M\IeC {\'o}dulo Rel\IeC {\'e} de 8 canais}}{80}{figure.3.57}
-\contentsline {figure}{\numberline {58}{\ignorespaces M\IeC {\'o}dulo Rel\IeC {\'e} de 8 canais}}{81}{figure.3.58}
-\contentsline {figure}{\numberline {59}{\ignorespaces Curva caracter\IeC {\'\i }stica de resposta do LDR}}{82}{figure.3.59}
-\contentsline {figure}{\numberline {60}{\ignorespaces Protocolo de comunica\IeC {\c c}\IeC {\~a}o}}{83}{figure.3.60}
-\contentsline {figure}{\numberline {61}{\ignorespaces Esquema com eletrodos e o substrato de reten\IeC {\c c}\IeC {\~a}o de umidade}}{84}{figure.3.61}
-\contentsline {figure}{\numberline {62}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o entre temperatura e a resist\IeC {\^e}ncia do termistor}}{84}{figure.3.62}
-\contentsline {figure}{\numberline {63}{\ignorespaces Equa\IeC {\c c}\IeC {\~o}es matem\IeC {\'a}ticas do pH}}{86}{figure.3.63}
-\contentsline {figure}{\numberline {64}{\ignorespaces Valores de medidas estabelecidas pelo fornecedor de pH e DDP}}{86}{figure.3.64}
-\contentsline {figure}{\numberline {65}{\ignorespaces Sensor de pH}}{87}{figure.3.65}
-\contentsline {figure}{\numberline {66}{\ignorespaces Amplificador de sinal conex\IeC {\~a}o BNC}}{87}{figure.3.66}
-\contentsline {figure}{\numberline {67}{\ignorespaces Par\IeC {\^a}metros de medi\IeC {\c c}\IeC {\~o}es de acordo com o tipo de sonda}}{88}{figure.3.67}
-\contentsline {figure}{\numberline {68}{\ignorespaces Solu\IeC {\c c}\IeC {\~o}es especiais}}{90}{figure.3.68}
-\contentsline {figure}{\numberline {69}{\ignorespaces Parte superior da estrutura interna.}}{92}{figure.4.69}
-\contentsline {figure}{\numberline {70}{\ignorespaces Corredi\IeC {\c c}a telesc\IeC {\'o}pica onde comportar\IeC {\'a} a gaveta de mudas.}}{92}{figure.4.70}
-\contentsline {figure}{\numberline {71}{\ignorespaces Estrutura com o isolamento externo.}}{93}{figure.4.71}
+\contentsline {figure}{\numberline {17}{\ignorespaces PAR(Radia\IeC {\c c}\IeC {\~a}o fotossinteticamente ativa)}}{37}{figure.2.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Valor de U\$500 o medidor PAR/PPFD)}}{37}{figure.2.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Varia\IeC {\c c}\IeC {\~a}o PPFD, qualidade de plantas com fornecimento entre 575 $\mu $mol $m^{-2}$$s^{-1}$, 278 $\mu $mol $m^{-2}$$s^{-1}$ e ,175 $\mu $mol $m^{-2}$$s^{-1}$ PPFD demonstrando ser um par\IeC {\^a}metro quantitativo validado para ser usado.)}}{38}{figure.2.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Curva caracter\IeC {\'\i }stica onda}}{38}{figure.2.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces curva fotom\IeC {\'e}trica}}{39}{figure.2.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Curva caracter\IeC {\'\i }stica onda}}{39}{figure.2.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces curva fotom\IeC {\'e}trica}}{39}{figure.2.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces curva onda}}{40}{figure.2.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Cardioide}}{40}{figure.2.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Exemplo de diferen\IeC {\c c}as arquiteturais em um contexto de neg\IeC {\'o}cio de um sistema de supermercado. }}{42}{figure.2.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Tabela de Frequ\IeC {\^e}ncias Naturais (Autoria Pr\IeC {\'o}pria)}}{45}{figure.2.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces An\IeC {\'a}lise de Tens\IeC {\~a}o Von Mises do chassi aplicando 300 N nas 4 faces do assoalho}}{46}{figure.2.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces An\IeC {\'a}lise da magnitude da deforma\IeC {\c c}\IeC {\~a}o do chassi aplicando 300 N nas 4 faces do assoalho}}{47}{figure.2.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces An\IeC {\'a}lise de Tens\IeC {\~a}o Von Mises do chassi aplicando 300 N nas barras de suporte laterais}}{47}{figure.2.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces An\IeC {\'a}lise da magnitude da deforma\IeC {\c c}\IeC {\~a}o do chassi aplicando 300 N nas barras de suporte laterais}}{48}{figure.2.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces An\IeC {\'a}lise da magnitude da deforma\IeC {\c c}\IeC {\~a}o do chassi aplicando 300N nas 4 barras do teto}}{48}{figure.2.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces An\IeC {\'a}lise da tens\IeC {\~a}o Von Mises no chassi aplicando 300N nas 4 barras do teto}}{49}{figure.2.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces An\IeC {\'a}lise da tens\IeC {\~a}o Von Mises no chassi aplicando 300N em todas suas faces do plano XY}}{49}{figure.2.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces An\IeC {\'a}lise da da magnitude de deslocamento no chassi aplicando 300N em todas suas faces do plano XY}}{50}{figure.2.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Vista Frontal da Estufa Hidrop\IeC {\^o}nica simplificada}}{50}{figure.2.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Vista Frontal da Estufa Hidrop\IeC {\^o}nica simplificada com a porta aberta e gaveta estendida}}{51}{figure.2.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Vista frontal da Estufa Hidrop\IeC {\^o}nica Simplificada com a porta fechada }}{51}{figure.2.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Diagrama de classe do microsservi\IeC {\c c}o de controle de temperatura ambiente}}{59}{figure.3.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Diagrama de classe do microsservi\IeC {\c c}o de gerenciamento do usu\IeC {\'a}rio}}{59}{figure.3.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do ajuste de temperatura manual}}{60}{figure.3.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do ajuste de temperatura autom\IeC {\'a}tico}}{61}{figure.3.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do CRUD Hortali\IeC {\c c}as}}{62}{figure.3.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do ajuste de ilumina\IeC {\c c}\IeC {\~a}o}}{63}{figure.3.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de edi\IeC {\c c}\IeC {\~a}o de usu\IeC {\'a}rio}}{64}{figure.3.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de enviar alerta}}{65}{figure.3.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de exibir relat\IeC {\'o}rio}}{66}{figure.3.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de troca de \IeC {\'a}gua autom\IeC {\'a}tica}}{67}{figure.3.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia de troca de \IeC {\'a}gua manual}}{68}{figure.3.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Ponte H confeccionada.}}{69}{figure.3.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces Plant\IeC {\'a}rio confeccionado com canos PVC. Fonte pr\IeC {\'o}pria}}{70}{figure.3.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces Fatores de atrito tabelados. Fonte: www.pipelife.com}}{71}{figure.3.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces Tubos do plant\IeC {\'a}rio. Fonte pr\IeC {\'o}pria}}{72}{figure.3.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces Curva caracter\IeC {\'\i }stica da moto bomba Sarlo Fonte: <http://www.sarlobetter.com.br/aquarios/bombas/linha-sarlo/s-90/manual.pdf>}}{73}{figure.3.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces C Bombas de \IeC {\'a}gua. Fonte pr\IeC {\'o}pria.}}{73}{figure.3.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces Compressor de ar. Fonte pr\IeC {\'o}pria.}}{74}{figure.3.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces Ventilador instalado na estrutura. Fonte pr\IeC {\'o}pria.}}{74}{figure.3.57}
+\contentsline {figure}{\numberline {58}{\ignorespaces Propriedades do material simulado}}{76}{figure.3.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces Tens\IeC {\~a}o normal sobre uma barra prism\IeC {\'a}tica}}{77}{figure.3.59}
+\contentsline {figure}{\numberline {60}{\ignorespaces Flex\IeC {\~a}o pura sobre uma barra prism\IeC {\'a}tica}}{77}{figure.3.60}
+\contentsline {figure}{\numberline {61}{\ignorespaces Esquema de uma excita\IeC {\c c}\IeC {\~a}o pela base}}{78}{figure.3.61}
+\contentsline {figure}{\numberline {62}{\ignorespaces Dados do chassi estrutural}}{79}{figure.3.62}
+\contentsline {figure}{\numberline {63}{\ignorespaces Disposi\IeC {\c c}\IeC {\~a}o das B\IeC {\'o}ias no Reservat\IeC {\'o}rio}}{81}{figure.3.63}
+\contentsline {figure}{\numberline {64}{\ignorespaces Funcionamento do optoacoplador}}{82}{figure.3.64}
+\contentsline {figure}{\numberline {65}{\ignorespaces Funcionamento do optoacoplador}}{83}{figure.3.65}
+\contentsline {figure}{\numberline {66}{\ignorespaces M\IeC {\'o}dulo Rel\IeC {\'e} de 8 canais}}{84}{figure.3.66}
+\contentsline {figure}{\numberline {67}{\ignorespaces M\IeC {\'o}dulo Rel\IeC {\'e} de 8 canais}}{85}{figure.3.67}
+\contentsline {figure}{\numberline {68}{\ignorespaces Curva caracter\IeC {\'\i }stica de resposta do LDR}}{86}{figure.3.68}
+\contentsline {figure}{\numberline {69}{\ignorespaces Protocolo de comunica\IeC {\c c}\IeC {\~a}o}}{87}{figure.3.69}
+\contentsline {figure}{\numberline {70}{\ignorespaces Esquema com eletrodos e o substrato de reten\IeC {\c c}\IeC {\~a}o de umidade}}{88}{figure.3.70}
+\contentsline {figure}{\numberline {71}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o entre temperatura e a resist\IeC {\^e}ncia do termistor}}{88}{figure.3.71}
+\contentsline {figure}{\numberline {72}{\ignorespaces Equa\IeC {\c c}\IeC {\~o}es matem\IeC {\'a}ticas do pH}}{90}{figure.3.72}
+\contentsline {figure}{\numberline {73}{\ignorespaces Valores de medidas estabelecidas pelo fornecedor de pH e DDP}}{90}{figure.3.73}
+\contentsline {figure}{\numberline {74}{\ignorespaces Sensor de pH}}{91}{figure.3.74}
+\contentsline {figure}{\numberline {75}{\ignorespaces Amplificador de sinal conex\IeC {\~a}o BNC}}{91}{figure.3.75}
+\contentsline {figure}{\numberline {76}{\ignorespaces Par\IeC {\^a}metros de medi\IeC {\c c}\IeC {\~o}es de acordo com o tipo de sonda}}{92}{figure.3.76}
+\contentsline {figure}{\numberline {77}{\ignorespaces Solu\IeC {\c c}\IeC {\~o}es especiais}}{94}{figure.3.77}
+\contentsline {figure}{\numberline {78}{\ignorespaces Parte superior da estrutura interna.}}{96}{figure.4.78}
+\contentsline {figure}{\numberline {79}{\ignorespaces Corredi\IeC {\c c}a telesc\IeC {\'o}pica onde comportar\IeC {\'a} a gaveta de mudas.}}{96}{figure.4.79}
+\contentsline {figure}{\numberline {80}{\ignorespaces Estrutura com o isolamento externo.}}{97}{figure.4.80}
