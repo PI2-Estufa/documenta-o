@@ -1,6 +1,6 @@
 \section{Arquitetura de microsserviços}
 
-É um modelo arquitetural que tem como foco principal o baixo acoplamento dos serviços disponíveis e é altamente escalável. Ela foi criada para desacoplar as funcionalidades da arquitetura monolítica, sendo esta uma arquitetura tradicional que tem um forte acoplamento entre as classes, o que dificulta a manutenção, aumenta os custos e o tempo do projeto. Com a utilização da arquitetura de microsserviços, os serviços estarão independentes e sua manutenção pode ser realizada sem que necessite modificar a estrutura das classes de outro serviço. Esses serviços podem ser comunicados através de um barramento, como RabbitMQ e com a utilização de um protocolo de comunicação, como AMQP ou HTTP. 
+É um modelo arquitetural que tem como foco principal o baixo acoplamento dos serviços disponíveis e é altamente escalável. Ela foi criada para desacoplar as funcionalidades da arquitetura monolítica, sendo esta uma arquitetura tradicional que tem um forte acoplamento entre as classes, o que dificulta a manutenção, aumenta os custos e o tempo do projeto. Com a utilização da arquitetura de microsserviços, os serviços estarão independentes e sua manutenção pode ser realizada sem que necessite modificar a estrutura das classes de outro serviço. Esses serviços podem ser comunicados através de um barramento, como RabbitMQ e com a utilização de um protocolo de comunicação, como AMQP ou HTTP. \cite{microservices} \cite{fowler}
 
 \subsection{Porque utilizar arquitetura de microsserviços}
 
@@ -12,7 +12,7 @@ Torna-se possível, também, subdividir equipes para atuarem de maneira autônom
 
 \subsubsection{Diferenças arquiteturais}
 
-Muitos desenvolvedores realizam uma confusão por achar que a arquitetura SOA (Software Oriented-Architecture) é a mesma coisa que o estilo arquitetural de microsserviços. As duas propostas arquiteturais propõe o desenvolvimento desacoplado das funcionalidades do projeto, porém enquanto o SOA precisa de componentes que centralizam os serviços, a arquitetura de microsserviços contém os componentes descentralizados. 
+Muitos desenvolvedores realizam uma confusão por achar que a arquitetura SOA (Software Oriented-Architecture) é a mesma coisa que o estilo arquitetural de microsserviços. As duas propostas arquiteturais propõe o desenvolvimento desacoplado das funcionalidades do projeto, porém enquanto o SOA precisa de componentes que centralizam os serviços, a arquitetura de microsserviços contém os componentes descentralizados.\cite{gunter}
 
 A imagem abaixo, ilustra essa diferença:
 

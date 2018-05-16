@@ -31,13 +31,13 @@ Para facilitar a utilização da estufa por pessoas que não possuem conheciment
 
 \section{Web Service}
 
-A solução exige componentes capaz de manter comunicação unificada entre a estufa e as interfaces web e mobile. A necessidade de se atualizar parâmetros em tempo real orienta ao uso de uma solução com rabbitmq juntamente com o protocolo de comunicação AMQP.
+A solução exige componentes capaz de manter comunicação unificada entre a estufa e as interfaces web e mobile. A necessidade de se atualizar parâmetros em tempo real orienta ao uso de uma solução com rabbitmq juntamente com o protocolo de comunicação AMQP. 
 
-A API que será desenvolvida terá auxílio do microframework Falskm, tendo este a responsabilidade pela integração entre os componentes de software. A solução da API seguirá o padrão arquitetural de microsserviços. 
+A API que será desenvolvida terá auxílio do microframework Flask, tendo este a responsabilidade pela integração entre os componentes de software. A solução da API seguirá o padrão arquitetural de microsserviços. 
 
 \section{Linguagens e frameworks}
 
-A construção do backend será desenvolvida em Python com o auxílio do framework Nameko, sendo este desenvolvido especialmente para aplicações de microsserviços. Além disso, será utilizado o microframework Flask para a implantação da API e a geração de rotas para requisição de páginas via AMQP, para que seja possível a conversão dos dados coletados em formatos em JSON, sendo este subsídio de entrada o frontend.
+A construção do backend será desenvolvida em Python com o auxílio do framework Nameko, sendo este desenvolvido especialmente para aplicações de microsserviços. Além disso, será utilizado o microframework Flask para a implantação da API e a geração de rotas para requisição de páginas via AMQP, para que seja possível a conversão dos dados coletados em formatos em JSON, sendo este subsídio de entrada o frontend. \cite{rocha}
 
 Para o frontend, serão utilizados o ReactJS para a aplicação web e o React Native na aplicação mobile. 
 
@@ -49,13 +49,13 @@ Por meio do aplicativo, o proprietário poderá monitorar e alterar as condiçõ
 
 O aplicativo mobile será desenvolvido utilizando o framework React Native. Esta tecnologia foi selecionada pois ela permite uma comunicação facilitada com o WebService definido acima.
 
-\section{Sistema Web de Controle}
+\section{Sistema web de controle}
 
 O sistema web oferece uma alternativa para o controle de estufa. Será desenvolvida em React JS, também se conectará ao WebService e oferecerá os mesmos mecanismos de controle disponíveis no Sistema Mobile de Controle.
 
 \section{Histórias de Usuário}
 
-Seguindo as recomendações do SCRUM, uma metodologia ágil de desenvolvimento de software, foram definidas histórias de usuário que representam funcionalidades planejadas do sistema. Cada história foi analisada pela equipe de desenvolvimento e pontuada segundo seu nível de complexidade. A seguir encontra-se a listagem delas.
+Seguindo as recomendações do SCRUM, uma metodologia ágil de desenvolvimento de software, foram definidas histórias de usuário que representam funcionalidades planejadas do sistema. Cada história foi analisada pela equipe de desenvolvimento e pontuada segundo seu nível de complexidade. A seguir encontra-se a listagem delas. 
 
 \textbf{US01 - Visualizar medições}
 
@@ -259,7 +259,7 @@ Para o escopo da integração e das funcionalidades pertinentes ao sistema como 
 
 \subsection{Diagramas de classe}
 
-Os diagramas de classe representa a estrutura do sistema, em suma suas classes, atributos, métodos e relacionamentos. 
+Os diagramas de classe representa a estrutura do sistema, em suma suas classes, atributos, métodos e relacionamentos. \cite{ibm}
 
 Como a arquitetura de microsserviços prega o desacoplamento dos microsserviços, portanto, para cada microsserviço do projeto existe um diagrama pertinente àquele microsserviço em questão.
 
