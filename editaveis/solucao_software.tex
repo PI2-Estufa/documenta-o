@@ -8,25 +8,22 @@ Para os requisitos a seguir, o termo "aplicação" é usado para designar tanto 
 
 Os dados coletados pelos sensores instalados na estufa devem ser transmitidos às aplicações web e mobile, de forma que possam ser apresentados ao proprietário da estufa em tempo real.
 
-\textbf{2. A aplicação deve permitir ajuste de temperatura do sistema.}
 
-Como cada hortaliça necessita de temperatura específica, é importante poder alterar a temperatura dentro da estufa para que a hortaliça tenha um crescimento desejável.
-
-\textbf{3. A aplicação deve permitir a troca de água do sistema.}
+\textbf{2. A aplicação deve permitir a troca de água do sistema.}
 
 Embora a troca de água seja acionada automaticamente quando o nível de pH esteja fora da faixa aceitável, o usuário deve ser capaz de acionar esta funcionalidade manualmente.
 
-\textbf{4. A aplicação deve exibir notificações quando o nível de pH da água estiver abaixo ou acima do nível ideal.}
+\textbf{3. A aplicação deve exibir notificações quando o nível de pH da água estiver abaixo ou acima do nível ideal.}
 
 Como um nível impróprio de pH da água é prejudicial para hortaliças, a aplicação deve exibir uma notificação sempre que, por algum motivo, o nível de pH fique acima ou abaixo do especificado como ideal. 
 
-\textbf{5. A aplicação deve exibir notificações quando a temperatura estiver abaixo ou acima do nível ideal.}
+\textbf{4. A aplicação deve exibir notificações quando a temperatura estiver abaixo ou acima do nível ideal.}
 
 A estufa deve ser mantida em uma faixa de temperatura especificada como ideal para as hortaliças. Sempre que, por algum motivo, a temperatura interna da estufa fique acima ou abaixo desta faixa, uma notificação deve ser exibida pela aplicação.
 
-\textbf{6. A aplicação deve exibir opções com configurações pré-definidas para cultivo.}
+\textbf{5. A aplicação deve realizar a abertura/fechamento da gaveta por um comando.}
 
-Para facilitar a utilização da estufa por pessoas que não possuem conhecimentos prévios sobre cultivo de hortaliças, a aplicação deve possuir um banco de dados populado com informações sobre as condições ideais de cultivo das variedades mais comuns de hortaliças.
+Em qualquer momento, o usuário poderá acionar a abertura/fechamento da gaveta pelo aplicativo ou pelo sistema web.
 
 
 \section{Web Service}
@@ -92,49 +89,7 @@ Seguindo as recomendações do SCRUM, uma metodologia ágil de desenvolvimento d
 		\subitem PIN de 4 dígitos
 \end{itemize}
 
-\textbf{US03 - Cadastro de usuário}
-
-\textbf{Pontuação:} 3
-
-\textbf{Eu como:} Usuário
-
-\textbf{Desejo:} me cadastrar no sistema
-
-\textbf{Para que:} ganhe acesso autenticado ao sistema.
-
-\begin{itemize}
-	\item Utilizar número de série para cadastro inicial pelo aplicativo.
-	\item Cadastrar endereço de e-mail como login.
-	\subitem Enviar confirmação de cadastro como e-mail
-	\item Cadastrar PIN para autenticação
-	\subitem PIN de 4 dígitos
-\end{itemize}
-
-\textbf{US04 - Manter hortaliças}
-
-\textbf{Pontuação:} 3
-
-\textbf{Eu como:} Usuário
-
-\textbf{Desejo:} manter uma hortaliça no banco de dados
-
-\textbf{Para que:} diferentes tipos de hortaliças possam ser mantidos de forma automatizada pela estufa
-
-\begin{itemize}
-	\item Cadastrar uma nova hortaliça.
-		\subitem Temperatura
-		\subitem Luminosidade
-		\subitem Nome
-		\subitem Tempo de cultivo
-	\item Excluir uma hortaliça
-	\subitem Exibir confirmação de exclusão
-	\item Cadastrar PIN para autenticação
-	\subitem PIN de 4 dígitos
-	\item Editar uma hortaliça
-	\subitem Visualizar uma hortaliça
-\end{itemize}
-
-\textbf{US05 - Alertar usuário}
+\textbf{US03 - Alertar usuário}
 
 \textbf{Pontuação:} 2
 
@@ -148,7 +103,7 @@ Seguindo as recomendações do SCRUM, uma metodologia ágil de desenvolvimento d
 	\item Exibir um alerta quando a temperatura estiver elevada ou abaixo do necessário
 \end{itemize}
 
-\textbf{US06 - Visualizar ambiente interno}
+\textbf{US04 - Visualizar ambiente interno}
 
 \textbf{Pontuação:} 13
 
@@ -162,35 +117,7 @@ Seguindo as recomendações do SCRUM, uma metodologia ágil de desenvolvimento d
 	\item Mostrar a estufa em tempo real
 \end{itemize}
 
-\textbf{US07 - Fornecer configurações para cultivo}
-
-\textbf{Pontuação:} 5
-
-\textbf{Eu como:} Sistema
-
-\textbf{Desejo:} fornecer configurações pré-definidas para cultivo
-
-\textbf{Para que:} o usuário tenha um padrão para o cultivo
-
-\begin{itemize}
-	\item Exibir um cadastro de hortaliças pré-cadastradas e hortaliças inseridas
-\end{itemize}
-
-\textbf{US08 - Alterar temperatura interna}
-
-\textbf{Pontuação:} 5
-
-\textbf{Eu como:} Usuário
-
-\textbf{Desejo:} alterar a temperatura interna da estufa
-
-\textbf{Para que:} seja propiciado um melhor ambiente de cultivo para a hortaliça
-
-\begin{itemize}
-	\item Exibir um painel de controle para acionar os exaustores
-\end{itemize}
-
-\textbf{US09 - Troca de água}
+\textbf{US05 - Troca de água}
 
 \textbf{Pontuação:} 5
 
@@ -205,22 +132,51 @@ Seguindo as recomendações do SCRUM, uma metodologia ágil de desenvolvimento d
 
 \end{itemize}
 
-\textbf{US10 - Visualizar relatório de volume d’água}
+\textbf{US06 - Visualizar relatório de temperatura d’água}
 
 \textbf{Pontuação:} 3
 
 \textbf{Eu como:} Usuário
 
-\textbf{Desejo:} visualizar um relatório com o volume de água utilizado
+\textbf{Desejo:} visualizar um relatório com a temperatura de água ao longo de um período específico
 
-\textbf{Para que:} tenha controle sobre a quantidade de água gasta
+\textbf{Para que:} tenha controle sobre a temperatura de água em um período selecionado
 
-\begin{itemize}
-	\item Exibir a quantidade de água utilizada
-	
-\end{itemize}
 
-\textbf{US11 - Alerta sobre falhas de comunicação}
+\textbf{US07 - Visualizar relatório de temperatura ambiente interna da estufa}
+
+\textbf{Pontuação:} 3
+
+\textbf{Eu como:} Usuário
+
+\textbf{Desejo:} visualizar um relatório com a temperatura ambiente interna da estufa ao longo de um período específico
+
+\textbf{Para que:} tenha controle sobre a temperatura ambiente interna da estufa em um período selecionado
+
+
+\textbf{US08 - Visualizar relatório do nível de pH da estufa}
+
+\textbf{Pontuação:} 3
+
+\textbf{Eu como:} Usuário
+
+\textbf{Desejo:} visualizar um relatório com o nível de ph da água da estufa ao longo de um período específico
+
+\textbf{Para que:} tenha controle sobre o nível de ph da água da estufa em um período selecionado
+
+
+\textbf{US09 - Visualizar relatório da umidade interna da estufa}
+
+\textbf{Pontuação:} 3
+
+\textbf{Eu como:} Usuário
+
+\textbf{Desejo:} visualizar um relatório com a umidade interna da estufa ao longo de um período específico
+
+\textbf{Para que:} tenha controle sobre o nível da umidade interna da estufa em um período selecionado
+
+
+\textbf{US10 - Alerta sobre falhas de comunicação}
 
 \textbf{Pontuação:} 5
 
@@ -235,13 +191,21 @@ Seguindo as recomendações do SCRUM, uma metodologia ágil de desenvolvimento d
 	
 \end{itemize}
 
-\textbf{US12 - Abrir a porta}
+\textbf{US11 - Abrir a gaveta da estufa}
 
 \textbf{Eu como:} Usuário
 
-\textbf{Desejo:} abrir a porta da estufa
+\textbf{Desejo:} abrir a gaveta da estufa
 
-\textbf{Para que:} realize a coleta da planta
+\textbf{Para que:} realizar a coleta/inserção da planta ou embrião da planta.
+
+\textbf{US12 - Fechar a gaveta da estufa}
+	
+	\textbf{Eu como:} Usuário
+	
+	\textbf{Desejo:} fechar a gaveta da estufa
+	
+	\textbf{Para que:} realizar a coleta/inserção da planta ou embrião da planta.
 
 
 \section{Microsserviços utilizados no projeto}
@@ -250,7 +214,7 @@ Para o escopo da integração e das funcionalidades pertinentes ao sistema como 
 
 \begin{itemize}
 	\item Monitoramento de temperatura, e do nível hidrogeniônico da água.
-	\item Controle de temperatura ambiente.
+	\item Monitoramento de temperatura ambiente e umidade relativa do ar, internos à água.
 	\item Login do usuário.
 	\item Gerenciamento de usuário.
 \end{itemize}
@@ -263,14 +227,14 @@ Os diagramas de classe representa a estrutura do sistema, em suma suas classes, 
 
 Como a arquitetura de microsserviços prega o desacoplamento dos microsserviços, portanto, para cada microsserviço do projeto existe um diagrama pertinente àquele microsserviço em questão.
 
-\subsubsection{Microsserviço de controle de temperatura ambiente}
+\subsubsection{Microsserviço de monitoramento de temperatura ambiente}
 
-Na imagem abaixo, é possível observar como é a estrutura padrão para os microserviços que contam com a integração dos softwares (embarcados, webservice, cliente) como: monitoramento de temperatura, e do nível hidrogeniônico da água; e, controle de temperatura ambiente;
+Na imagem abaixo, é possível observar como é a estrutura padrão para os microserviços que contam com a integração dos softwares (embarcados, webservice, cliente) como: monitoramento de temperatura, e do nível hidrogeniônico da água; e, monitoramento de temperatura ambiente e umidade relativa do ar;
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=17cm]{figuras/microservico_temperatura.png}
-	\caption{Diagrama de classe do microsserviço de controle de temperatura ambiente} \label{microservico_temperatura}
+	\caption{Diagrama de classe do microsserviço de monitoramento de temperatura ambiente} \label{microservico_temperatura}
 \end{figure}
 
 \subsubsection{Microsserviço de gerenciamento do usuário}
@@ -291,55 +255,6 @@ Diagramas de sequência podem ser utilizados para visualizar e avaliar o fluxo l
 
 A seguir, são apresentados os diagramas de sequência de algumas das funcionalidades chave do projeto Greenhouse.
 
-\subsubsection{Ajuste de Temperatura Manual}
-
-O fluxo do diagrama de sequência abaixo mostra as ações efetuadas tanto pelo usuário quanto pelos sistemas para realizar o ajuste manual da temperatura.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=28cm]{figuras/ajuste_manual.png}
-	\caption{Diagrama de sequência do ajuste de temperatura manual} \label{ajuste_manual}
-\end{figure}
-
-\subsubsection{Ajuste de Temperatura Automático}
-
-O fluxo do diagrama de sequência abaixo mostra as ações efetuadas tanto pelo usuário quanto pelos sistemas para realizar o ajuste automático da temperatura.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=16cm]{figuras/ajuste_automatico.png}
-	\caption{Diagrama de sequência do ajuste de temperatura automático} \label{ajuste_automatico}
-\end{figure}
-
-\subsubsection{CRUD Hortaliças}
-
-O fluxo do diagrama de sequência abaixo mostra as ações efetuadas tanto pelo usuário quanto pelos sistemas para realizar as ações presentes de criar, alterar ou deletar informações de hortaliças no banco de dados.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=18cm]{figuras/crud_hortalicas.png}
-	\caption{Diagrama de sequência do CRUD Hortaliças} \label{crud_hortalicas}
-\end{figure}
-
-\subsubsection{Ajuste de Iluminação}
-
-O fluxo do diagrama de sequência abaixo mostra as ações efetuadas pelos sistemas para realizar o ajuste automático de iluminação.
-
-\begin{figure}[H]
-	\centering
-		\includegraphics[width=16cm]{figuras/ajuste_iluminacao.png}
-	\caption{Diagrama de sequência do ajuste de iluminação} \label{ajuste_iluminacao}
-\end{figure}
-
-\subsubsection{Editar Usuário}
-
-O fluxo do diagrama de sequência abaixo mostra as ações efetuadas tanto pelo usuário quanto pelos sistemas para realizar a edição de um usuário no banco de dados.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=18cm]{figuras/edicao_usuario.png}
-	\caption{Diagrama de sequência de edição de usuário} \label{edicao_usuario}
-\end{figure}
 
 \subsubsection{Enviar Alerta}
 
@@ -380,3 +295,9 @@ O fluxo do diagrama de sequência abaixo mostra as ações efetuadas pelos siste
 	\includegraphics[width=18cm]{figuras/troca_agua_manual.png}
 	\caption{Diagrama de sequência de troca de água manual} \label{troca_agua_manual}
 \end{figure}
+
+\subsection{Diagrama de Estado}
+
+Diagramas de estado podem ser utilizados para visualizar e avaliar o fluxo lógico de um sistema. Eles exibem a forma pela qual informações, ações e eventos são transmitidos entre todas as entidades relacionadas a uma funcionalidade específica.
+
+A seguir, são apresentados os diagramas de sequência de algumas das funcionalidades chave do projeto Greenhouse.
