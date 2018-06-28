@@ -1,92 +1,146 @@
-\section{Materiais}
+\section{Solução Estrutural}
 
-Para a estrutura da estufa automatizada é necessário um material que seja resistente às cargas que serão aplicadas, ao mesmo tempo que seja viável financeiramente. Foram escolhidos dois metais para a estrutura interna, são eles o alumínio e o aço, materiais com resistências variadas e de relativa fácil usinagem, mas que suportam sem problema algum a massa de componentes tais como os motores, sensores e placas a serem acrescentadas no interior. As cantoneiras de Metalon, principal material estrutural do projeto podem vir conforme duas normas técnicas brasileiras de aplicação do aço:
+Antes de construir qualquer projeto estrutural é preciso realizar cálculos e simulações para descobrir se é viável as escolhas do projeto, além de saber se a estrutura planejada atende aos requisitos propostos.
+\subsection{Cálculos estruturais}
+\subsubsection{Resistência dos materiais}
+Após análise dos possíveis materiais a ser usado como reforço principal, escolheu-se a cantoneira de aço comum como primeira opção. Contudo, precisa-se verificar através de cálculos se o material resistirá aos esforços aplicados.
+\noindent \textbf{TENSÃO NORMAL}
 
+A cantoneira tem como material principal o aço carbono simples, na qual é usinado com seção transversal com formato de L. As suas propriedades são as seguintes:
 \begin{itemize}
-	\item Norma NBR 6591: Norma padrão para aço carbono com costura, para peças que tem como uso final a utilização em estrutura e indústrias em geral. Nessa norma não há exigências de propriedades mecânicas ou acabamento, mas há a exigência da definição das propriedades químicas.
-	\item Norma NBR 8261: Norma padrão para tubos de aço carbono, com costura opcional e formação à frio, no lugar da formação à quente, própria para peças destinadas à utilização em estruturas soldadas, parafusadas ou rebitadas.
+	\item Área transversal: 96$mm^{2}$
+	\item Tensão de escoamento: 350$Mpa$
 \end{itemize}
-
-Nessa última norma, os tubos de metalon podem ainda vir em composições diferentes, com maior ou menor grau de carbono, e que diferem no tratamento químico recebido e em suas propriedades mecânicas. \cite{tubonasa}
-
-Como se trata de um protótipo e a principal característica a ser cuidada é a sustentação da estufa, as propriedades que foram levados em consideração para referencial teórico foram as tensões conforme 	as propriedades médias de um aço com 0,2\% de carbono, que é aproximadamente a composição do metalon \cite{callister2002wd}:
-
+A massa que estará sobre a estrutura está estimada para ser em torno de 10kg. Assim, o peso sobre a estrutura considerando uma gravidade de 9,8m/s$^{2}$ será de 98N. Aplicando a fórmula seguinte tem-se a tensão aplicada na estrutura.
+\begin{equation}
+\sigma = \frac{F}{A}
+\end{equation}
+onde F é a força aplicada e A é a área transversal da barra. Com isso, a tensão encontrada foi de 1,02MPa, distribuindo para as quatro barras de apoio fica 0,26MPa, onde a tensão aplicada é de mais de 1000 vezes menor do que a barra suporta. 
+\noindent \textbf{FLEXÃO}
+O material onde mais fica perceptível que ocorre flexão é a chapa de alumínio que servirá de fundo para a estufa. Assim, precisa-se calcular se não haverá ruptura. As propriedades do material são as seguintes:
 \begin{itemize}
-	\item Massa volumétrica': 7860 kg/$m{^3}$ (ou 7,86 g/c$m{^3}$)
-	\item Coeficiente de expansão térmica: 11,7 10--6 (C°)--1
-	\item Condutividade térmica:52,9 W/m-K
-	\item Calor específico: 486 J/kg-K
-	\item Resistividade elétrica: 1,6 10--7$\Omega$m
-	\item Módulo de elasticidade (Módulo de Young) Longitudinal: 210GPa
-	\item Módulo de elasticidade (Módulo de Young) transversal:80 GPa
-	\item Coeficiente de Poisson: 0,3
-	\item Limite de escoamento: 210 MPa
-	\item Limite de resistência à tração: 380 MPa
-	\item Alongamento: 25\%
+	\item Área transversal: 100$mm^{2}$
+	\item Tensão de escoamento: 241$Mpa$
 \end{itemize}
+Em seguida calcula-se a tensão que sofrerá o alumínio considerando que o momento aplicado de acordo com a força é de 36,7N/m, o momento de inércia da área transversal é 6,46x$10^{-9} m^4$ e o c é $10^{-3}$m.
+\begin{equation}
+\sigma = \frac{Mc}{I}
+\end{equation}
+onde M é o momento aplicado no material, c é a distância entre o ponto neutro e a máxima distância da seção transversal e I é o momento de inércia. Com isso tem-se que a tensão aplicada é de 5,69MPa, na qual é 40 vezes menor do que a tensão de escoamento do alumínio.
+\subsubsection{Vibrações naturais}
 
-A figura 63 representa as propriedades do material utilizado para as simulações feitas no Software de modelagem 3D Catia V5R19. Nota-se a extrema semelhança com os dados coletados pela referência, o que garante a veracidade dos resultados obtidos em simulação em relação ao projeto real:
+Existem duas formas de se calcular a frequência natural de um sistema, através de Métodos Matemáticos ou Métodos Experimentais. O método matemático consiste em cálculos analíticos ou modelos matemáticos computacionais (ex. Elementos Finitos), que são capazes de identificar as frequências naturais de uma estrutura. Fica evidente nesse caso, que a máquina não precisa ser construída para as frequências naturais serem identificadas, ou seja, se tratando de métodos matemáticos, apenas o projeto é suficiente para o cálculo das frequências naturais. Os métodos experimentais consistem em identificar as frequências naturais na própria peça física, ou seja, ela já deve estar construída. A ideia desse método é provocar uma vibração para que o sistema analisado entre em ressonância (frequência de operação = frequência natural) \cite{nobrega2014}.
 
+No caso do nosso projeto, foi realizado o método matemático onde a análise modal, considerando todas as cargas e forças que atuarão no sistema foram analisadas através de simulações no software ANSYS. Com isso, para a determinação da frequência natural de Vibração da estrutura.  Logo, calculamos a Tensão Equivalente de Von Misses, como mostrado na seção de Simulações.
+
+Um estudo da zona elástica do material da estrutura, no nosso caso a cantoneira, nos mostra as frequências naturais onde este material é capaz de suportar as vibrações que estejam dentro da vibração natural do material. Os dados para o aço são mostrados na figura \ref{fig:tabela_frequencia}.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=5cm]{figuras/propriedade_material.jpg}
-	\caption{Propriedades do material simulado} \label{propriedade_material}
+	\includegraphics[width=10cm]{figuras/tabela_frequencia.png}
+	\caption{Tabela de frequências naturais}
+	\label{fig:tabela_frequencia}
 \end{figure}
 
-O acabamento da estufa tanto interno como externo está sendo desenvolvido para que cumpra com o papel de revestimento térmico  levando em consideração estética, vedação e viabilidade financeira. Os materiais utilizados para tal finalidade são isopor, chapa de PVC, espuma expansiva e silicone.
+É importante ressaltar, que as mudanças realizadas na estrutura, através da utilização das chapas de MDF, Isopor e PVC, fazem com que a estrutura fique mais robusta, resistente e responde melhor as cargas com menores deformações. Analisando as tensões equivalentes de Von Misses com a tabela acima de vibração natural do aço, podemos observar que após a análise estática foi feita a análise dos modos de vibração na estrutura, com as frequências naturais de vibração da estrutura é possível modificar as frequências de rotação dos motores instalados na estufa com o intuito de não excitar a estrutura, mantendo essas frequências bem longes e evitando com que ocorra o processo de ressonância, podendo danificar a estrutura \cite{vencci2017}.
+\subsection{Simulações}
 
-A cobertura da estrutura com estes materiais isolantes até este momento do projeto ainda não foi instalado por decisão de toda organização. Esta decisão se dá pelo motivo das demais áreas poderem ter um melhor acesso aos compartimentos para poderem trabalhar livremente sem obstáculos. No entanto, os vãos da estrutura a serem preenchidos com os materiais isolantes já foram dimensionados e montados em módulos encaixáveis a fim de que uma vez que todos os componentes das demais engenharias forem instalados, testados e fixados definitivamente, tais módulos apenas sejam encaixados e vedados com o silicone e se preciso (caso haja alguma avaria) com a espuma expansiva. 
+Uma forma de conferir se os cálculos estão corretos, e em alguns casos até mesmo não precisar fazê-los, é utilizando simulações numéricas, que otimizam o tempo do engenheiro de forma simples e rápida.
+\subsubsection{CATIA}
 
-\subsection{Resistência dos materiais}
+Como nem todos os componentes que farão parte final do projeto foram adquiridos antes das simulações, a equipe de estrutura não pode definir exatamente qual a massa que a estrutura suportaria dentro de si. Com isso, uma estimativa foi realizada para os cálculos. Após um brainstorm com integrantes de todas as áreas, a equipe chegou ao valor aproximado de 10kg, que engloba motores, sensores, válvulas, exaustores, plantário, tubos, canos, água, parafusos, roscas, reservatório e fiação.
 
-É pelo estudo das mecânicas dos materiais que o engenheiro consegue dimensionar uma estrutura. Saber o tamanho de uma barra, qual diâmetro ela necessita ter para suportar um dado peso sem haver perdas de materiais, ou em qual ponto pode ocorrer uma ruptura. 
+Utilizou-se um fator de segurança 3 para qualquer tipo de inconveniente que possa ocorrer, ou seja, triplicamos a estimativa da massa esperada e encontramos o valor de 30kg. Arredondando o valor da aceleração da gravidade e utilizando a fórmula básica  encontramos uma força resultante axial sob a estrutura de 300 N. A equipe quis realizar diversos cenários de testes para checar o comportamento da estrutura mediante estes esforços e analisar as tensões de Von Mises e deslocamentos em diversas sessões do projeto a fim de buscar algum risco de ruptura. 
 
-Dentre os esforços mais sentidos pela estrutura da estufa estão os de tensão normal e flexão. Com isso, para saber se tais materiais propostos são resistentes às cargas que serão aplicadas, algumas teorias devem ser estudadas.
-
-TENSÃO NORMAL: Uma força aplicada em uma determinada área está exercendo uma tensão, e quando tal força e área são perpendiculares é chamada de tensão normal, como mostra a figura 63. 
-
+Como a massa estimada é muito baixa em relação ao que a estrutura pode suportar, as tensões e deslocamentos encontrados nas simulações conferem uma extrema segurança para o chassi levando em consideração os elevados limites de escoamento e ruptura que o material possui, dando assim confiança e liberdade para que a equipe continue os trabalhos sem problemas. As figuras dos CADs estão apresentadas da figura \ref{fig:catia1} até \ref{fig:catia11}.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=8cm]{figuras/tensao_normal.png}
-	\caption{Tensão normal sobre uma barra prismática} \label{tensao_normal}
+	\includegraphics[width=10cm]{figuras/catia1.jpg}
+	\caption{Análise de Tensão Von Mises do chassi aplicando 300 N nas 4 faces do assoalho}
+	\label{fig:catia1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/catia2.jpg}
+	\caption{Análise da magnitude da deformação do chassi aplicando 300 N nas 4 faces do assoalho}
+	\label{fig:catia2}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/catia3.jpg}
+	\caption{Análise de Tensão Von Mises do chassi aplicando 300 N nas barras de suporte laterais}
+	\label{fig:catia3}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/catia4.jpg}
+	\caption{Análise de Tensão Von Mises do chassi aplicando 300 N nas barras de suporte laterais}
+	\label{fig:catia4}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/catia5.jpg}
+	\caption{Análise da magnitude da deformação do chassi aplicando 300N nas 4 barras do teto}
+	\label{fig:catia5}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/catia6.jpg}
+	\caption{Análise da tensão Von Mises no chassi aplicando 300N nas 4 barras do teto}
+	\label{fig:catia6}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/catia7.jpg}
+	\caption{Análise da tensão Von Mises no chassi aplicando 300N em todas suas faces do plano XY}
+	\label{fig:catia7}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/catia8.jpg}
+	\caption{Análise da magnitude de deslocamento no chassi aplicando 300N em todas suas faces do plano XY}
+	\label{fig:catia8}
+\end{figure}
+\subsubsection{ANSYS}
+
+Para o bom crescimento das plantas é preciso que as temperaturas ambientes estejam adequadas. Sabe-se que a temperatura ideal deve estar entre 15 e 25$^{\circ}$C. Realizou-se uma simulação no software Ansys para analisar a viabilidade dos materiais. A figura \ref{fig:CAD_estufa} mostra o CAD da estufa no Ansys.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/CAD_estufa.png}
+	\caption{CAD da estufa completa}
+	\label{fig:CAD_estufa}
 \end{figure}
 
-FLEXÃO: Quando uma força paralela ao eixo longitudinal é aplicada a um elemento estrutural alongado e o mesmo sofre uma deformação é caracterizado como flexão. Tem como aspecto uma deformação na forma de arco, figura 64.
+\subsubsubsection{Condições de Contorno}
+\begin{itemize}
+	\item Temperatura inicial externa de convecção: 30$^{\circ}$C
+	\item Temperatura inicial da estufa: 22$^{\circ}$C
+\end{itemize}
+A transferência de calor se dará apenas por convecção do ar, onde o coeficiente de convecção é dado por , valor dado no Ansys para o ar.
+\subsubsubsection{Resultado simulação}
 
+Pela simulação nota-se que as escolhas dos isolantes foram certas, e cerca de 29 minutos depois a temperatura interna da estufa vai para 25$^{\circ}$C sem a atuação dos coolers de resfriamento. Com a atuação dos coolers essa temperatura é controlada para que nunca passe dos 25$^{\circ}$C. Pela simulação de transferência de calor na estufa percebe-se que a maior troca se dá pela porta de alumínio, como esperado por motivo de o alumínio ter a maior condutividade térmica, como mostram as figuras de \ref{fig:temperatura1} até \ref{fig:heatflux}. A figura \ref{fig:grafico_temperatura} apresenta a variação de temperatura máxima (vermelho), média (azul) e mínima (verde).
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=8cm]{figuras/flexao_pura.png}
-	\caption{Flexão pura sobre uma barra prismática} \label{flexao_pura}
+	\includegraphics[width=10cm]{figuras/temperatura1.png}
+	\caption{Temperatura final da estufa após uma hora de troca de calor sem refrigeração. Parte de trás com corte}
+	\label{fig:temperatura1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{figuras/temperatura2.png}
+	\caption{Temperatura final da estufa após uma hora de troca de calor. Parte da frente}
+	\label{fig:temperatura2}
 \end{figure}
 
-\subsection{Vibrações}
-
-Em vários sistemas é muito comum ocorrer o fenômeno da vibração. Ela pode causar desgastes prematuros de superfícies em contato e dependendo da sua frequência pode até mesmo colapsar toda a estrutura, assim o estudo da vibração é necessária para que funcione de maneira desejada. A figura 65 apresenta um esquema básico de vibração causado pela base do sistema.
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=5cm]{figuras/esquema_excitacao.png}
-	\caption{Esquema de uma excitação pela base} \label{esquema_excitacao}
+	\includegraphics[width=10cm]{figuras/heatflux.png}
+	\caption{Fluxo de calor na estufa após uma hora de troca de calor}
+	\label{fig:heatflux}
 \end{figure}
-
-A análise de vibração, como o próprio nome diz, visa analisar as variações nas vibrações das máquinas. Ao avaliar alguma alteração nela, é possível prever problemas que podem vir a ocorrer no desempenho dos equipamentos, além de determinar quais peças que necessitam de manutenção. Outra função dessa análise é para que os especialistas consigam melhorar as condições de trabalho das máquinas. Portanto, ela é de fundamental importância dentro do conceito de manutenção preditiva, já que avalia de forma eficiente as condições dos equipamentos e, consequentemente, evita defeitos e falhas inesperadas. \cite{nobrega2014}
-
-Sensores são colocados em pontos estratégicos das máquinas, transformando as vibrações em sinais elétricos, que por sua vez são encaminhados para aparelhos registradores de vibrações. Os dados coletados serão analisados por um profissional capacitado, que avaliará se há algum problema ou não naquele equipamento. Para a implementação da análise de vibração, primeiro é avaliada qual máquina deve ser monitorada. Logo em seguida, é feito um cadastramento dela no sistema de monitoramento, definindo as faixas de medição, parâmetros utilizados e a frequência de coleta dos dados. Em um terceiro momento é definida uma rota para a coleta de dados de acordo com as máquinas e equipamentos definidos e há um acompanhamento nos dados coletados. Depois é emitido um relatório com as condições das máquinas e equipamentos, mostrando potenciais defeitos e recomendações para corrigi-los. \cite{nobrega2014}
-
-Ao realizar este procedimento, há uma redução nos custos de manutenção, já que é possível prever quando é necessário a intervenção de manutenção, além do já citado prolongamento da vida útil dos componentes. Some isso ao aumento da eficiência das intervenções de manutenção, aumento da disponibilidade dos equipamentos, ampliação da confiabilidade operacional e redução no curso de conversão.
-
-A manutenção preditiva baseia-se na avaliação do estado da máquina com inspeções de rotina. Com isso, elimina-se o desperdício de peças, diminui-se os estoques associados, aumenta a eficiência nos reparos, reduz ou elimina problemas e aumenta a disponibilidade das máquinas. Portanto, ela é excelente na questão de custo-benefício, já que dependendo da indústria, os custos com a manutenção representam até 30\% dos investimentos da empresa. \cite{zuniga2011}
-
-
-\section{Chassi}
-
-\subsection{Dados do chassi}
-
-O chassi, ou seja, o esqueleto metálico da estrutura terá em média 9,200 kg, figura 66, levando em consideração o peso teórico (1,19kg/m) exposto em Normas tais como NBR 7007 graus, MR 250 (ASTM A-36), AR 350 (ASTM A-572 GR50), AR 350COR (ASTM A-572 GR60) e AR 415 (ASTM A-588 GRB) e mensuração de inércia computacional, sendo compostas por 10 cantoneiras 25mm x 25mm 16 de 500mm de comprimento e 4 cantoneiras de 25mm x 25mm 16 de 700mm. Ocupará 0,179 m$^{3}$ (500x500x700mm). [9]
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=8cm]{figuras/dados.jpg}
-	\caption{Dados do chassi estrutural} 
-	\label{dados}
+	\includegraphics[width=10cm]{figuras/grafico_temperatura.PNG}
+	\caption{Variação da temperatura na estufa ao longo de duas horas}
+	\label{fig:grafico_temperatura}
 \end{figure}
