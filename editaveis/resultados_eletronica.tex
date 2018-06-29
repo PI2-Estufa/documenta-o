@@ -156,10 +156,36 @@ Para retirar as varíaveis das quais não tivemos conhecimento prévio, por se t
 
 \subsection{Sistema Embarcado}
 
-EDUARDO
-\subsection{Fluxograma Eletrônico - Pinagem}
-EDUARDO
-\subsection{Fotos Reais}
+
+Para o projeto de sistemas embarcados, mais propriamente o firmware da gaveta,implementou-se uma lógica de estados digital para a abertura e fechamento. As entradas da máquina de estado foram os sensores (\textit{Reed Switchs}), na parte traseira e frontal da gaveta e um sensor para verificar se a porta estava aberta ou fechada, além disso foi acrescentado um botão(\textit{pushbuttom}) para ser utilizado como comando, assim como o sinal vindo da API. As saída da máquina de estado que controla a gaveta, definem o movimento do motor, o qual pode ser parado, sentido anti-horário e horário. E os estados são Abrindo, Aberto, Fechado e Fechando (Figura \ref{maquina_gaveta}).
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[scale=0.35]{figuras/Maquina_Gaveta.png} 
+	\caption{Máquina de estados da gaveta}
+	\label{maquina_gaveta}
+\end{figure}  
+
+Para o reservatório também existe uma lógica de estados que engloba às válvulas e as bombas d'água de acordo com os estados das bóias. As entradas são os valores das bóias e um comando que vem do API. As saídas definem como se comportarão as bombas e válvulas de entrada e sáida de água. Os estados são vazio, mediano, cheio e esvaziando. Ele só esvazia caso o utilizador envie o comando (Figura \ref{maquina_reservatorio}).
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[scale=0.35]{figuras/ControleReservatorio.png} 
+	\caption{Máquina de estados do reservatório}
+	\label{maquina_reservatorio}
+\end{figure} 
+
+\subsection{Pinagem do Sistema na Raspberry Pi 3}
+
+Para o processo de conexão dos pinos na placa Raspberry Pi 3, segue a seguinte tabela de interconexões. E uma descrição a partir de cores de qual a tensão de cada um dos sensores (Figura \ref{pinagem}).
+
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[scale=0.60]{figuras/Pinagem.png} 
+	\caption{Pinagem GPIO do Sistema}
+	\label{pinagem}
+\end{figure} 
 
 \section{Solução Química e suas especificações}
 
