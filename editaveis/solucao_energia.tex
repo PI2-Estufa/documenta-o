@@ -1,50 +1,70 @@
-\section{Confecção Ponte H}
-A ponte H foi feita primeiramente em uma protoboard a fim de ser validada sua eficiência. Em seguida, o sistema foi transferido para a placa furada. O resistor utilizado apresentou mudança pois o item não estava disponível para a venda. Os resistores utilizados foram os 4 resistências de 560$\Omega$. Dessa forma:  
+
+\section{Solução Ponte H}
+
+Para o projeto Green House, foi necessária a confecção de uma ponte H para controle da rotação do motor. Foi realizada uma simulação no Proteus®, a fim de garantir a tensão de 12V para carga, a funcionalidade do circuito é demonstrada também a entrada do controlador de operações (representado pelos 3,3V):
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{figuras/simulacaoPonteH.png}
+	\caption{Simulação da ponte H com acionamento em Q1 e Q4. Fonte: Proteus*.}
+	\label{simulação ponte H}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{figuras/simulacaoPonteH2.png}
+	\caption{Simulação da ponte H com acionamento em Q2 e Q3. Fonte: Proteus*.}
+	\label{simulação ponte H 2}
+\end{figure}
+
+O microcontrolador utilizado é uma Raspberry que trabalha com 3,3V e tem limitação na corrente de 50mA, quando utilizadas todas as suas entradas. Assim, para que essa restrição seja limitada, no nó de conexão entre o transístor e o controlador, a corrente foi limitada a 0,005mA. Para isso ocorrer, é necessário o uso de resistências de 520$\Omega$, como demonstrado a seguir:
 
 \begin{center}
 	
-	$\frac{3,3 - 0,7}{560}$ = $l_{b}$\\
-	$l_{b}$ = 0,0046\textit{A}\\
-	$I_{ce}$ = 1000 $\Omega$ * 0,0046 = 4,6 \textit{A}
+	$\frac{V_{cc} - V_{be}}{R}$ = $l_{b}$ \\
+	$\frac{3,3 - 0,7}{R}$ = 0,005\\
+	R = 520$\Omega$\\
+	$I_{ce}$ = 1000 $\Omega$ * 0,005 = 5 \textit{A}
 	
 \end{center}
 
-\begin{itemize}
+Onde,
 
-	\item $l_{b}$ = corrente que aciona o transistor;
-	\item $I_{ce}$ = corrente disponível à carga.
+\begin{itemize}
+	
+\item Ib = corrente que aciona o transistor;
+
+\item R = resistências que serão utilizadas para controle da corrente Ib;
+
+\item $I_{ce}$ = corrente disponível à carga;
+
+\item ${V_{cc} - V_{be}}$ = diferença de tensão entre o controlador e o transístor.
+
+\end{itemize}
+
+A corrente $I_{ce}$ é multiplicada por 1000 devido ao transistor TIP. Para a construção dessa ponte H, serão necessários:
+
+\begin{itemize}
+	
+	\item 2 transístores Darlington TIP 120;
+	\item 2 transístores Darlington TIP 125;
+	\item 4 resistências de 520$\Omega$;
+	\item 1 placa furada;
+	\item 3 Borne Conector 2 vias - entradas PCI
 	
 \end{itemize}
 
-O resultado final é mostrado a seguir:
+As especificações dos transistores e resistências estão em anexo.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=13cm]{figuras/ponteHpronta.png}
-	\caption{Ponte H confeccionada.}
-	\label{ponte H pronta}
-\end{figure}
+\section{Solução Plantário}
 
-Os integrantes que confeccionaram a placa tiveram dificuldades com a manipulação dos componentes, por não possuírem prática alguma com circuitos. Para posteriores trabalhos, é recomendado o uso de fios com bitolas maiores a fim de manter a segurança da ponte H.
-
-\section{Confecção do plantário}
-
-No sistema que está foi projetado para estufa, a área disponível para a locação da plantário era restrita a 50cmx50cm. Visto que esse espaço ainda seria compartilhado com os rolamentos da gaveta, a estrutura foi confeccionada em 3 tubos de PVC de 75mm de diâmetro e 40cm de comprimento. Além disso, foram feitos 2 furos em cada cano, com auxílio de serra-copo de 50mm de diâmetro, destinados a alocar as alfaces (as hortaliças do projeto). Os canos foram pintados de preto a fim de evitar o desenvolvimento de fungos e bactérias. O resultado é mostrado a seguir:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=13cm]{figuras/pvc.png}
-	\caption{Plantário confeccionado com canos PVC. Fonte própria}
-	\label{pvc}
-\end{figure}
-
-O sistema deve contar com uma bomba que eleve a água do reservatório para 40 cm acima do mesmo, onde estarão os canos. Os canos estarão dispostos com uma angulação que permite que o fluído percorra o cano pela ação da gravidade. Assim, não é preciso fazer cálculos de perdas de cargas das raízes do substrato. A potência pelo fluxo mássico é dado pela variação de energia na entrada e saída da bomba. Como representado a seguir, há a variação de energia de pressão, energia cinética e energia potencial:
+O sistema contém uma bomba que eleva a água do reservatório para 40 cm acima do mesmo, onde estarão os canos. Os canos estão dispostos com uma angulação que permite que o fluído percorra o cano pela ação da gravidade. Assim, não é preciso fazer cálculos de perdas de cargas das raízes do substrato. A potência pelo fluxo mássico é dado pela variação de energia na entrada e saída da bomba. De acordo com Silva \cite{SILVA}, a vazão volumétrica para um sistema de hidroponia é de 2L/min, ou seja, 3,33.$10^{-5}$ $m^3$. Como representado a seguir, há a variação de energia de pressão, energia cinética e energia potencial:
 
 \begin{center}
 	${\displaystyle\frac{W}{m} = (\frac{P2}{\rho} + \frac{V2^2}{2} + gH2) - (\frac{P1}{\rho} + \frac{V1^2}{2} + gH1)}$	
 \end{center}
 
-Onde, 
+Onde,
 
 $W$ = potência consumida (W/s);
 
@@ -66,14 +86,14 @@ $V1$ = velocidade no ponto 1 (m/s);
 
 $H1$ = altura no ponto 1 (m);
 
-Considera-se que não há variação de altura considerável entre a entrada e saída da bomba. Assim, não há variação de energia potencial. Considera-se também que não há variação de energia cinética no sistema (V2 aproximadamente igual a V1). Nota-se, então, que o sistema fornecerá apenas energia de pressão, essa mesma que torna possível a elevação da coluna de água. Dessa forma:
+Considera-se que não há variação de altura considerável entre a entrada e saída da bomba. Assim, não há variação de energia potencial. Considera-se também que não há variação de energia cinética no sistema (V2 aproximadamente igual a V1). Nota-se, então, que o sistema fornece apenas energia de pressão, essa mesma que torna possível a elevação da coluna de água. Dessa forma:
 
 \begin{center}
 	\large
 	${\displaystyle \frac{W}{m} = H_g + \frac{P2-P1}{\rho}+ \frac{\Delta_p}{\rho g}}$
 \end{center}
 
-A variação de energia de pressão é dada por: 
+A perda de pressão distribuída é dada por: 
 
 \begin{center}
 	\large
@@ -94,290 +114,135 @@ $A$ = área do escoamento ($m^2$);
 
 $Q$ = vazão volumétrica ($m^3$/s).
 
-Ao dividir a equação pela massa específica e gravidade, tem-se a altura manométrica (m):
-
-\begin{center}
-	\large
-	${\displaystyle \Delta H = f \frac{L}{D} \frac{1}{2} \frac{Q^2}{A^2} \frac{1}{g}}$
-\end{center}
-
-É possível calculá-lo também a partir da equação de Coolebroke - White (1939). O fator de atrito de alguns materiais já são tabelados. A tabela a seguir dispõe de alguns dele:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=13cm]{figuras/fatores_atrito.png}
-	\caption{Fatores de atrito tabelados. Fonte: www.pipelife.com}
-	\label{fatores_atrito}
-\end{figure}
-
-O material da tubulação de escoamento selecionada foi o polietileno, cujo fator de atrito é de 0,0015mm. O diâmetro do tubo é de 0,005m. A imagem a seguir o reporta já conectado aos tubos. 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=8cm]{figuras/tubos_plantario.png}
-	\caption{Tubos do plantário. Fonte própria}
-	\label{fatores_atrito}
-\end{figure}
-
-Assim:
-
-\begin{center}
-	\large
-	${\displaystyle \Delta H = 0,0015 \frac{0,7}{0,005} \frac{1}{2} \frac{3,33*10^-5}{\Pi^2 * (0,005)^4}}=302,01P_a$
-\end{center}
-
-\begin{center}
-	\large
-	${\displaystyle \Delta_h = \frac{\Delta_p}{\rho g} =0,03m}$
-\end{center}
-	
-Onde, $\Delta_h$ é a perda de carga em metros.
-
-Por fim, considera-se que a variação de pressão é dada por:
-
-\begin{center}
-	\large
-	${\displaystyle P2 - P1= \rho g H}$
-\end{center}
-
-
-Dessa forma, têm-se:
-
-\begin{center}
-	\large
-	${\displaystyle W= m(2gH + \frac{\Delta_p}{\rho g})= 0,274W}$
-\end{center}
-
-
-
-Como a perda de pressão distribuída é muito pequena em relação a altura e as especificações de bomba de aquário (solução) são vazão volumétrica e altura manométrica, a bomba ideal para o sistema fornece 120L/h e eleva 4,03m. Cada fornecedor de bombas trabalha com um rendimento específico do seu produto. O fornecedor de bomba Sarlobetter®, por exemplo, traz a curva característica de seus produtos. Nota-se que, para trabalhar na vazão encontrada. A bomba ideal é a S300 (300L/h) visto que com o aumento da coluna a ser vencida, a vazão decai e a bomba deixa de operar com sua vazão de projeto.  
-Percebe-se que o cálculo da potência da bomba não envolveu rendimentos que variam de acordo com cada fabricante.
+O fator de atrito é dado por:
  
+$f$ = 0,005 $\left [ 1 + (20000 \frac{\epsilon}{Dr} + \frac{10^6}{Re} )^{1/3} \right ]$
+
+Onde $\epsilon$ é a rugosidade do material da tubulação de escoamento. O material selecionado foi o polietileno, cujo fator de atrito é dado por 0,0015mm. O diâmetro do tubo (Dr) é de 0,005m. A imagem a seguir reporta a mangueira já conectado aos tubos. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=13cm]{figuras/coluna.png}
-	\caption{Curva característica da moto bomba Sarlo}
-	\label{coluna}
+	\includegraphics[width=10cm]{figuras/tubos_plantario.png}
+	\caption{Tubos do plantário. Fonte própria.}
+	\label{tubos_plantario}
 \end{figure}
 
-A fim de reduzir os custos, serão utilizadas bombas que os integrantes já possuíam. A primeira bomba é de 160L/h e 3,8W e a segunda de 240L/h e 4W, que já foram devidamente testadas. A terceira será comprada após a instalação das outras duas no sistema. A imagem a seguir retratada as duas bombas:
+O número de Reynolds é dado por:
+
+$R$ = $\frac{4Q}{\Pi Dr v}$ = 8462,85 > 2400 (escoamento turbulento)
+
+Dessa forma, o fator de atrito é de 0,106. E a perda de carga do sistema é de 0,2397 Pa. Assim, a potência necessária para o sistema é dada por:
+
+$P3 - P2 = pgH = P2 - P1$\\
+
+$W = mgH + dH = pQgH + dh = 1000 * 3,33 * 10^{-5} * 10 * 0,4 + 2,44E - 5$\\
+
+$W \approx 0,1333 W $
+
+O dimensionamento da bomba não condiz com o que realmente foi utilizado, pois as bombas comerciais são tabeladas. Cada fornecedor de bombas trabalha com um rendimento específico do seu produto. O fornecedor de bomba Sarlobetter®, por exemplo, traz a curva característica de seus produtos. Nota-se que, quando há uma altura de 0,5m de elevação a vazão real para a bomba de 520L/h decai para 380L/h. Dessa forma, para uma vazão de 120L/h e uma elevação de 0,4m, bomba ideal é a S300 (300L/h) visto que com o aumento da coluna a ser vencida, a vazão decai e a bomba deixa de operar com sua vazão de projeto.  
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=8cm]{figuras/bombas.png}
-	\caption{C Bombas de água. Fonte própria.}
-	\label{coluna}
+	\includegraphics[width=10cm]{figuras/curva_moto.png}
+	\caption{Curva característica da moto bomba.}
+	\label{curva_moto}
 \end{figure}
 
-O reservatório deverá conter também um compressor de ar com a finalidade de auxiliar no processo de dissolução dos nutrientes. Como seu fim é apenas mixer, sua seleção foi feita a partir do menor preço de mercado. O compressor que será utilizado é mostrado a seguir:
+A fim de reduzir os custos, serão utilizadas bombas que os integrantes já possuíam. As bombas são de 220L/h e 4W, compradas após as anteriores terem sido queimadas.
+O reservatório contém também um compressor de ar com a finalidade de auxiliar no processo de dissolução dos nutrientes. Como seu fim é apenas \textit{mixer}, sua seleção foi feita a partir do menor preço de mercado. O compressor que é utilizado é mostrado a seguir:
+
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=8cm]{figuras/compressor.png}
-	\caption{Compressor de ar. Fonte própria.}
+	\includegraphics[width=5cm]{figuras/compressor.png}
+	\caption{Compressor de ar. Fonte própria}
 	\label{compressor}
 \end{figure}
 
+\section{Solução Alimentação}
 
-\subsection{Confecção da ventilação}
+Primeiramente, tentou-se construir uma fonte baseada em um regulador de tensão LM 7812 e um regulador de corrente com TIPs 122. Quando conectado a uma carga, a tensão caia consideravelmente. Depois de vários testes, desconsiderou-se essa disposição. As cargas pontualmente não passam de 1A, sendo essa a corrente limite do regulador LM 7812 (\textit{datasheet} em anexo). Dessa forma, foi desenvolvida uma fonte com dois reguladores de tensão, fornecendo assim duas saídas de 12V e 1A. Adicionou-se a uma delas um \textit{step down}, para que a tensão fosse reduzida até 5V. A carga a ser alimentada pela fonte desenvolvida consistiu em:
 
-Os coolers já foram instaladas na estrutura, na parte superior e em sentidos opostos, a fim de garantir a circulação de fluído no interior e para fora.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=8cm]{figuras/ventilador.png}
-	\caption{Ventilador instalado na estrutura. Fonte própria.}
-	\label{ventilador}
-\end{figure}
-
-O volume total do ambiente interno da estufa é dado por:
-
-\begin{center}
-	\large
-	${\displaystyle V = b^2 * h = (0,5^2) * 0,7 = 0,175 m^3}$
-\end{center}
-
-Onde,
-
-$V$ = volume total (m³);
-
-$b$ = aresta da base quadrada (m);
-
-$h$ = altura (m)
-
-Dessa forma, o primeiro ventilador recicla esse mesmo volume em aproximadamente 16 segundos e o segundo o faz em aproximadamente 9 segundos.  
-
-\section{Confecção iluminação}
-
-Primeiramente foi implementado um parâmetro simples de W/área no qual o indicado para culturas como alface em hidroponia é de 40W/ft , porém devido a intensificação das pesquisas os parâmetros que possibilita melhores resultados são  PAR,PPF \& PPFD onde se utiliza valores diretamente associados ao processo de fotossíntese e fatores fisiológicos da planta.
-A escolha entre as tecnologias HPS e LED foi a favor da escolha do LED devido a 3 fatores.
-
-\textbf{1. Consumo de energia}
-
-Consumo é um dos fatores mais importantes para o uso das lâmpadas de cultivo, o que fez as LEDs se tornarem a opção escolhida pois consomem menos energia que as HPS. consomem aproximadamente 90\% menos energia que as HPS.
-
-\textbf{2. Vida útil}
-
-Em comparação com lâmpadas HPS, a LED tem uma vida útil muito maior. Com o tempo as HQS podem se tornar mais fracas e perder a eficiência, ou seja, o custo real de funcionamento de uma HPS vai aumentando com seu uso.
-
-\textbf{3. Calor gerado}
-
-Para lâmpadas para cultivo indoor, as HPS emanam mais calor do que as luzes LED. O calor que as lâmpadas HPS produzem pode-se fazer necessário a compra de mais equipamentos de exaustão e ventilação, o que acaba gerando custos adicionais.
-
-Levando como base estudos voltados a plantação hidropônica indoor, em especial os que a fonte luminosa fica próxima a planta , foi decidido o uso do modelo RBW(Red,Blue,White) em LED, no qual se utiliza led nas cores Vermelho, Azul e Branco por períodos de 16 horas de luz  nos quais os resultados demonstram melhores desempenhos das amostras plantadas. 
-
-\begin{center}
-	“As características sensoriais comercializáveis (crocância, doçura, forma e cor) de plantas frescas também foram avaliadas. As plantas foram cultivadas hidroponicamente com um fotoperíodo de 16 h a 24/20 ° C (dia / noite), 75 \% de umidade relativa, 900 $\mu$ mol mol -- 1 nível de CO2 e 210 $\mu$ mol m--2 s--1 densidade de fluxo de fótons sob RB LED , RGB e LED branco (RBW), e uma lâmpada fluorescente (FL, como controle) dentro de câmaras de crescimento por 20 dias (15 dias após a semeadura). ”
-	
-\end{center}
-\begin{center}
- mol m--2 s--1 densidade de fluxo de fótons sob RB LED , RGB e LED branco (RBW), e uma lâmpada fluorescente (FL, como controle) dentro de câmaras de crescimento por 20 dias (15 dias após a semeadura). ”
- 
-\end{center}
-
-Trechos retirados de artigos da Scientia Horticulturae  international journal.
-
-Equipamento utilizado:
-
-\begin{itemize}
-	\item 1XLED full spectrum 28W 
-	\item 2x LED Branco 3k 9W.
-\end{itemize}
-
-Com objetivo inicial de atender o parâmetro de 40W/ft e o máximo de simetria luminosa no projeto.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=8cm]{figuras/lampada_full.png}
-	\caption{Lâmpada full spectrum}
-	\label{lampada_full}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=8cm]{figuras/montagem.png}
-	\caption{Montagem}
-	\label{montagem}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=8cm]{figuras/posicao_luminarias.png}
-	\caption{Posição luminárias}
-	\label{posicao_luminarias}
-\end{figure}
-
-A iluminação das lâmpadas com bulbo tem como projeção luminosa uma curva cardióide na qual a densidade luminosa no plano pode ser verificada no gráfico feito em Matlab.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=8cm]{figuras/bulbo.png}
-	\caption{Lâmpada BULBO}
-	\label{bulbo}
-\end{figure}
-
-\section{Confecção Fonte}
-Os Consumos que serão exigidos pelo projeto são:  
-
-\textbf{5V:}
 
 \begin{table}[H]
 	\centering
+	\caption{Tabela Tensão-Corrente}
+	\label{table-tensao}
 	\begin{tabular}{|l|l|}
 		\hline
-		\multicolumn{1}{|c|}{PN} & \multicolumn{1}{c|}{Corrente(mA)} \\ \hline
-		\multicolumn{1}{|c|}{PI 3} & \multicolumn{1}{c|}{2500} \\ \hline
-		\multicolumn{1}{|c|}{sensor PH} & \multicolumn{1}{c|}{10} \\ \hline
-		\multicolumn{1}{|c|}{PCF8591} &   \multicolumn{1}{c|}{50} \\ \hline
-		\multicolumn{1}{|c|}{Total}&\multicolumn{1}{c|}{2560} \\ \hline
+		\textbf{Tensão (V)}                                    & \textbf{Corrente(mA)} \\ \hline
+		\textbf{5V}                                            &                       \\ \hline
+		Sensor PH                                              & 10                    \\ \hline
+		Sensor PCF8591                                         & 50                    \\ \hline
+		\textbf{12V}                                           &                       \\ \hline
+		Motor da gaveta                                        & 1000                  \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Cooler\\  12cm\end{tabular} & 120                   \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Cooler\\  8cm\end{tabular}  & 80                    \\ \hline
+		Total                                                  & 1260                  \\ \hline
 	\end{tabular}
-	\caption{Consumo no projeto 5V}
-	\label{Consumo no projeto 5V}
-\end{table} 
+\end{table}
 
-\textbf{12V:}
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}{|l|l|}
-		\hline
-		\multicolumn{1}{|c|}{PN} & \multicolumn{1}{c|}{Corrente(mA)} \\ \hline
-		\multicolumn{1}{|c|}{Motor DC} & \multicolumn{1}{c|}{2000} \\ \hline
-		\multicolumn{1}{|c|}{FAN 12cm} & \multicolumn{1}{c|}{120} \\ \hline
-		\multicolumn{1}{|c|}{FAN 8cm} &   \multicolumn{1}{c|}{80} \\ \hline
-		\multicolumn{1}{|c|}{Total}&\multicolumn{1}{c|}{2200} \\ \hline
-	\end{tabular}
-	\caption{Consumo no projeto 12V}
-	\label{Consumo no projeto 12V}
-\end{table} 
-
-Foi utilizado o software Proteus para o desenho do esquemático da fonte de 12V.
-
+Para atender essas especificações. Foi simulada uma fonte simples no software Proteus.  A resistência utilizada simula a carga.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=15cm]{figuras/circuito_fonte_feita.png}
-	\caption{Esquemático do circuito da fonte feito usando o software Proteus}
-	\label{Circuito fonte feita}
+	\includegraphics[width=5cm]{figuras/fonte_funcionamento.png}
+	\caption{Fonte em funcionamento.}
+	\label{fonte_funcionamento}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=10cm]{figuras/fonte_frente.png}
-	\caption{Fonte pronta, parte de cima}
-	\label{Fonte pronta parte de cima}
+	\includegraphics[width=5cm]{figuras/simulacao_fonte.png}
+	\caption{Simulação de fonte.}
+	\label{simulacao_fonte}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=10cm]{figuras/fonte_tras.png}
-	\caption{Fonte pronta, parte de baixo}
-	\label{Fonte pronta parte de trás}
-\end{figure}
-
-
-Os seguintes componentes foram utilizados  no projeto da fonte:
+Nota-se que foram utilizados:
 
 \begin{itemize}
 	
-	\item \textbf{TR4 (transformador):}   Tem como função abaixar a tensão de entrada AC oriunda da rede (240 Vrms) para um valor de tensão AC com amplitude de 20Vp.  
-	
-	\item \textbf{BR2 (Ponte retificadora)} Dispositivo eletrônico que tem como função transformar corrente alternada em corrente contínua.
+	\item 1 transformador 220/20V;
+	\item 1 ponte retificadora 8A;
+	\item 1 capacitor 6800 $\mu$F 35V; 
+	\item 2 capacitorres 3800 $\mu$F 35V;
+	\item 1 capacitor 4700 $\mu$F 35V;
+	\item 3 bornes;
+	\item 1 step down;
+	\item 1 fusível.
 	
 \end{itemize}
 
+\section{Solução Iluminação}
+
+A alface, por não ter em seu ciclo, flores, frutos e outras estruturas mais complexas, permite o crescimento com uma boa faixa de iluminação para o período de 16 horas de luz,variando entre 30W, onde o produto final teria um tamanho reduzido mas mantendo a qualidade das folhas e 80W no qual acima disso teria um excedente de iluminação causando queimaduras nas pontas das folhas e inibindo o crescimento.
+Dessa forma foi programado 3 bocais nos quais seriam possíveis tanto uma estrutura mais econômica  ao utilizar 1 LED especializado na proporção de 15 leds vermelhos para 7 azuis e com emissão de infravermelho e ultravioleta com 2 lâmpadas led comum , tanto  quanto uma configuração maximizada utilizando 3 LEDs especiais .
+O posicionamento foi determinado com base em gráfico de densidade de iluminação na qual o posicionamento alinhado na horizontal com 10cm de distância da borda proporcionou melhor igualdade de distribuição utilizando a fórmula de uma Cardioide.
+
+$y=1+cos(\theta).$\\
+$cos(\theta)=cat.adj/hipotenusa.$\\
+$cat.adj=altura lampada teto.$\\
+$Hipotenusa=distância ponto-lâmpada.$\\
+
+Juntamente com a parte reflexiva instalada nas paredes e teto da estufa na qual melhora o aproveitamento da luz pela planta.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=10cm]{figuras/ponte_diodo.png}
-	\caption{BR2 Ponte diodo}
-	\label{Ponte diodo}
+	\includegraphics[width=5cm]{figuras/posicao_lampadas.png}
+	\caption{Posição das lâmpadas.}
+	\label{posicao_lampadas}
 \end{figure}
 
-\begin{itemize}
-	\item \textbf{Capacitores de desacoplamento:} utilizados para manter a tensão estável após a retificação da onda.
-	$V_{pp}$=40v→V secundário=20
-\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5cm]{figuras/reflexos_lampadas.png}
+	\caption{Reflexos e reflexões das lâmpadas.}
+	\label{reflexos_lampadas}
+\end{figure}
 
-\begin{center}
-	$V_{pk}$ = $\sqrt{2}$ . $V_{AC}$ \\
-	$V_{pk}$ = $\sqrt{2}$ . 20 \\
-	Tensão  $V_{pk}$ = 28,3V \\
-	f($V_{pk}$ 2 – VC min2) \\
-	60(28.32+182)= C = 249,53$\mu$F \\
-\end{center}
-
-Dessa forma foi utilizado capacitor de 35v de 330$\mu$F.
-
-\begin{itemize}
-	\item \textbf{Regulador de Tensão 7812:} regulador linear de tensão, utilizado para polarizar a base dos  transistores.
-	\item \textbf{R2 e R3:} usado limitar a corrente no coletor dos transistores.
-	\item \textbf{C3:} capacitor de desacoplamento na saída.
-	\item \textbf{Saída:} saída de 12v.
-
-\end{itemize}
-
-As medições foram feitas somente por multímetro por ser um projeto intermediário, entretanto medições finais serão analisadas por osciloscópio no qual é possível analisar a forma da onda final da fonte o que pode atestar melhor a qualidade.
-
-Apesar de bem sucedida, foi determinado como objetivo  o melhoramento da fonte de energia construindo uma fonte chaveada na qual tem eficiência em torno de 80\% e utilizar como medição padrão das ondas de saída por um equipamento  osciloscópio ao invés de multímetro para verificar o desacoplamento e suavização do ripple no caso da fonte chaveada, dessa forma obtendo mais confiabilidade nos dados finais obtidos.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5cm]{figuras/grafico_luminosa.png}
+	\caption{Gráfico de densidade luminosa.}
+	\label{grafico_luminosa}
+\end{figure}
